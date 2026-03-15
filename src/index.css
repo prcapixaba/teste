@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #c59f59;
+  --color-background-light: #f8f7f6;
+  --color-background-dark: #0f1115;
+  --color-surface-dark: #1a1d23;
+  --color-accent-gold: #d4af37;
+
+  --font-sans: 'Manrope', sans-serif;
+  --font-display: 'Manrope', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background-light text-slate-900 font-display dark:bg-background-dark dark:text-slate-100;
+  }
+}
+
+@layer utilities {
+  .glass-nav {
+    background: rgba(15, 17, 21, 0.95);
+    backdrop-filter: blur(10px);
+  }
+}
