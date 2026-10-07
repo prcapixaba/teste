@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
-"""Gera o template kit Elementor a partir das telas do Stitch.
+"""Leitura das telas do Stitch e prévias HTML.
 
-- Remove <header> e <footer> do site (o kit é só conteúdo).
-- Cada <section> vira uma Seção Elementor com um widget HTML (layout fiel ao Stitch).
-- O CSS do Tailwind é compilado (sem CDN), escopado em .prk e embutido em cada template.
-- Saída: templates/*.json (Elementor > Modelos > Importar), o .zip com todos,
-  css/pablo-ribeiro-kit.css (CSS global opcional) e preview/*.html (conferência).
-
-Uso: python3 -I build/build.py   (a partir de elementor-kit/, com `npm ci` feito em build/)
+- Remove <header> e <footer> do site (o kit é só conteúdo) e separa as seções.
+- Aplica as correções de conteúdo (card duplicado da Vila Velha, telefone provisório).
+- Compila o Tailwind (sem CDN), escopado em .prk.
+- `python3 -I build/build.py` gera preview/*.html. Os templates Elementor nativos
+  são gerados por build_native.py, que reaproveita estas funções.
 """
-import json
-import random
 import re
 import subprocess
 import sys
-import zipfile
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -23,9 +18,7 @@ KIT = Path(__file__).resolve().parent.parent
 SRC = KIT / 'source'
 BUILD = KIT / 'build'
 TMP = BUILD / '.tmp'
-OUT_T = KIT / 'templates'
 OUT_P = KIT / 'preview'
-OUT_C = KIT / 'css'
 
 PHONE = '5527996239086'
 FONTS = (
@@ -52,13 +45,6 @@ PAGES = [
 FALLBACK_LABELS = {
     'nav': 'Breadcrumb', 'div': 'Barra de urgência', 'footer': 'CTA final + aviso OAB',
 }
-
-rng = random.Random(30388)
-
-
-def eid():
-    return '%07x' % rng.getrandbits(28)
-
 
 def soup(name):
     return BeautifulSoup((SRC / name).read_text(encoding='utf-8'), 'lxml')
@@ -122,32 +108,6 @@ def section_html(el, extra_wrap=None):
     return clean_html(f'<div class="prk">{inner}</div>')
 
 
-def el_section(title, html, hide=None, css_class='prk-section'):
-    settings = {
-        '_title': title,
-        'layout': 'full_width',
-        'stretch_section': 'section-stretched',
-        'gap': 'no',
-        'padding': {'unit': 'px', 'top': '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': True},
-        'margin': {'unit': 'px', 'top': '0', 'right': 0, 'bottom': '0', 'left': 0, 'isLinked': True},
-        'css_classes': css_class,
-    }
-    for k in hide or []:
-        settings[f'hide_{k}'] = f'hidden-{k}'
-    return {
-        'id': eid(), 'elType': 'section', 'isInner': False, 'settings': settings,
-        'elements': [{
-            'id': eid(), 'elType': 'column', 'isInner': False,
-            'settings': {'_column_size': 100, '_inline_size': None,
-                         'padding': {'unit': 'px', 'top': '0', 'right': '0', 'bottom': '0', 'left': '0', 'isLinked': True}},
-            'elements': [{
-                'id': eid(), 'elType': 'widget', 'widgetType': 'html', 'isInner': False,
-                'settings': {'_title': title, 'html': html}, 'elements': [],
-            }],
-        }],
-    }
-
-
 def compile_css(slug, content_html):
     TMP.mkdir(exist_ok=True)
     src = TMP / f'{slug}.html'
@@ -179,32 +139,14 @@ def collect(slug, src):
 
 
 def main():
-    for d in (OUT_T, OUT_P, OUT_C):
-        d.mkdir(exist_ok=True)
-    all_html = []
-    manifest = []
+    """Gera as prévias HTML (preview/*.html): referência visual fiel ao Stitch,
+    usada também pelo conversor nativo para medir cada elemento."""
+    OUT_P.mkdir(exist_ok=True)
     for slug, title, src in PAGES:
         items, js = collect(slug, src)
         body = ''.join(h for _, h, _ in items)
         script_html = ''.join(f'<script>{s}</script>' for s in js)
-        all_html.append(body + script_html)
         css = compile_css(slug, body + script_html)
-
-        style_html = FONTS + f'<style id="prk-css-{slug}">{css}</style>'
-        content = [el_section('⚙ Estilos do kit (não remover)', style_html)]
-        content += [el_section(t, h, hide) for t, h, hide in items]
-        if js:
-            content.append(el_section('⚙ Scripts da página (não remover)', script_html))
-
-        template = {
-            'version': '0.4',
-            'title': f'Pablo Ribeiro · {title}',
-            'type': 'page',
-            'page_settings': {'template': 'elementor_header_footer', 'hide_title': 'yes'},
-            'content': content,
-        }
-        (OUT_T / f'{slug}.json').write_text(json.dumps(template, ensure_ascii=False, indent=1), encoding='utf-8')
-
         preview = (
             '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
@@ -212,25 +154,13 @@ def main():
             '@media (max-width:767px){.hidden-mobile{display:none!important}}'
             '@media (min-width:768px) and (max-width:1024px){.hidden-tablet{display:none!important}}'
             '@media (min-width:1025px){.hidden-desktop{display:none!important}}</style></head><body>'
-            + style_html
+            + FONTS + f'<style>{css}</style>'
             + ''.join(
                 f'<div class="{" ".join("hidden-" + k for k in (hide or []))}">{h}</div>' for _, h, hide in items)
             + script_html + '</body></html>'
         )
         (OUT_P / f'{slug}.html').write_text(preview, encoding='utf-8')
-        manifest.append({'slug': slug, 'title': template['title'], 'sections': [t for t, _, _ in items],
-                         'css_kb': round(len(css) / 1024, 1)})
-        print(f'{slug}: {len(items)} seções, CSS {len(css) / 1024:.1f} KB')
-
-    # CSS global único (opcional: Aparência > Personalizar > CSS adicional ou tema filho)
-    (OUT_C / 'pablo-ribeiro-kit.css').write_text(compile_css('all', '\n'.join(all_html)), encoding='utf-8')
-
-    zpath = KIT / 'pablo-ribeiro-elementor-templates.zip'
-    with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
-        for slug, _, _ in PAGES:
-            z.write(OUT_T / f'{slug}.json', f'{slug}.json')
-    (KIT / 'kit-index.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding='utf-8')
-    print('zip:', zpath.name)
+        print(f'preview/{slug}.html: {len(items)} seções')
 
 
 if __name__ == '__main__':

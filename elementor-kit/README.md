@@ -1,98 +1,93 @@
-# Pablo Ribeiro · Template Kit para Elementor
+# Pablo Ribeiro · Template Kit para Elementor (widgets nativos)
 
-Kit com as 8 páginas do Stitch (design system **Sober Jurisprudence**) prontas para importar no Elementor. **Sem header e sem footer**: elas devem ser criadas no Theme Builder (Elementor Pro) ou pelo próprio tema.
+As 8 páginas do Stitch (design system **Sober Jurisprudence**) foram convertidas em **elementos nativos do Elementor**. Tudo é editável pelo painel: arrastar e soltar, Estilo, Avançado e Responsivo. O kit vem **sem header e sem footer**.
 
-| # | Template | Fonte (Stitch) | Seções |
-|---|---|---|---|
-| 01 | Home (desktop + versão mobile própria) | `home-desktop.html` + `home-mobile.html` | 9 + 9 |
-| 02 | Áreas de Atuação | `areas-de-atuacao.html` | 9 |
-| 03 | Sobre — Pablo Ribeiro | `sobre.html` | 10 |
-| 04 | Prisão em Flagrante, Liberdade e Habeas Corpus | `prisao-flagrante-habeas-corpus.html` | 9 |
-| 05 | Advogado Criminalista em Vila Velha (ES) | `vila-velha.html` (v2, corrigida) | 11 |
-| 06 | Contato | `contato.html` | 7 |
-| 07 | Guia de Delegacias do ES | `guia-delegacias.html` | 10 |
-| 08 | Guia de Presídios do ES | `guia-presidios.html` | 10 |
-
-## O que tem aqui
-
-```
-elementor-kit/
-├── pablo-ribeiro-elementor-templates.zip   ← importe este arquivo
-├── templates/*.json                        ← os mesmos templates, um por página
-├── css/pablo-ribeiro-kit.css               ← CSS global opcional (todas as páginas)
-├── preview/*.html                          ← abra no navegador para conferir cada página
-├── source/                                 ← telas originais do Stitch + DESIGN.md
-├── build/                                  ← script que gera tudo (Tailwind compilado)
-└── kit-index.json                          ← lista de seções de cada template
-```
-
-## Como foi montado
-
-- Cada `<section>` do Stitch virou uma **Seção do Elementor** com um **widget HTML**, e o nome dela aparece no Navegador (ex.: "Perguntas Frequentes sobre Atuação em Vila Velha"). O layout fica idêntico ao Stitch, e você pode reordenar, duplicar ou apagar seções no editor.
-- O Tailwind via CDN foi trocado por **CSS compilado** (só as classes usadas, ~25–32 KB por página). Esse CSS está embutido na primeira seção de cada página, **"⚙ Estilos do kit (não remover)"**.
-- Todo o CSS vale apenas dentro de `.prk`. Ele não altera o tema nem os outros widgets, e o CSS do tema também não deforma o kit (testado com um CSS hostil sobrescrevendo h1–h3, p, a, button e img).
-- Acordeões, abas, filtros dos diretórios e contador do formulário funcionam. Os scripts ficam na última seção, **"⚙ Scripts da página (não remover)"**.
-- A Home junta as duas versões. As seções desktop ficam ocultas no celular e as seções "Mobile · …" aparecem **somente no celular** (Avançado → Responsivo).
-
-## Instalação (passo a passo)
-
-1. **Requisitos:** WordPress + Elementor 3.x (o gratuito basta). Recomendamos o tema **Hello Elementor**. Você precisa estar logado como **Administrador**, porque o widget HTML com `<script>` exige a permissão `unfiltered_html`.
-2. Em **Elementor → Configurações → Geral**, marque **Desativar cores padrão** e **Desativar fontes padrão**.
-3. Em **Modelos → Modelos Salvos → Importar Modelos**, envie `pablo-ribeiro-elementor-templates.zip`. Os 8 modelos aparecem como "Pablo Ribeiro · …".
-4. Para cada página, siga **Páginas → Adicionar nova**, dê o título e clique em **Editar com Elementor**. Depois clique no ícone de pasta (Adicionar modelo), vá em **Meus Modelos** e escolha **Inserir**. Quando perguntar se deseja importar as configurações do documento, responda **Sim**: isso aplica o layout "Elementor Largura Total" e oculta o título.
-5. Publique. O header e o footer vêm do Theme Builder ou do tema.
-
-> Alternativa: em vez do CSS embutido em cada página, cole `css/pablo-ribeiro-kit.css` em **Aparência → Personalizar → CSS adicional** (ou enfileire no tema filho). Depois apague a seção "⚙ Estilos do kit" das páginas, mas mantenha o `<link>` das fontes (ou carregue as fontes pelo tema).
-
-## Editando o conteúdo
-
-- Clique na seção, abra o widget **HTML** e edite o texto direto no código (use Ctrl+F para achar a frase). As classes seguem o design system: por exemplo, `text-navy-deep`, `bg-gold-accent` e `font-headline-lg`.
-- Se você usar uma classe Tailwind **nova**, que ainda não existe no kit, rode o build de novo (veja abaixo) ou escreva o estilo inline.
-- Para novas seções com widgets nativos do Elementor, use as **Cores e Fontes Globais** abaixo.
-
-### Cores globais (Configurações do site → Cores globais)
-
-| Nome | Hex | Uso |
+| # | Template | Seções |
 |---|---|---|
-| Navy Deep (Primária) | `#08102E` | estrutura, botões primários, faixas de CTA |
-| Gold Accent (Destaque) | `#D4B16F` | botão de conversão (WhatsApp), filetes |
-| Gold Muted | `#B59451` | eyebrows, ícones em fundo claro |
-| Gold Ink | `#755A21` | links dourados pequenos (contraste AA) |
-| Slate Charcoal (Texto) | `#2F3542` | corpo de texto |
-| Parchment (Fundo) | `#FAFAF7` | fundo das páginas |
-| Surface Card | `#FFFFFF` | cards, inputs |
-| Hairline | `#E5E3DC` | bordas de 1px |
-| Urgência | `#BA1A1A` | só alertas de prisão/flagrante |
+| 01 | Home (desktop + versão mobile própria) | 9 + 9 |
+| 02 | Áreas de Atuação | 9 |
+| 03 | Sobre — Pablo Ribeiro | 10 |
+| 04 | Prisão em Flagrante, Liberdade e Habeas Corpus | 9 |
+| 05 | Advogado Criminalista em Vila Velha (ES) | 11 |
+| 06 | Contato | 7 |
+| 07 | Guia de Delegacias do ES | 10 |
+| 08 | Guia de Presídios do ES | 10 |
 
-### Fontes globais (Configurações do site → Fontes globais)
+## Do que cada página é feita
 
-| Nome | Fonte | Tamanho / Altura | Peso |
-|---|---|---|---|
-| H1 | Newsreader | 48/56px (mobile 34/42) | 500 |
-| H2 | Newsreader | 36/44px (mobile 28/36) | 500 |
-| H3 | Newsreader | 20/28px | 600 |
-| Texto | Inter | 15/24px | 400 |
-| Label / Botão | Inter, MAIÚSCULAS, espaçamento 0.08em | 12/16px | 600 |
+| Elemento do Stitch | Vira no Elementor |
+|---|---|
+| Seções, colunas, cards, grids | **Container** (Flexbox ou Grade), com fundo, borda, sombra, raio e espaçamentos por dispositivo |
+| Títulos, parágrafos, selos, rótulos | Widget **Título** (com a tag correta: H1, H2, H3, p, span) |
+| Botões e links com ícone | Widget **Botão**, com cores de hover |
+| Ícones (Material Symbols) | Widget **Ícone**, com o equivalente mais próximo do Font Awesome |
+| Ícone dentro de círculo/quadrado | Widget **Ícone** no modo "Empilhado" ou "Emoldurado" |
+| Fotos e mapas | Widget **Imagem** |
+| Perguntas frequentes | Widget **Alternância (Toggle)**, com **Schema FAQ** ligado para o Google |
+| Abas "Três Grandes Núcleos" | Widget **Abas** (aninhadas), com os cards dentro de cada aba |
+| Tabela de instrumentos de liberdade | **Editor de Texto** com a tabela |
+| Formulário de triagem (Contato) | Widget **Formulário** do **Elementor Pro** |
+| Linhas e marcadores | **Divisor** e **Ícone** |
 
-## Pendências: o que você precisa revisar antes de publicar
+Ao todo são cerca de 1.260 containers, 1.260 títulos, 340 ícones, 166 botões, 8 FAQs, 1 conjunto de abas e 1 formulário. Os nomes no **Navegador** (Estrutura) seguem os títulos das seções, por exemplo "Perguntas Frequentes sobre Atuação em Vila Velha".
 
-1. **Imagens:** as 10 imagens (retrato do Dr. Pablo, mapas e fundos) apontam para `lh3.googleusercontent.com/aida-public/…`, endereços temporários gerados pelo Stitch. Suba as imagens definitivas na Biblioteca de Mídia e troque as URLs dentro do widget HTML. Templates afetados: 01 (2), 03 (3), 04 (1), 05 (1), 06 (2) e 07 (1).
-2. **Endereço divergente (template 04):** a seção "Unidades Físicas & Acesso Estratégico" mostra **Rua Henrique Moscoso, 833, Sala 904 (Ed. Affinity Prime Business)** para Vila Velha. As outras páginas usam **Rua João Pessoa de Matos, 530, Sala 205 (Ed. Master)**. Confirme qual é o endereço correto.
-3. **Formulário de triagem (template 06):** o formulário do Stitch apenas **simula** o envio (mostra a faixa de sucesso e limpa os campos) e **não envia dados**. Substitua por um widget Formulário (Elementor Pro), WPForms ou Contact Form 7, ou ligue o `handleFormSubmit()` a um endpoint.
-4. **Links internos:** vários links do Stitch apontam para `#`. Ajuste para as URLs reais das páginas (Áreas, Contato, Guia de Delegacias etc.).
+**Continua em HTML só o que é interativo de verdade:** as barras de busca e filtro dos diretórios nos Guias de Delegacias e de Presídios (campo de busca, selects e "Apenas Plantão 24h"). Os **cards** que elas filtram são nativos. O script do filtro fica na última seção dessas duas páginas, "⚙ Filtros do diretório: CSS + script (não remover)".
 
-## Correções já aplicadas em relação ao Stitch
+## Requisitos
 
-- **Vila Velha (v2):** o card "Orla & Centro Histórico" estava duplicado em "Como Funciona" e em "Depoimentos". Os cards corretos ("01 Primeiro Contato & Triagem Imediata" e o depoimento de Carlos Eduardo Mendes) foram restaurados a partir da v1.
+- WordPress com **Elementor 3.20 ou superior** e **Containers (Flexbox)** ativos. Desde a 3.16, essa opção já vem ligada em sites novos. Para conferir: Elementor → Configurações → Recursos.
+- O **Elementor Pro** é necessário apenas para o formulário da página Contato. Sem o Pro, o widget aparece vazio. Nesse caso, apague-o e use WPForms ou Contact Form 7 no lugar.
+- Tema recomendado: **Hello Elementor**.
+
+## Instalação
+
+1. Vá em **Modelos → Modelos Salvos → Importar Modelos** e envie `pablo-ribeiro-elementor-templates.zip`.
+   - Na importação, o Elementor **baixa as imagens para a sua Biblioteca de Mídia**: retrato, mapas e fundos.
+2. Para cada página, siga **Páginas → Adicionar nova** e clique em **Editar com Elementor**. Clique no ícone de pasta, abra **Meus Modelos** e escolha **Inserir**. Quando perguntar sobre as configurações do documento, responda **Sim**: isso aplica largura total e oculta o título.
+3. Publique. O header e o footer vêm do Theme Builder (Pro) ou do seu tema.
+
+## Editando
+
+- **Textos:** clique no texto direto na página ou edite pelo painel (Conteúdo → Título).
+- **Cores e fontes:** use a aba **Estilo** de cada widget. As fontes são **Newsreader** nos títulos e **Inter** no restante, carregadas automaticamente do Google Fonts.
+- **Celular e tablet:** os valores de tablet e celular já vêm preenchidos (tamanhos de fonte, colunas da grade, espaçamentos). Use o seletor de dispositivo do Elementor para ajustar.
+- **Home:** as seções "Mobile · …" só aparecem no celular, e as demais só no desktop e no tablet. Isso está configurado em Avançado → Responsivo.
+
+### Cores globais (opcional): Configurações do site → Cores globais
+
+| Nome | Hex |
+|---|---|
+| Navy Deep (Primária) | `#08102E` |
+| Gold Accent (Destaque) | `#D4B16F` |
+| Gold Muted | `#B59451` |
+| Slate Charcoal (Texto) | `#2F3542` |
+| Parchment (Fundo) | `#FAFAF7` |
+| Hairline (bordas) | `#E5E3DC` |
+| Urgência | `#BA1A1A` |
+
+## Antes de publicar
+
+1. **Imagens:** se as URLs temporárias do Stitch já tiverem expirado, o Elementor mostra a imagem padrão. Troque pelo seletor de imagem do widget.
+2. **Formulário (Contato):** em Ações após envio → E-mail, preencha o destinatário. A mensagem de sucesso já vem configurada.
+3. **Endereço divergente (template 04):** a seção "Unidades Físicas & Acesso Estratégico" mostra Rua Henrique Moscoso, 833, Sala 904 (Ed. Affinity) para Vila Velha. As outras páginas usam Rua João Pessoa de Matos, 530, Sala 205 (Ed. Master). Confirme qual é o correto.
+4. **Links:** vários botões do Stitch apontam para `#`. Ajuste para as URLs reais das páginas.
+5. **Ícones:** os Material Symbols foram trocados pelo equivalente do Font Awesome. Para trocar algum, use o seletor de ícone do widget.
+
+## O que mudou em relação ao Stitch
+
+- **Vila Velha:** o card "Orla & Centro Histórico", que estava duplicado, foi removido de "Como Funciona" e de "Depoimentos".
 - **Home mobile:** o telefone provisório `(27) 99999-9999` foi trocado por `(27) 99623-9086`.
-- **Home:** as funções de FAQ do desktop e do mobile foram separadas (`toggleFaq` e `toggleFaqMobile`) para não conflitarem na mesma página.
-- **Guia de Delegacias:** os scripts passaram a funcionar também dentro do editor do Elementor, e não só no site publicado.
+- **FAQs:** agora usam o widget Alternância, que começa com todas as perguntas fechadas.
+- **Textos com reticências:** o recorte de linhas dos cards no celular foi removido, então o texto aparece inteiro.
 
-## Regerar o kit (depois de editar `source/`)
+## Como foi gerado e validado
+
+`build/build_native.py` renderiza cada página no Chromium em 1280, 900 e 390 px, lê o estilo final de cada elemento (cores, fontes, espaçamentos, grade e flex) e escreve os containers e widgets do Elementor com os valores de desktop, tablet e celular. Os nomes de cada controle foram conferidos no código-fonte do Elementor.
+
+A validação foi feita num WordPress com Elementor de verdade. Os 8 templates foram importados pela biblioteca do Elementor e abertos no editor, renderizaram sem rolagem lateral em nenhuma largura e ficaram com altura de seção próxima da prévia do Stitch (diferenças de poucos %). As exceções esperadas são o formulário (precisa do Pro) e as FAQs, que no Stitch vinham abertas.
 
 ```bash
 cd elementor-kit/build && npm install && cd ..
-python3 -I build/build.py
+python3 -I build/build.py          # prévias HTML em preview/ (referência visual)
+python3 -I build/build_native.py   # templates nativos em templates/ + o .zip
 ```
-
-O comando gera de novo `templates/`, o `.zip`, `css/` e `preview/`.
