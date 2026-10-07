@@ -1,0 +1,731 @@
+{
+ "version": "0.4",
+ "title": "Pablo Ribeiro · Guia de Delegacias do Espírito Santo",
+ "type": "page",
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "e30c0db",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "⚙ Estilos do kit (não remover)",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "ea37c53",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "ff2a7be",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "⚙ Estilos do kit (não remover)",
+        "html": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap\"><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap\"><style id=\"prk-css-07-guia-delegacias-es\">/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n.prk, .prk *,\n.prk ::before,\n.prk ::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n.prk ::before,\n.prk ::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\n.prk,\n.prk {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n  font-feature-settings: normal; /* 5 */\n  font-variation-settings: normal; /* 6 */\n  -webkit-tap-highlight-color: transparent; /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\n.prk {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\n.prk hr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\n.prk abbr:where([title]) {\n  text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\n.prk h1,\n.prk h2,\n.prk h3,\n.prk h4,\n.prk h5,\n.prk h6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\n.prk a {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\n.prk b,\n.prk strong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\n.prk code,\n.prk kbd,\n.prk samp,\n.prk pre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-feature-settings: normal; /* 2 */\n  font-variation-settings: normal; /* 3 */\n  font-size: 1em; /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\n.prk small {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\n.prk sub,\n.prk sup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\n.prk sub {\n  bottom: -0.25em;\n}\n\n.prk sup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\n.prk table {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\n.prk button,\n.prk input,\n.prk optgroup,\n.prk select,\n.prk textarea {\n  font-family: inherit; /* 1 */\n  font-feature-settings: inherit; /* 1 */\n  font-variation-settings: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  letter-spacing: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\n.prk button,\n.prk select {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\n.prk button,\n.prk input:where([type='button']),\n.prk input:where([type='reset']),\n.prk input:where([type='submit']) {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n.prk :-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n.prk :-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\n.prk progress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n.prk ::-webkit-inner-spin-button,\n.prk ::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n.prk [type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n.prk ::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n.prk ::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\n.prk summary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\n.prk blockquote,\n.prk dl,\n.prk dd,\n.prk h1,\n.prk h2,\n.prk h3,\n.prk h4,\n.prk h5,\n.prk h6,\n.prk hr,\n.prk figure,\n.prk p,\n.prk pre {\n  margin: 0;\n}\n\n.prk fieldset {\n  margin: 0;\n  padding: 0;\n}\n\n.prk legend {\n  padding: 0;\n}\n\n.prk ol,\n.prk ul,\n.prk menu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\n.prk dialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\n.prk textarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\n.prk input::placeholder,\n.prk textarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\n.prk button,\n.prk [role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n.prk :disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\n.prk img,\n.prk svg,\n.prk video,\n.prk canvas,\n.prk audio,\n.prk iframe,\n.prk embed,\n.prk object {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\n.prk img,\n.prk video {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n.prk [hidden]:where(:not([hidden=\"until-found\"])) {\n  display: none;\n}\n\n\n.prk{font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:15px;line-height:24px;color:#1a1c1b;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:left;letter-spacing:normal}\n.prk .material-symbols-outlined{font-family:'Material Symbols Outlined';font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';font-feature-settings:'liga';-webkit-font-smoothing:antialiased;font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24}\n.prk h1,.prk h2,.prk h3,.prk h4,.prk h5,.prk h6{text-transform:none;letter-spacing:inherit;color:inherit;font-family:inherit}\n.prk details>summary{list-style:none}.prk details>summary::-webkit-details-marker{display:none}\n.prk a:focus-visible,.prk button:focus-visible,.prk summary:focus-visible,.prk input:focus-visible,.prk select:focus-visible,.prk textarea:focus-visible{outline:2px solid #D4B16F;outline-offset:2px}\n/* Elementor: remove respiros que o tema/Elementor adicionam em volta das seções do kit */\n.elementor-section.prk-section>.elementor-container>.elementor-column>.elementor-widget-wrap{padding:0!important}\n.elementor-section.prk-section .elementor-widget-html{margin-bottom:0!important}\n.elementor-section.prk-section .elementor-widget-html>.elementor-widget-container{padding:0;margin:0}\n\n.prk .absolute {\n  position: absolute;\n}\n\n.prk .relative {\n  position: relative;\n}\n\n.prk .inset-0 {\n  inset: 0px;\n}\n\n.prk .left-3 {\n  left: 0.75rem;\n}\n\n.prk .top-1\\/2 {\n  top: 50%;\n}\n\n.prk .z-10 {\n  z-index: 10;\n}\n\n.prk .mx-2 {\n  margin-left: 0.5rem;\n  margin-right: 0.5rem;\n}\n\n.prk .mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.prk .mb-1 {\n  margin-bottom: 0.25rem;\n}\n\n.prk .mb-2 {\n  margin-bottom: 0.5rem;\n}\n\n.prk .mb-4 {\n  margin-bottom: 1rem;\n}\n\n.prk .mb-space-lg {\n  margin-bottom: 1.5rem;\n}\n\n.prk .mb-space-md {\n  margin-bottom: 1rem;\n}\n\n.prk .mb-space-sm {\n  margin-bottom: 0.5rem;\n}\n\n.prk .mb-space-xl {\n  margin-bottom: 2.5rem;\n}\n\n.prk .ml-2 {\n  margin-left: 0.5rem;\n}\n\n.prk .mr-1 {\n  margin-right: 0.25rem;\n}\n\n.prk .mt-0\\.5 {\n  margin-top: 0.125rem;\n}\n\n.prk .mt-1 {\n  margin-top: 0.25rem;\n}\n\n.prk .mt-2 {\n  margin-top: 0.5rem;\n}\n\n.prk .mt-4 {\n  margin-top: 1rem;\n}\n\n.prk .mt-space-lg {\n  margin-top: 1.5rem;\n}\n\n.prk .mt-space-xl {\n  margin-top: 2.5rem;\n}\n\n.prk .block {\n  display: block;\n}\n\n.prk .flex {\n  display: flex;\n}\n\n.prk .inline-flex {\n  display: inline-flex;\n}\n\n.prk .grid {\n  display: grid;\n}\n\n.prk .hidden {\n  display: none;\n}\n\n.prk .h-1\\.5 {\n  height: 0.375rem;\n}\n\n.prk .h-10 {\n  height: 2.5rem;\n}\n\n.prk .h-12 {\n  height: 3rem;\n}\n\n.prk .h-2 {\n  height: 0.5rem;\n}\n\n.prk .h-8 {\n  height: 2rem;\n}\n\n.prk .h-80 {\n  height: 20rem;\n}\n\n.prk .w-1\\.5 {\n  width: 0.375rem;\n}\n\n.prk .w-10 {\n  width: 2.5rem;\n}\n\n.prk .w-12 {\n  width: 3rem;\n}\n\n.prk .w-2 {\n  width: 0.5rem;\n}\n\n.prk .w-8 {\n  width: 2rem;\n}\n\n.prk .w-full {\n  width: 100%;\n}\n\n.prk .max-w-2xl {\n  max-width: 42rem;\n}\n\n.prk .max-w-3xl {\n  max-width: 48rem;\n}\n\n.prk .max-w-\\[1280px\\] {\n  max-width: 1280px;\n}\n\n.prk .max-w-\\[960px\\] {\n  max-width: 960px;\n}\n\n.prk .max-w-md {\n  max-width: 28rem;\n}\n\n.prk .max-w-sm {\n  max-width: 24rem;\n}\n\n.prk .flex-shrink-0 {\n  flex-shrink: 0;\n}\n\n.prk .-translate-y-1\\/2 {\n  --tw-translate-y: -50%;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.prk .transform {\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n@keyframes ping {\n\n  75%, 100% {\n    transform: scale(2);\n    opacity: 0;\n  }\n}\n\n.prk .animate-ping {\n  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;\n}\n\n@keyframes pulse {\n\n  50% {\n    opacity: .5;\n  }\n}\n\n.prk .animate-pulse {\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n}\n\n.prk .grid-cols-1 {\n  grid-template-columns: repeat(1, minmax(0, 1fr));\n}\n\n.prk .grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\n\n.prk .flex-col {\n  flex-direction: column;\n}\n\n.prk .flex-wrap {\n  flex-wrap: wrap;\n}\n\n.prk .items-start {\n  align-items: flex-start;\n}\n\n.prk .items-center {\n  align-items: center;\n}\n\n.prk .justify-end {\n  justify-content: flex-end;\n}\n\n.prk .justify-center {\n  justify-content: center;\n}\n\n.prk .justify-between {\n  justify-content: space-between;\n}\n\n.prk .gap-1 {\n  gap: 0.25rem;\n}\n\n.prk .gap-1\\.5 {\n  gap: 0.375rem;\n}\n\n.prk .gap-2 {\n  gap: 0.5rem;\n}\n\n.prk .gap-3 {\n  gap: 0.75rem;\n}\n\n.prk .gap-4 {\n  gap: 1rem;\n}\n\n.prk .gap-gutter {\n  gap: 1.5rem;\n}\n\n.prk .gap-space-lg {\n  gap: 1.5rem;\n}\n\n.prk .gap-space-md {\n  gap: 1rem;\n}\n\n.prk .gap-space-sm {\n  gap: 0.5rem;\n}\n\n.prk :is(.space-y-1 > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n\n.prk :is(.space-y-2 > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.prk :is(.space-y-space-md > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n\n.prk :is(.space-y-space-sm > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.prk :is(.space-y-space-xs > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n\n.prk .self-start {\n  align-self: flex-start;\n}\n\n.prk .overflow-hidden {\n  overflow: hidden;\n}\n\n.prk .rounded {\n  border-radius: 0.125rem;\n}\n\n.prk .rounded-full {\n  border-radius: 0.75rem;\n}\n\n.prk .rounded-lg {\n  border-radius: 0.25rem;\n}\n\n.prk .rounded-md {\n  border-radius: 0.375rem;\n}\n\n.prk .rounded-xl {\n  border-radius: 0.5rem;\n}\n\n.prk .border {\n  border-width: 1px;\n}\n\n.prk .border-y {\n  border-top-width: 1px;\n  border-bottom-width: 1px;\n}\n\n.prk .border-b {\n  border-bottom-width: 1px;\n}\n\n.prk .border-l-4 {\n  border-left-width: 4px;\n}\n\n.prk .border-t {\n  border-top-width: 1px;\n}\n\n.prk .border-border-hairline {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 227 220 / var(--tw-border-opacity, 1));\n}\n\n.prk .border-border-hairline\\/60 {\n  border-color: rgb(229 227 220 / 0.6);\n}\n\n.prk .border-gold-accent {\n  --tw-border-opacity: 1;\n  border-color: rgb(212 177 111 / var(--tw-border-opacity, 1));\n}\n\n.prk .border-gold-accent\\/30 {\n  border-color: rgb(212 177 111 / 0.3);\n}\n\n.prk .border-gold-accent\\/40 {\n  border-color: rgb(212 177 111 / 0.4);\n}\n\n.prk .border-gold-muted {\n  --tw-border-opacity: 1;\n  border-color: rgb(181 148 81 / var(--tw-border-opacity, 1));\n}\n\n.prk .border-gold-muted\\/50 {\n  border-color: rgb(181 148 81 / 0.5);\n}\n\n.prk .border-navy-deep {\n  --tw-border-opacity: 1;\n  border-color: rgb(8 16 46 / var(--tw-border-opacity, 1));\n}\n\n.prk .border-surface-container-highest\\/10 {\n  border-color: rgb(226 227 224 / 0.1);\n}\n\n.prk .bg-black\\/30 {\n  background-color: rgb(0 0 0 / 0.3);\n}\n\n.prk .bg-gold-accent {\n  --tw-bg-opacity: 1;\n  background-color: rgb(212 177 111 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-gold-accent\\/20 {\n  background-color: rgb(212 177 111 / 0.2);\n}\n\n.prk .bg-navy-deep {\n  --tw-bg-opacity: 1;\n  background-color: rgb(8 16 46 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-navy-deep\\/10 {\n  background-color: rgb(8 16 46 / 0.1);\n}\n\n.prk .bg-navy-deep\\/20 {\n  background-color: rgb(8 16 46 / 0.2);\n}\n\n.prk .bg-navy-deep\\/90 {\n  background-color: rgb(8 16 46 / 0.9);\n}\n\n.prk .bg-parchment-base {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 250 247 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-secondary-container {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 216 146 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-secondary-container\\/20 {\n  background-color: rgb(254 216 146 / 0.2);\n}\n\n.prk .bg-surface-card {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container {\n  --tw-bg-opacity: 1;\n  background-color: rgb(238 238 235 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container-lowest\\/10 {\n  background-color: rgb(255 255 255 / 0.1);\n}\n\n.prk .p-1 {\n  padding: 0.25rem;\n}\n\n.prk .p-1\\.5 {\n  padding: 0.375rem;\n}\n\n.prk .p-2 {\n  padding: 0.5rem;\n}\n\n.prk .p-2\\.5 {\n  padding: 0.625rem;\n}\n\n.prk .p-3 {\n  padding: 0.75rem;\n}\n\n.prk .p-4 {\n  padding: 1rem;\n}\n\n.prk .p-space-lg {\n  padding: 1.5rem;\n}\n\n.prk .p-space-md {\n  padding: 1rem;\n}\n\n.prk .p-space-xl {\n  padding: 2.5rem;\n}\n\n.prk .px-1 {\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n}\n\n.prk .px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n\n.prk .px-2\\.5 {\n  padding-left: 0.625rem;\n  padding-right: 0.625rem;\n}\n\n.prk .px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n\n.prk .px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.prk .px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.prk .px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.prk .px-gutter-mobile {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.prk .px-space-lg {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.prk .py-0\\.5 {\n  padding-top: 0.125rem;\n  padding-bottom: 0.125rem;\n}\n\n.prk .py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n\n.prk .py-1\\.5 {\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n}\n\n.prk .py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n\n.prk .py-2\\.5 {\n  padding-top: 0.625rem;\n  padding-bottom: 0.625rem;\n}\n\n.prk .py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n\n.prk .py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.prk .py-space-md {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.prk .py-space-sm {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n\n.prk .py-space-xl {\n  padding-top: 2.5rem;\n  padding-bottom: 2.5rem;\n}\n\n.prk .py-space-xxl {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\n\n.prk .pb-space-md {\n  padding-bottom: 1rem;\n}\n\n.prk .pb-space-sm {\n  padding-bottom: 0.5rem;\n}\n\n.prk .pb-space-xxl {\n  padding-bottom: 4rem;\n}\n\n.prk .pl-10 {\n  padding-left: 2.5rem;\n}\n\n.prk .pr-4 {\n  padding-right: 1rem;\n}\n\n.prk .pt-2 {\n  padding-top: 0.5rem;\n}\n\n.prk .pt-3 {\n  padding-top: 0.75rem;\n}\n\n.prk .pt-space-md {\n  padding-top: 1rem;\n}\n\n.prk .pt-space-xl {\n  padding-top: 2.5rem;\n}\n\n.prk .pt-space-xs {\n  padding-top: 0.25rem;\n}\n\n.prk .text-left {\n  text-align: left;\n}\n\n.prk .text-center {\n  text-align: center;\n}\n\n.prk .font-body-lg {\n  font-family: Inter;\n}\n\n.prk .font-body-md {\n  font-family: Inter;\n}\n\n.prk .font-body-sm {\n  font-family: Inter;\n}\n\n.prk .font-headline-lg {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-md {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-sm {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-xl {\n  font-family: Newsreader;\n}\n\n.prk .font-label-md {\n  font-family: Inter;\n}\n\n.prk .font-label-sm {\n  font-family: Inter;\n}\n\n.prk .font-title-lg {\n  font-family: Inter;\n}\n\n.prk .font-title-md {\n  font-family: Inter;\n}\n\n.prk .text-\\[10px\\] {\n  font-size: 10px;\n}\n\n.prk .text-\\[11px\\] {\n  font-size: 11px;\n}\n\n.prk .text-\\[14px\\] {\n  font-size: 14px;\n}\n\n.prk .text-\\[16px\\] {\n  font-size: 16px;\n}\n\n.prk .text-\\[18px\\] {\n  font-size: 18px;\n}\n\n.prk .text-\\[20px\\] {\n  font-size: 20px;\n}\n\n.prk .text-\\[22px\\] {\n  font-size: 22px;\n}\n\n.prk .text-\\[24px\\] {\n  font-size: 24px;\n}\n\n.prk .text-\\[26px\\] {\n  font-size: 26px;\n}\n\n.prk .text-\\[28px\\] {\n  font-size: 28px;\n}\n\n.prk .text-body-lg {\n  font-size: 18px;\n  line-height: 28px;\n  font-weight: 400;\n}\n\n.prk .text-body-md {\n  font-size: 15px;\n  line-height: 24px;\n  font-weight: 400;\n}\n\n.prk .text-body-sm {\n  font-size: 13px;\n  line-height: 20px;\n  font-weight: 400;\n}\n\n.prk .text-headline-lg {\n  font-size: 36px;\n  line-height: 44px;\n  font-weight: 500;\n}\n\n.prk .text-headline-md {\n  font-size: 26px;\n  line-height: 34px;\n  font-weight: 600;\n}\n\n.prk .text-headline-sm {\n  font-size: 20px;\n  line-height: 28px;\n  font-weight: 600;\n}\n\n.prk .text-headline-xl {\n  font-size: 48px;\n  line-height: 56px;\n  font-weight: 500;\n}\n\n.prk .text-label-md {\n  font-size: 12px;\n  line-height: 16px;\n  letter-spacing: 0.08em;\n  font-weight: 600;\n}\n\n.prk .text-label-sm {\n  font-size: 11px;\n  line-height: 14px;\n  letter-spacing: 0.1em;\n  font-weight: 600;\n}\n\n.prk .text-title-lg {\n  font-size: 18px;\n  line-height: 26px;\n  font-weight: 600;\n}\n\n.prk .text-title-md {\n  font-size: 16px;\n  line-height: 24px;\n  font-weight: 600;\n}\n\n.prk .font-bold {\n  font-weight: 700;\n}\n\n.prk .font-medium {\n  font-weight: 500;\n}\n\n.prk .font-semibold {\n  font-weight: 600;\n}\n\n.prk .uppercase {\n  text-transform: uppercase;\n}\n\n.prk .leading-relaxed {\n  line-height: 1.625;\n}\n\n.prk .leading-tight {\n  line-height: 1.25;\n}\n\n.prk .tracking-tight {\n  letter-spacing: -0.025em;\n}\n\n.prk .tracking-wide {\n  letter-spacing: 0.025em;\n}\n\n.prk .tracking-wider {\n  letter-spacing: 0.05em;\n}\n\n.prk .tracking-widest {\n  letter-spacing: 0.1em;\n}\n\n.prk .text-border-hairline {\n  --tw-text-opacity: 1;\n  color: rgb(229 227 220 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-border-hairline\\/40 {\n  color: rgb(229 227 220 / 0.4);\n}\n\n.prk .text-gold-accent {\n  --tw-text-opacity: 1;\n  color: rgb(212 177 111 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-gold-muted {\n  --tw-text-opacity: 1;\n  color: rgb(181 148 81 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-gold-muted\\/60 {\n  color: rgb(181 148 81 / 0.6);\n}\n\n.prk .text-navy-deep {\n  --tw-text-opacity: 1;\n  color: rgb(8 16 46 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-primary {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-surface {\n  --tw-text-opacity: 1;\n  color: rgb(26 28 27 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-surface-variant {\n  --tw-text-opacity: 1;\n  color: rgb(70 70 78 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-slate-charcoal {\n  --tw-text-opacity: 1;\n  color: rgb(47 53 66 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-surface {\n  --tw-text-opacity: 1;\n  color: rgb(249 249 246 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-surface-container-highest {\n  --tw-text-opacity: 1;\n  color: rgb(226 227 224 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-surface-variant {\n  --tw-text-opacity: 1;\n  color: rgb(226 227 224 / var(--tw-text-opacity, 1));\n}\n\n.prk .shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .shadow-xl {\n  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .backdrop-blur-\\[1px\\] {\n  --tw-backdrop-blur: blur(1px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.prk .backdrop-blur-sm {\n  --tw-backdrop-blur: blur(4px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.prk .transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-colors {\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-shadow {\n  transition-property: box-shadow;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-transform {\n  transition-property: transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .duration-300 {\n  transition-duration: 300ms;\n}\n\n.prk .hover\\:border-gold-accent\\/60:hover {\n  border-color: rgb(212 177 111 / 0.6);\n}\n\n.prk .hover\\:bg-gold-accent\\/20:hover {\n  background-color: rgb(212 177 111 / 0.2);\n}\n\n.prk .hover\\:bg-primary-container:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(18 26 56 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-secondary-fixed:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 222 164 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-surface-container:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(238 238 235 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-surface-container-high:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(232 232 229 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-surface-container-lowest\\/20:hover {\n  background-color: rgb(255 255 255 / 0.2);\n}\n\n.prk .hover\\:text-navy-deep:hover {\n  --tw-text-opacity: 1;\n  color: rgb(8 16 46 / var(--tw-text-opacity, 1));\n}\n\n.prk .hover\\:text-secondary:hover {\n  --tw-text-opacity: 1;\n  color: rgb(117 90 33 / var(--tw-text-opacity, 1));\n}\n\n.prk .hover\\:underline:hover {\n  text-decoration-line: underline;\n}\n\n.prk .hover\\:shadow-md:hover {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .focus\\:border-navy-deep:focus {\n  --tw-border-opacity: 1;\n  border-color: rgb(8 16 46 / var(--tw-border-opacity, 1));\n}\n\n.prk .focus\\:outline-none:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n\n.prk .focus\\:ring-1:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n\n.prk .focus\\:ring-gold-accent:focus {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(212 177 111 / var(--tw-ring-opacity, 1));\n}\n\n.prk :is(.group:hover .group-hover\\:translate-x-1) {\n  --tw-translate-x: 0.25rem;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.prk :is(.group:hover .group-hover\\:bg-navy-deep) {\n  --tw-bg-opacity: 1;\n  background-color: rgb(8 16 46 / var(--tw-bg-opacity, 1));\n}\n\n.prk :is(.group:hover .group-hover\\:text-gold-accent) {\n  --tw-text-opacity: 1;\n  color: rgb(212 177 111 / var(--tw-text-opacity, 1));\n}\n\n.prk :is(.group:hover .group-hover\\:text-gold-muted) {\n  --tw-text-opacity: 1;\n  color: rgb(181 148 81 / var(--tw-text-opacity, 1));\n}\n\n@media (min-width: 768px) {\n\n  .prk .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .prk .md\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .prk .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .prk .md\\:items-end {\n    align-items: flex-end;\n  }\n\n  .prk .md\\:items-center {\n    align-items: center;\n  }\n\n  .prk .md\\:self-auto {\n    align-self: auto;\n  }\n}\n\n@media (min-width: 1024px) {\n\n  .prk .lg\\:col-span-2 {\n    grid-column: span 2 / span 2;\n  }\n\n  .prk .lg\\:col-span-3 {\n    grid-column: span 3 / span 3;\n  }\n\n  .prk .lg\\:col-span-4 {\n    grid-column: span 4 / span 4;\n  }\n\n  .prk .lg\\:col-span-5 {\n    grid-column: span 5 / span 5;\n  }\n\n  .prk .lg\\:col-span-7 {\n    grid-column: span 7 / span 7;\n  }\n\n  .prk .lg\\:col-span-8 {\n    grid-column: span 8 / span 8;\n  }\n\n  .prk .lg\\:grid-cols-12 {\n    grid-template-columns: repeat(12, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:grid-cols-4 {\n    grid-template-columns: repeat(4, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:px-gutter {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n}\n</style>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "44b6b7e",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Breadcrumb",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "b8895b0",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "0f348c4",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Breadcrumb",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-parchment-base border-b border-border-hairline/60\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter py-space-sm\">\n<nav aria-label=\"Breadcrumb\" class=\"flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant flex-wrap\">\n<a class=\"hover:text-navy-deep transition-colors\" href=\"#\">Início</a>\n<span class=\"text-gold-muted/60\">/</span>\n<a class=\"hover:text-navy-deep transition-colors\" href=\"#\">Guia Penal Capixaba</a>\n<span class=\"text-gold-muted/60\">/</span>\n<span class=\"text-navy-deep font-semibold\">Delegacias do Espírito Santo</span>\n</nav>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0edb915",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Guia de Delegacias de Polícia do Espírito Santo",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "1d0afd9",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "08f5ec2",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Guia de Delegacias de Polícia do Espírito Santo",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-parchment-base pt-space-xl pb-space-xxl relative overflow-hidden\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter\">\n<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start\">\n<!-- Left Editorial Column -->\n<div class=\"lg:col-span-7 space-y-space-md\">\n<div class=\"inline-flex items-center gap-2 px-3 py-1 bg-surface-container rounded-full text-slate-charcoal font-label-sm text-label-sm tracking-wider uppercase\">\n<span class=\"w-1.5 h-1.5 rounded-full bg-gold-accent\"></span>\n            GUIA PENAL CAPIXABA • UTILIDADE PÚBLICA &amp; DEFESA CRIMINAL\n          </div>\n<h1 class=\"font-headline-xl text-headline-xl text-navy-deep tracking-tight leading-tight\">\n            Guia de Delegacias de Polícia do Espírito Santo\n          </h1>\n<p class=\"font-body-lg text-body-lg text-slate-charcoal max-w-2xl leading-relaxed\">\n            Endereços, telefones, horários e canais de plantão 24h das delegacias civis e especializadas em todo o ES. Informações práticas para localização de pessoas detidas, atendimento a intimações e registro de ocorrências.\n          </p>\n<div class=\"flex flex-wrap items-center gap- space-sm pt-2 text-on-surface-variant font-label-md text-label-md\">\n<span class=\"flex items-center gap-1.5\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-muted\">verified</span>\n              175 Unidades Catalogadas\n            </span>\n<span class=\"text-border-hairline mx-2\">|</span>\n<span class=\"flex items-center gap-1.5\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-muted\">emergency</span>\n              Mapeamento de Flagrantes Regionais\n            </span>\n<span class=\"text-border-hairline mx-2\">|</span>\n<span class=\"flex items-center gap-1.5\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-muted\">schedule</span>\n              Conferência Periódica\n            </span>\n</div>\n</div>\n<!-- Right Urgency Crisis Box (Emergency Callout) -->\n<div class=\"lg:col-span-5\">\n<div class=\"bg-navy-deep text-on-primary p-space-lg rounded-xl shadow-xl border-l-4 border-gold-accent relative\">\n<div class=\"flex items-start justify-between gap-space-sm mb-space-sm\">\n<div class=\"flex items-center gap-2\">\n<span class=\"p-1.5 bg-gold-accent/20 rounded-md text-gold-accent\">\n<span class=\"material-symbols-outlined text-[20px]\">notifications_active</span>\n</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-accent\">Atendimento Imediato</span>\n</div>\n<span class=\"px-2 py-0.5 rounded text-[10px] uppercase font-bold tracking-wider bg-gold-accent text-navy-deep\">Urgência</span>\n</div>\n<h2 class=\"font-headline-sm text-headline-sm text-surface mb-2\">\n              Alguém da sua família foi levado para a delegacia agora?\n            </h2>\n<p class=\"font-body-sm text-body-sm text-surface-container-highest mb-space-md leading-relaxed\">\n              Consulte as delegacias regionais de plantão para saber onde a pessoa está custodiada. Para acompanhamento técnico imediato de flagrante, interrogatório ou termo circunstanciado, acione o advogado criminalista de plantão.\n            </p>\n<div class=\"space-y-space-xs mb-space-md\">\n<a class=\"w-full flex items-center justify-between px-4 py-3 bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 border border-gold-accent/40 rounded-lg transition-all group\" href=\"tel:27996239086\">\n<div class=\"flex items-center gap-3\">\n<span class=\"material-symbols-outlined text-gold-accent text-[22px]\">phone_in_talk</span>\n<div class=\"text-left\">\n<span class=\"block font-label-sm text-label-sm uppercase text-surface-variant\">Ligar para Plantão Penal 24h</span>\n<span class=\"font-title-md text-title-md text-surface font-semibold tracking-wide\">(27) 99623-9086</span>\n</div>\n</div>\n<span class=\"material-symbols-outlined text-gold-accent group-hover:translate-x-1 transition-transform text-[18px]\">arrow_forward</span>\n</a>\n<a class=\"w-full flex items-center justify-center gap-2 px-4 py-3 bg-gold-accent hover:bg-secondary-fixed text-navy-deep font-title-md text-title-md font-semibold rounded-lg transition-all shadow-sm\" href=\"https://wa.me/5527996239086?text=Ol%C3%A1%2C%20preciso%20de%20orienta%C3%A7%C3%A3o%20urgente%20em%20delegacia.\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[20px]\">chat</span>\n                Falar com Dr. Pablo Ribeiro no WhatsApp\n              </a>\n</div>\n<div class=\"p-2.5 bg-black/30 rounded-lg border border-surface-container-highest/10 flex items-center gap-2 font-label-sm text-label-sm text-surface-variant\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent flex-shrink-0\">info</span>\n<span>Contato exclusivo do escritório. Em risco iminente de vida ou socorro policial ostensivo, ligue <strong class=\"text-surface font-bold\">190</strong>.</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "44e59e4",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "O Que Fazer ao Saber de Alguém Preso ou Intimado",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "af1cc2a",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "63796cb",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "O Que Fazer ao Saber de Alguém Preso ou Intimado",
+        "html": "<div class=\"prk\"><section class=\"w-full py-space-xl bg-surface-card border-y border-border-hairline\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter\">\n<div class=\"flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-4\">\n<div>\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-widest block mb-1\">Protocolo Inicial</span>\n<h2 class=\"font-headline-md text-headline-md text-navy-deep\">\n            O Que Fazer ao Saber de Alguém Preso ou Intimado\n          </h2>\n</div>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant max-w-md\">\n          A atuação e postura nos primeiros minutos após a condução determinam os rumos do inquérito e da custódia.\n        </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-3 gap-gutter\">\n<!-- Step 1 -->\n<div class=\"p-space-lg bg-parchment-base rounded-xl border border-border-hairline hover:shadow-md transition-shadow relative\">\n<div class=\"w-10 h-10 rounded-full bg-navy-deep text-gold-accent font-headline-sm text-headline-sm flex items-center justify-center mb-space-md\">\n            1\n          </div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Identificar a Delegacia Correta</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal mb-4\">\n            Em noites, feriados e fins de semana, a PMES encaminha flagrantes exclusivamente para as <strong>Delegacias Regionais</strong> que operam como centrais de flagrante. Distritos Policiais (DP) não recebem presos nesses períodos.\n          </p>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm text-gold-muted uppercase font-semibold\">\n<span class=\"material-symbols-outlined text-[14px]\">map</span> Ver Regionais abaixo\n          </span>\n</div>\n<!-- Step 2 -->\n<div class=\"p-space-lg bg-parchment-base rounded-xl border border-border-hairline hover:shadow-md transition-shadow relative\">\n<div class=\"w-10 h-10 rounded-full bg-navy-deep text-gold-accent font-headline-sm text-headline-sm flex items-center justify-center mb-space-md\">\n            2\n          </div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Direito ao Silêncio e Advogado</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal mb-4\">\n            Art. 5º, LXIII da CF e Art. 7º, XXI da Lei 8.906/94. <strong>O silêncio não é confissão</strong> e não pode ser interpretado em desfavor. Recomende expressamente que a pessoa não assine depoimento sem conferência prévia com advogado.\n          </p>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm text-gold-muted uppercase font-semibold\">\n<span class=\"material-symbols-outlined text-[14px]\">gavel</span> Garantia Processual\n          </span>\n</div>\n<!-- Step 3 -->\n<div class=\"p-space-lg bg-parchment-base rounded-xl border border-border-hairline hover:shadow-md transition-shadow relative\">\n<div class=\"w-10 h-10 rounded-full bg-navy-deep text-gold-accent font-headline-sm text-headline-sm flex items-center justify-center mb-space-md\">\n            3\n          </div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Documentos para Levar</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal mb-4\">\n            Providencie imediatamente: RG/CNH do detido, carteira de trabalho ou holerite, comprovante de residência atualizado no nome dele ou de familiares, e receitas/laudos médicos de medicação de uso contínuo para audiência de custódia.\n          </p>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm text-gold-muted uppercase font-semibold\">\n<span class=\"material-symbols-outlined text-[14px]\">description</span> Preparação de Defesa\n          </span>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "658343a",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Encontre a Delegacia por Cidade ou Especialidade",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "9bf085d",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "9440b07",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Encontre a Delegacia por Cidade ou Especialidade",
+        "html": "<div class=\"prk\"><section class=\"w-full py-space-xxl bg-parchment-base\" id=\"diretorio\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter\">\n<!-- Section Title & Search Toolbar -->\n<div class=\"space-y-space-md mb-space-xl\">\n<div class=\"flex flex-col md:flex-row md:items-end justify-between gap-4\">\n<div>\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-widest block mb-1\">Localizador Unificado</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep\">\n              Encontre a Delegacia por Cidade ou Especialidade\n            </h2>\n</div>\n<span class=\"font-label-sm text-label-sm text-slate-charcoal bg-surface-container px-3 py-1.5 rounded-lg self-start md:self-auto\">\n            175 unidades cadastradas no Espírito Santo\n          </span>\n</div>\n<!-- Search Bar with Live Filter Controls -->\n<div class=\"p-space-md bg-surface-card rounded-xl shadow-sm border border-border-hairline space-y-space-md\">\n<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-space-md\">\n<!-- Text Search -->\n<div class=\"lg:col-span-5 relative\">\n<label class=\"block font-label-sm text-label-sm uppercase tracking-wider text-slate-charcoal mb-1\" for=\"search-input\">Buscar por nome, bairro ou palavra-chave</label>\n<div class=\"relative\">\n<span class=\"material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]\">search</span>\n<input class=\"w-full pl-10 pr-4 py-2.5 bg-surface-card border border-border-hairline rounded-lg text-body-md font-body-md text-on-surface focus:outline-none focus:border-navy-deep focus:ring-1 focus:ring-gold-accent transition-all\" id=\"search-input\" placeholder=\"Ex: 1ª Regional, Campo Grande, DHPP, Mulher...\" type=\"text\"/>\n</div>\n</div>\n<!-- Type Filter Dropdown -->\n<div class=\"lg:col-span-3\">\n<label class=\"block font-label-sm text-label-sm uppercase tracking-wider text-slate-charcoal mb-1\" for=\"filter-type\">Tipo de Unidade</label>\n<select class=\"w-full px-3 py-2.5 bg-surface-card border border-border-hairline rounded-lg text-body-md font-body-md text-on-surface focus:outline-none focus:border-navy-deep\" id=\"filter-type\">\n<option value=\"all\">Todos os tipos de unidade</option>\n<option value=\"regional\">Delegacia Regional (Plantão 24h)</option>\n<option value=\"dp\">Distrito Policial (DP)</option>\n<option value=\"mulher\">Atendimento à Mulher (DEAM)</option>\n<option value=\"especializada\">Especializadas (DHPP / DENARC / DEIC)</option>\n</select>\n</div>\n<!-- City Dropdown Filter -->\n<div class=\"lg:col-span-2\">\n<label class=\"block font-label-sm text-label-sm uppercase tracking-wider text-slate-charcoal mb-1\" for=\"filter-city-select\">Município</label>\n<select class=\"w-full px-3 py-2.5 bg-surface-card border border-border-hairline rounded-lg text-body-md font-body-md text-on-surface focus:outline-none focus:border-navy-deep\" id=\"filter-city-select\">\n<option value=\"all\">Todas as Cidades</option>\n<option value=\"vitoria\">Vitória</option>\n<option value=\"vila-velha\">Vila Velha</option>\n<option value=\"serra\">Serra</option>\n<option value=\"cariacica\">Cariacica</option>\n<option value=\"viana\">Viana</option>\n<option value=\"guarapari\">Guarapari</option>\n<option value=\"linhares\">Linhares</option>\n<option value=\"colatina\">Colatina</option>\n<option value=\"sao-mateus\">São Mateus</option>\n</select>\n</div>\n<!-- 24h Toggle -->\n<div class=\"lg:col-span-2 flex flex-col justify-end\">\n<button class=\"w-full py-2.5 px-3 rounded-lg border border-gold-muted/50 bg-secondary-container/20 text-navy-deep font-label-md text-label-md flex items-center justify-center gap-2 hover:bg-gold-accent/20 transition-colors\" id=\"toggle-24h\" type=\"button\">\n<span class=\"w-2 h-2 rounded-full bg-gold-accent animate-ping\"></span>\n<span>Apenas Plantão 24h</span>\n</button>\n</div>\n</div>\n<!-- Quick City Filter Pills -->\n<div class=\"pt-space-xs border-t border-border-hairline/60 flex items-center gap-2 flex-wrap\">\n<span class=\"font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-1\">Filtro rápido:</span>\n<button class=\"city-pill active px-3 py-1 rounded-full text-label-sm font-label-sm bg-navy-deep text-on-primary transition-all\" data-city=\"all\">Todas</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"vitoria\">Vitória</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"vila-velha\">Vila Velha</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"serra\">Serra</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"cariacica\">Cariacica</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"viana\">Viana</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"linhares\">Linhares</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"colatina\">Colatina</button>\n<button class=\"city-pill px-3 py-1 rounded-full text-label-sm font-label-sm bg-surface-container hover:bg-surface-container-high text-slate-charcoal transition-all\" data-city=\"sao-mateus\">São Mateus</button>\n</div>\n</div>\n</div>\n<!-- Delegacias Cards Grid -->\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter\" id=\"delegacias-grid\">\n<!-- Card 1: 1ª Regional Vitória -->\n<div class=\"delegacia-card bg-surface-card rounded-xl p-space-lg border border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" data-24h=\"true\" data-city=\"vitoria\" data-type=\"regional\">\n<div>\n<div class=\"flex items-center justify-between mb-space-sm\">\n<span class=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-navy-deep text-gold-accent\">\n<span class=\"w-1.5 h-1.5 rounded-full bg-gold-accent\"></span>\n                Canal 24h • Delegacia Regional\n              </span>\n<span class=\"text-on-surface-variant font-label-sm text-label-sm\">Vitória • ES</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 hover:text-secondary transition-colors\">\n              1ª Delegacia Regional de Vitória\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant mb-space-md flex items-start gap-2\">\n<span class=\"material-symbols-outlined text-[18px] text-gold-muted flex-shrink-0 mt-0.5\">location_on</span>\n              Av. Nossa Senhora da Penha, 2290 - Santa Luíza, Vitória - ES (Reta da Penha)\n            </p>\n<div class=\"p-3 bg-parchment-base rounded-lg border border-border-hairline/60 mb-space-md space-y-1\">\n<div class=\"flex items-center justify-between text-body-sm font-body-sm\">\n<span class=\"text-on-surface-variant\">Central Telefônica:</span>\n<a class=\"text-navy-deep font-semibold hover:underline\" href=\"tel:2731987014\">(27) 3198-7014</a>\n</div>\n<div class=\"flex items-center justify-between text-label-sm font-label-sm text-gold-muted\">\n<span>Regime:</span>\n<span>Plantão Ininterrupto (APF)</span>\n</div>\n</div>\n</div>\n<div class=\"space-y-2 pt-2 border-t border-border-hairline\">\n<div class=\"grid grid-cols-2 gap-2\">\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-navy-deep hover:bg-primary-container text-on-primary font-label-sm text-label-sm rounded-lg transition-colors\" href=\"tel:2731987014\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent\">call</span> Ligar Unidade\n              </a>\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-surface-container hover:bg-surface-container-high text-navy-deep font-label-sm text-label-sm rounded-lg transition-colors\" href=\"https://maps.google.com/?q=Av.+Nossa+Senhora+da+Penha,+2290+-+Santa+Luíza,+Vitória+-+ES\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px]\">directions</span> Rota Maps\n              </a>\n</div>\n<a class=\"w-full inline-flex items-center justify-center gap-1 py-1.5 text-label-sm font-label-sm text-gold-muted hover:text-navy-deep font-semibold transition-colors\" href=\"https://wa.me/5527996239086?text=Preciso%20de%20advogado%20na%201ª%20Regional%20de%20Vitória\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[14px]\">shield</span> Plantão Criminal para esta Regional →\n            </a>\n</div>\n</div>\n<!-- Card 2: 2ª Regional Vila Velha -->\n<div class=\"delegacia-card bg-surface-card rounded-xl p-space-lg border border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" data-24h=\"true\" data-city=\"vila-velha\" data-type=\"regional\">\n<div>\n<div class=\"flex items-center justify-between mb-space-sm\">\n<span class=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-navy-deep text-gold-accent\">\n<span class=\"w-1.5 h-1.5 rounded-full bg-gold-accent\"></span>\n                Canal 24h • Delegacia Regional\n              </span>\n<span class=\"text-on-surface-variant font-label-sm text-label-sm\">Vila Velha • ES</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 hover:text-secondary transition-colors\">\n              2ª Delegacia Regional de Vila Velha\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant mb-space-md flex items-start gap-2\">\n<span class=\"material-symbols-outlined text-[18px] text-gold-muted flex-shrink-0 mt-0.5\">location_on</span>\n              Rod. Carlos Lindemberg, 133 - Cobilândia / Glória, Vila Velha - ES\n            </p>\n<div class=\"p-3 bg-parchment-base rounded-lg border border-border-hairline/60 mb-space-md space-y-1\">\n<div class=\"flex items-center justify-between text-body-sm font-body-sm\">\n<span class=\"text-on-surface-variant\">Central Telefônica:</span>\n<a class=\"text-navy-deep font-semibold hover:underline\" href=\"tel:2731987175\">(27) 3198-7175</a>\n</div>\n<div class=\"flex items-center justify-between text-label-sm font-label-sm text-gold-muted\">\n<span>Regime:</span>\n<span>Flagrantes e Ocorrências 24h</span>\n</div>\n</div>\n</div>\n<div class=\"space-y-2 pt-2 border-t border-border-hairline\">\n<div class=\"grid grid-cols-2 gap-2\">\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-navy-deep hover:bg-primary-container text-on-primary font-label-sm text-label-sm rounded-lg transition-colors\" href=\"tel:2731987175\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent\">call</span> Ligar Unidade\n              </a>\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-surface-container hover:bg-surface-container-high text-navy-deep font-label-sm text-label-sm rounded-lg transition-colors\" href=\"https://maps.google.com/?q=Rod.+Carlos+Lindemberg,+133+-+Cobilândia,+Vila+Velha+-+ES\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px]\">directions</span> Rota Maps\n              </a>\n</div>\n<a class=\"w-full inline-flex items-center justify-center gap-1 py-1.5 text-label-sm font-label-sm text-gold-muted hover:text-navy-deep font-semibold transition-colors\" href=\"https://wa.me/5527996239086?text=Preciso%20de%20advogado%20na%202ª%20Regional%20de%20Vila%20Velha\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[14px]\">shield</span> Plantão Criminal para esta Regional →\n            </a>\n</div>\n</div>\n<!-- Card 3: 3ª Regional Serra -->\n<div class=\"delegacia-card bg-surface-card rounded-xl p-space-lg border border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" data-24h=\"true\" data-city=\"serra\" data-type=\"regional\">\n<div>\n<div class=\"flex items-center justify-between mb-space-sm\">\n<span class=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-navy-deep text-gold-accent\">\n<span class=\"w-1.5 h-1.5 rounded-full bg-gold-accent\"></span>\n                Canal 24h • Delegacia Regional\n              </span>\n<span class=\"text-on-surface-variant font-label-sm text-label-sm\">Serra • ES</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 hover:text-secondary transition-colors\">\n              3ª Delegacia Regional de Serra\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant mb-space-md flex items-start gap-2\">\n<span class=\"material-symbols-outlined text-[18px] text-gold-muted flex-shrink-0 mt-0.5\">location_on</span>\n              Rua Sebastião Rodrigues Miranda, s/n - Parque Residencial Laranjeiras, Serra - ES\n            </p>\n<div class=\"p-3 bg-parchment-base rounded-lg border border-border-hairline/60 mb-space-md space-y-1\">\n<div class=\"flex items-center justify-between text-body-sm font-body-sm\">\n<span class=\"text-on-surface-variant\">Central Telefônica:</span>\n<a class=\"text-navy-deep font-semibold hover:underline\" href=\"tel:2731987151\">(27) 3198-7151</a>\n</div>\n<div class=\"flex items-center justify-between text-label-sm font-label-sm text-gold-muted\">\n<span>Regime:</span>\n<span>Plantão 24 Horas Ativo</span>\n</div>\n</div>\n</div>\n<div class=\"space-y-2 pt-2 border-t border-border-hairline\">\n<div class=\"grid grid-cols-2 gap-2\">\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-navy-deep hover:bg-primary-container text-on-primary font-label-sm text-label-sm rounded-lg transition-colors\" href=\"tel:2731987151\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent\">call</span> Ligar Unidade\n              </a>\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-surface-container hover:bg-surface-container-high text-navy-deep font-label-sm text-label-sm rounded-lg transition-colors\" href=\"https://maps.google.com/?q=Rua+Sebastião+Rodrigues+Miranda+-+Laranjeiras,+Serra+-+ES\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px]\">directions</span> Rota Maps\n              </a>\n</div>\n<a class=\"w-full inline-flex items-center justify-center gap-1 py-1.5 text-label-sm font-label-sm text-gold-muted hover:text-navy-deep font-semibold transition-colors\" href=\"https://wa.me/5527996239086?text=Preciso%20de%20advogado%20na%203ª%20Regional%20de%20Serra\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[14px]\">shield</span> Plantão Criminal para esta Regional →\n            </a>\n</div>\n</div>\n<!-- Card 4: 4ª Regional Cariacica & Viana -->\n<div class=\"delegacia-card bg-surface-card rounded-xl p-space-lg border border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" data-24h=\"true\" data-city=\"cariacica viana\" data-type=\"regional\">\n<div>\n<div class=\"flex items-center justify-between mb-space-sm\">\n<span class=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-navy-deep text-gold-accent\">\n<span class=\"w-1.5 h-1.5 rounded-full bg-gold-accent\"></span>\n                Canal 24h • Delegacia Regional\n              </span>\n<span class=\"text-on-surface-variant font-label-sm text-label-sm\">Cariacica &amp; Viana • ES</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 hover:text-secondary transition-colors\">\n              4ª Delegacia Regional de Cariacica\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant mb-space-md flex items-start gap-2\">\n<span class=\"material-symbols-outlined text-[18px] text-gold-muted flex-shrink-0 mt-0.5\">location_on</span>\n              Rodovia BR-262, Km 3,5 - Campo Grande / Rio Branco, Cariacica - ES\n            </p>\n<div class=\"p-3 bg-parchment-base rounded-lg border border-border-hairline/60 mb-space-md space-y-1\">\n<div class=\"flex items-center justify-between text-body-sm font-body-sm\">\n<span class=\"text-on-surface-variant\">Central Telefônica:</span>\n<a class=\"text-navy-deep font-semibold hover:underline\" href=\"tel:2731988010\">(27) 3198-8010</a>\n</div>\n<div class=\"flex items-center justify-between text-label-sm font-label-sm text-gold-muted\">\n<span>Regime:</span>\n<span>Central de Flagrantes 24h</span>\n</div>\n</div>\n</div>\n<div class=\"space-y-2 pt-2 border-t border-border-hairline\">\n<div class=\"grid grid-cols-2 gap-2\">\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-navy-deep hover:bg-primary-container text-on-primary font-label-sm text-label-sm rounded-lg transition-colors\" href=\"tel:2731988010\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent\">call</span> Ligar Unidade\n              </a>\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-surface-container hover:bg-surface-container-high text-navy-deep font-label-sm text-label-sm rounded-lg transition-colors\" href=\"https://maps.google.com/?q=BR-262,+Campo+Grande,+Cariacica+-+ES\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px]\">directions</span> Rota Maps\n              </a>\n</div>\n<a class=\"w-full inline-flex items-center justify-center gap-1 py-1.5 text-label-sm font-label-sm text-gold-muted hover:text-navy-deep font-semibold transition-colors\" href=\"https://wa.me/5527996239086?text=Preciso%20de%20advogado%20na%204ª%20Regional%20de%20Cariacica\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[14px]\">shield</span> Plantão Criminal para esta Regional →\n            </a>\n</div>\n</div>\n<!-- Card 5: DEAM Mulher -->\n<div class=\"delegacia-card bg-surface-card rounded-xl p-space-lg border border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" data-24h=\"false\" data-city=\"vila-velha vitoria\" data-type=\"mulher\">\n<div>\n<div class=\"flex items-center justify-between mb-space-sm\">\n<span class=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-secondary-container text-navy-deep\">\n<span class=\"material-symbols-outlined text-[14px]\">shield</span>\n                Atendimento Especializado • Mulher\n              </span>\n<span class=\"text-on-surface-variant font-label-sm text-label-sm\">Grande Vitória</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 hover:text-secondary transition-colors\">\n              Delegacia Especializada de Atendimento à Mulher (DEAM)\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant mb-space-md flex items-start gap-2\">\n<span class=\"material-symbols-outlined text-[18px] text-gold-muted flex-shrink-0 mt-0.5\">home_pin</span>\n              Rua Luciano das Neves, 433 - Prainha / Centro, Vila Velha - ES\n            </p>\n<div class=\"p-3 bg-parchment-base rounded-lg border border-border-hairline/60 mb-space-md space-y-1\">\n<div class=\"flex items-center justify-between text-body-sm font-body-sm\">\n<span class=\"text-on-surface-variant\">Central Telefônica:</span>\n<a class=\"text-navy-deep font-semibold hover:underline\" href=\"tel:2731987180\">(27) 3198-7180</a>\n</div>\n<div class=\"flex items-center justify-between text-label-sm font-label-sm text-slate-charcoal\">\n<span>Atribuição:</span>\n<span>Medidas Protetivas • Violência Doméstica</span>\n</div>\n</div>\n</div>\n<div class=\"space-y-2 pt-2 border-t border-border-hairline\">\n<div class=\"grid grid-cols-2 gap-2\">\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-navy-deep hover:bg-primary-container text-on-primary font-label-sm text-label-sm rounded-lg transition-colors\" href=\"tel:2731987180\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent\">call</span> Ligar Unidade\n              </a>\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-surface-container hover:bg-surface-container-high text-navy-deep font-label-sm text-label-sm rounded-lg transition-colors\" href=\"https://maps.google.com/?q=DEAM+Vila+Velha+ES\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px]\">directions</span> Como Chegar\n              </a>\n</div>\n<a class=\"w-full inline-flex items-center justify-center gap-1 py-1.5 text-label-sm font-label-sm text-gold-muted hover:text-navy-deep font-semibold transition-colors\" href=\"https://wa.me/5527996239086?text=Orientação%20jurídica%20sobre%20Medida%20Protetiva%20ou%20DEAM\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[14px]\">help</span> Orientação sobre Medidas Protetivas →\n            </a>\n</div>\n</div>\n<!-- Card 6: DENARC Especializada -->\n<div class=\"delegacia-card bg-surface-card rounded-xl p-space-lg border border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" data-24h=\"false\" data-city=\"vitoria serra\" data-type=\"especializada\">\n<div>\n<div class=\"flex items-center justify-between mb-space-sm\">\n<span class=\"inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded text-[11px] font-semibold tracking-wide bg-surface-container text-slate-charcoal\">\n<span class=\"material-symbols-outlined text-[14px]\">policy</span>\n                Delegacia Especializada • Narcóticos\n              </span>\n<span class=\"text-on-surface-variant font-label-sm text-label-sm\">Vitória &amp; Serra</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 hover:text-secondary transition-colors\">\n              1ª Delegacia Especializada de Narcóticos (DENARC)\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant mb-space-md flex items-start gap-2\">\n<span class=\"material-symbols-outlined text-[18px] text-gold-muted flex-shrink-0 mt-0.5\">location_on</span>\n              Av. Nossa Senhora da Penha, 2290 - Santa Luíza, Vitória - ES\n            </p>\n<div class=\"p-3 bg-parchment-base rounded-lg border border-border-hairline/60 mb-space-md space-y-1\">\n<div class=\"flex items-center justify-between text-body-sm font-body-sm\">\n<span class=\"text-on-surface-variant\">Central Telefônica:</span>\n<a class=\"text-navy-deep font-semibold hover:underline\" href=\"tel:2731987975\">(27) 3198-7975</a>\n</div>\n<div class=\"flex items-center justify-between text-label-sm font-label-sm text-slate-charcoal\">\n<span>Atribuição:</span>\n<span>Inquéritos da Lei de Drogas (11.343/06)</span>\n</div>\n</div>\n</div>\n<div class=\"space-y-2 pt-2 border-t border-border-hairline\">\n<div class=\"grid grid-cols-2 gap-2\">\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-navy-deep hover:bg-primary-container text-on-primary font-label-sm text-label-sm rounded-lg transition-colors\" href=\"tel:2731987975\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent\">call</span> Ligar Unidade\n              </a>\n<a class=\"inline-flex items-center justify-center gap-1 px-3 py-2 bg-surface-container hover:bg-surface-container-high text-navy-deep font-label-sm text-label-sm rounded-lg transition-colors\" href=\"https://maps.google.com/?q=DENARC+Vitoria+ES\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px]\">directions</span> Rotas\n              </a>\n</div>\n<a class=\"w-full inline-flex items-center justify-center gap-1 py-1.5 text-label-sm font-label-sm text-gold-muted hover:text-navy-deep font-semibold transition-colors\" href=\"https://wa.me/5527996239086?text=Orientação%20sobre%20investigação%20ou%20intimação%20na%20DENARC\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[14px]\">shield</span> Defesa Técnica em Lei de Drogas →\n            </a>\n</div>\n</div>\n</div>\n<!-- Pagination & Official Directory Callout -->\n<div class=\"mt-space-xl pt-space-md border-t border-border-hairline flex flex-col md:flex-row items-center justify-between gap-space-md\">\n<div class=\"flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant\">\n<span>Página 1 de 8</span>\n<div class=\"flex items-center gap-1 ml-2\">\n<span class=\"w-8 h-8 rounded bg-navy-deep text-on-primary flex items-center justify-center font-bold\">1</span>\n<button class=\"w-8 h-8 rounded bg-surface-card hover:bg-surface-container border border-border-hairline text-slate-charcoal flex items-center justify-center\">2</button>\n<button class=\"w-8 h-8 rounded bg-surface-card hover:bg-surface-container border border-border-hairline text-slate-charcoal flex items-center justify-center\">3</button>\n<span class=\"px-1 text-on-surface-variant\">...</span>\n<button class=\"px-3 h-8 rounded bg-surface-card hover:bg-surface-container border border-border-hairline text-slate-charcoal flex items-center justify-center\">Próxima →</button>\n</div>\n</div>\n<div class=\"flex items-center gap-3\">\n<a class=\"inline-flex items-center gap-1.5 font-label-md text-label-md text-navy-deep hover:underline\" href=\"https://www.google.com/maps/search/?api=1&amp;query=delegacia+de+pol%C3%ADcia+civil+Esp%C3%ADrito+Santo\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px] text-gold-accent\">travel_explore</span> Abrir Mapa de Todas no Google Maps\n          </a>\n<span class=\"text-border-hairline\">|</span>\n<a class=\"inline-flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant hover:text-navy-deep\" href=\"https://pc.es.gov.br/telefones-e-enderecos\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[16px]\">open_in_new</span> Diretório da PCES\n          </a>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d3e0950",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Mapeamento Operacional no Espírito Santo",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "1ab2416",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "6c7f575",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Mapeamento Operacional no Espírito Santo",
+        "html": "<div class=\"prk\"><section class=\"w-full py-space-xl bg-surface-card border-b border-border-hairline\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter\">\n<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center\">\n<div class=\"lg:col-span-5 space-y-space-md\">\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-widest block\">Geolocalização Policial</span>\n<h2 class=\"font-headline-md text-headline-md text-navy-deep\">\n            Mapeamento Operacional no Espírito Santo\n          </h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed\">\n            Consulte rotas imediatas para as unidades de atendimento e certifique-se de que a pessoa detida não foi encaminhada para a Central de Triagem ou Departamento Médico Legal (DML) de Vitória para exame de corpo de delito antes do fechamento do auto de flagrante.\n          </p>\n<div class=\"p-4 bg-parchment-base rounded-lg border-l-4 border-navy-deep space-y-2\">\n<p class=\"font-title-md text-title-md text-navy-deep\">Dica de Prática Penal:</p>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n              Em Vitória e Vila Velha, flagrantes lavrados à noite costumam ter os custodiados encaminhados para a <strong>Audiência de Custódia</strong> no Centro Integrado de Cidadania (CPA) ou no Fórum respectivo nas 24h seguintes.\n            </p>\n</div>\n<div class=\"pt-2\">\n<a class=\"inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-navy-deep hover:bg-primary-container text-on-primary font-label-md text-label-md transition-all shadow-sm\" href=\"tel:27996239086\">\n<span class=\"material-symbols-outlined text-gold-accent text-[18px]\">emergency_share</span>\n              Localizar Preso com Apoio do Advogado\n            </a>\n</div>\n</div>\n<div class=\"lg:col-span-7\">\n<div class=\"w-full h-80 rounded-xl overflow-hidden shadow-lg border border-border-hairline relative\" data-location=\"Vitoria, Espirito Santo, Brazil\" style=\"background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAd3Yrp66tCr6p6kUIXvcv-tU6VJTvLwa8WvwckeMBr7DAQdMJ38t_gMcgFiTJ9ynThFwo_7dpvqNqMhrjB46RacF6AAsQsOrRsQKNXg06N9ja08W_ODj1GiRXWruLa8r48GIDsJYrM0Nk7kKfEuo0Og0jVcbXqqiJeYEzjuy8KMb5C4g2ERvqUTKtJ0wSeri2E_O7AAIJI6dku01hGfIBYax71DD2j_eQdSHORa4U')\">\n<div class=\"absolute inset-0 bg-navy-deep/20 backdrop-blur-[1px] flex flex-col justify-end p-space-md text-surface\">\n<div class=\"bg-navy-deep/90 p-space-md rounded-lg max-w-sm backdrop-blur-sm\">\n<span class=\"font-label-sm text-label-sm text-gold-accent uppercase tracking-widest block\">Hub Central • Reta da Penha</span>\n<span class=\"font-title-md text-title-md text-surface\">Complexo da Polícia Civil de Vitória</span>\n<p class=\"font-body-sm text-body-sm text-surface-container-highest mt-1\">Av. Nossa Senhora da Penha, 2290 • Concentração de DEAM, DENARC e 1ª Regional.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "46d7d7b",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Como Funciona a Divisão de Delegacias no ES",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "00eb783",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "5dbf02b",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Como Funciona a Divisão de Delegacias no ES",
+        "html": "<div class=\"prk\"><section class=\"w-full py-space-xxl bg-parchment-base\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter\">\n<div class=\"max-w-3xl mb-space-xl\">\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-widest block mb-1\">Estrutura Institucional</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-space-sm\">\n          Como Funciona a Divisão de Delegacias no ES\n        </h2>\n<p class=\"font-body-lg text-body-lg text-slate-charcoal\">\n          A Polícia Civil do Espírito Santo estrutura suas unidades por competência territorial e material. Saber a diferença evita perda de tempo crítica durante as primeiras horas de um procedimento.\n        </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter\">\n<!-- Column 1 -->\n<div class=\"bg-surface-card p-space-lg rounded-xl border border-border-hairline shadow-sm relative flex flex-col justify-between\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-navy-deep/10 text-navy-deep flex items-center justify-center mb-space-md\">\n<span class=\"material-symbols-outlined text-[26px] text-navy-deep\">hourglass_top</span>\n</div>\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block mb-1\">Módulo I</span>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Delegacias Regionais</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Unidades de regime ininterrupto (24/7). Centralizam a lavratura dos Autos de Prisão em Flagrante (APF), apreensões de drogas/armas no turno noturno e fins de semana, realizando a triagem de presos para a audiência de custódia.\n            </p>\n</div>\n<div class=\"mt-4 pt-3 border-t border-border-hairline/60\">\n<span class=\"font-label-sm text-label-sm text-gold-muted\">Recebimento: 24h contínuas</span>\n</div>\n</div>\n<!-- Column 2 -->\n<div class=\"bg-surface-card p-space-lg rounded-xl border border-border-hairline shadow-sm relative flex flex-col justify-between\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-navy-deep/10 text-navy-deep flex items-center justify-center mb-space-md\">\n<span class=\"material-symbols-outlined text-[26px] text-navy-deep\">domain</span>\n</div>\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block mb-1\">Módulo II</span>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Distritos Policiais (DP)</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Atendem circunscrições de bairros em horário comercial de expediente (08h às 18h). Conduzem investigações regulares, expedem intimações, ouvem depoimentos de testemunhas e elaboram relatórios de inquéritos.\n            </p>\n</div>\n<div class=\"mt-4 pt-3 border-t border-border-hairline/60\">\n<span class=\"font-label-sm text-label-sm text-gold-muted\">Horário Comercial • Bairros</span>\n</div>\n</div>\n<!-- Column 3 -->\n<div class=\"bg-surface-card p-space-lg rounded-xl border border-border-hairline shadow-sm relative flex flex-col justify-between\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-navy-deep/10 text-navy-deep flex items-center justify-center mb-space-md\">\n<span class=\"material-symbols-outlined text-[26px] text-navy-deep\">shield_with_heart</span>\n</div>\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block mb-1\">Módulo III</span>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Delegacias da Mulher (DEAM)</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Especializadas em delitos praticados em contexto doméstico e familiar contra a mulher (Lei Maria da Penha). Responsáveis pelo requerimento imediato de Medidas Protetivas de Urgência perante o Judiciário.\n            </p>\n</div>\n<div class=\"mt-4 pt-3 border-t border-border-hairline/60\">\n<span class=\"font-label-sm text-label-sm text-gold-muted\">Acolhimento &amp; Proteção</span>\n</div>\n</div>\n<!-- Column 4 -->\n<div class=\"bg-surface-card p-space-lg rounded-xl border border-border-hairline shadow-sm relative flex flex-col justify-between\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-navy-deep/10 text-navy-deep flex items-center justify-center mb-space-md\">\n<span class=\"material-symbols-outlined text-[26px] text-navy-deep\">security</span>\n</div>\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block mb-1\">Módulo IV</span>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Especializadas (DHPP/DENARC)</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Estruturas de inteligência técnica para apuração de crimes graves e complexos: Homicídios e Proteção à Pessoa (DHPP), Repressão aos Narcóticos (DENARC) e Roubos e Furtos Patrimoniais (DEIC).\n            </p>\n</div>\n<div class=\"mt-4 pt-3 border-t border-border-hairline/60\">\n<span class=\"font-label-sm text-label-sm text-gold-muted\">Crimes Complexos • Inteligência</span>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9a097f9",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Direitos Inegociáveis de Quem Vai à Delegacia",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "4eb0f30",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "418a158",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Direitos Inegociáveis de Quem Vai à Delegacia",
+        "html": "<div class=\"prk\"><section class=\"w-full py-space-xl bg-surface-card border-y border-border-hairline\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter\">\n<div class=\"bg-parchment-base p-space-xl rounded-xl border-l-4 border-gold-muted shadow-sm\">\n<div class=\"flex flex-col md:flex-row md:items-center justify-between mb-space-lg pb-space-sm border-b border-border-hairline gap-4\">\n<div class=\"flex items-center gap-3\">\n<span class=\"p-2 bg-navy-deep text-gold-accent rounded-lg\">\n<span class=\"material-symbols-outlined text-[24px]\">balance</span>\n</span>\n<div>\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block\">Garantias Constitucionais Fundamentais</span>\n<h2 class=\"font-headline-md text-headline-md text-navy-deep\">Direitos Inegociáveis de Quem Vai à Delegacia</h2>\n</div>\n</div>\n<a class=\"inline-flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant hover:text-navy-deep\" href=\"https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span>Consultar Código de Processo Penal</span>\n<span class=\"material-symbols-outlined text-[14px]\">open_in_new</span>\n</a>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-2 gap-space-lg\">\n<div class=\"flex items-start gap-3\">\n<div class=\"p-1 rounded bg-navy-deep text-on-primary mt-1 flex-shrink-0\">\n<span class=\"material-symbols-outlined text-[16px]\">check</span>\n</div>\n<div>\n<h3 class=\"font-title-md text-title-md text-navy-deep mb-1\">Direito ao Silêncio (Art. 5º, LXIII da CF)</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n                A pessoa interrogada tem o direito pleno de não responder perguntas e de não produzir provas contra si. O silêncio não importa em confissão nem pode gerar qualquer prejuízo jurídico ou presunção de culpa na denúncia.\n              </p>\n</div>\n</div>\n<div class=\"flex items-start gap-3\">\n<div class=\"p-1 rounded bg-navy-deep text-on-primary mt-1 flex-shrink-0\">\n<span class=\"material-symbols-outlined text-[16px]\">check</span>\n</div>\n<div>\n<h3 class=\"font-title-md text-title-md text-navy-deep mb-1\">Presença e Entrevista com Advogado (Lei 8.906/94)</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n                Prerrogativa inalienável do custodiado e do seu defensor de conversar de forma reservada antes de prestar qualquer depoimento, além de ter o advogado presente durante todo o ato de interrogatório e inquirição.\n              </p>\n</div>\n</div>\n<div class=\"flex items-start gap-3\">\n<div class=\"p-1 rounded bg-navy-deep text-on-primary mt-1 flex-shrink-0\">\n<span class=\"material-symbols-outlined text-[16px]\">check</span>\n</div>\n<div>\n<h3 class=\"font-title-md text-title-md text-navy-deep mb-1\">Comunicação Imediata à Família (Art. 5º, LXII da CF)</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n                A prisão de qualquer pessoa e o local onde se encontre devem ser comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele expressamente indicada no boletim.\n              </p>\n</div>\n</div>\n<div class=\"flex items-start gap-3\">\n<div class=\"p-1 rounded bg-navy-deep text-on-primary mt-1 flex-shrink-0\">\n<span class=\"material-symbols-outlined text-[16px]\">check</span>\n</div>\n<div>\n<h3 class=\"font-title-md text-title-md text-navy-deep mb-1\">Direito de Ler e Corrigir Termos antes de Assinar</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n                Nenhum termo de declaração deve ser assinado caso contenha divergências ou expressões não proferidas pelo declarante. O interrogado e seu advogado podem exigir a retificação imediata no ato.\n              </p>\n</div>\n</div>\n</div>\n<div class=\"mt-space-lg pt-space-md border-t border-border-hairline text-on-surface-variant font-label-sm text-label-sm flex items-center justify-between flex-wrap gap-2\">\n<span>Fundamentação: CRFB/88 art. 5º, LXII e LXIII; CPP arts. 6º, V, 186 e 215; Lei 8.906/94 art. 7º, XXI.</span>\n<span class=\"text-gold-muted font-medium\">Conteúdo estritamente técnico e informativo.</span>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7d66480",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Outros Módulos do Guia Penal Capixaba",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "d50c6c7",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "a7e6aa0",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Outros Módulos do Guia Penal Capixaba",
+        "html": "<div class=\"prk\"><section class=\"w-full py-space-xxl bg-parchment-base\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter\">\n<div class=\"text-center max-w-2xl mx-auto mb-space-xl\">\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-widest block mb-1\">Ecossistema Jurídico Capixaba</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-2\">\n          Outros Módulos do Guia Penal Capixaba\n        </h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n          Consulte as informações práticas sobre unidades prisionais, órgãos jurisdicionais de 1ª instância e o Tribunal de Justiça.\n        </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-3 gap-gutter\">\n<!-- Module 1: Presídios -->\n<a class=\"group p-space-lg bg-surface-card rounded-xl border border-border-hairline hover:border-gold-accent/60 shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"#\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-navy-deep group-hover:bg-navy-deep group-hover:text-gold-accent transition-colors mb-space-md\">\n<span class=\"material-symbols-outlined text-[28px]\">lock</span>\n</div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep group-hover:text-gold-muted transition-colors mb-2\">\n              Presídios e CDPs do Espírito Santo\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4\">\n              Localização dos Centros de Detenção Provisória (CDP), Penitenciárias de Segurança Média e Máxima da SEJUS-ES, regras de cadastro para visitação e entrega de pertences (jumbo).\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-md text-label-md text-navy-deep group-hover:translate-x-1 transition-transform\">\n            Acessar Guia de Presídios <span class=\"material-symbols-outlined text-[16px]\">arrow_forward</span>\n</span>\n</a>\n<!-- Module 2: Fóruns -->\n<a class=\"group p-space-lg bg-surface-card rounded-xl border border-border-hairline hover:border-gold-accent/60 shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"#\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-navy-deep group-hover:bg-navy-deep group-hover:text-gold-accent transition-colors mb-space-md\">\n<span class=\"material-symbols-outlined text-[28px]\">account_balance</span>\n</div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep group-hover:text-gold-muted transition-colors mb-2\">\n              Fóruns e Varas Criminais\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4\">\n              Mapeamento de comarcas, varas criminais privativas, juizados especiais e secretarias judiciais em Vitória, Vila Velha, Serra, Cariacica e interior capixaba.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-md text-label-md text-navy-deep group-hover:translate-x-1 transition-transform\">\n            Acessar Fóruns e Comarcas <span class=\"material-symbols-outlined text-[16px]\">arrow_forward</span>\n</span>\n</a>\n<!-- Module 3: TJES Criminal -->\n<a class=\"group p-space-lg bg-surface-card rounded-xl border border-border-hairline hover:border-gold-accent/60 shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"#\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-navy-deep group-hover:bg-navy-deep group-hover:text-gold-accent transition-colors mb-space-md\">\n<span class=\"material-symbols-outlined text-[28px]\">gavel</span>\n</div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep group-hover:text-gold-muted transition-colors mb-2\">\n              TJES Criminal (2º Grau de Jurisdição)\n            </h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4\">\n              Câmaras Criminais Reunidas, trâmite e plantão de Habeas Corpus de urgência no Tribunal de Justiça do ES, recursos penais e sustentações orais perante os Desembargadores.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-md text-label-md text-navy-deep group-hover:translate-x-1 transition-transform\">\n            Acessar TJES Criminal <span class=\"material-symbols-outlined text-[16px]\">arrow_forward</span>\n</span>\n</a>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1c38980",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Perguntas Frequentes sobre Delegacias no ES",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "1a939a9",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "44fd6f0",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Perguntas Frequentes sobre Delegacias no ES",
+        "html": "<div class=\"prk\"><section class=\"w-full py-space-xxl bg-surface-card border-t border-border-hairline\">\n<div class=\"max-w-[960px] mx-auto px-gutter-mobile lg:px-gutter\">\n<div class=\"text-center mb-space-xl\">\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-widest block mb-1\">Dúvidas Frequentes</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep\">\n          Perguntas Frequentes sobre Delegacias no ES\n        </h2>\n</div>\n<div class=\"space-y-space-sm\" id=\"faq-container\">\n<!-- Question 1 -->\n<div class=\"faq-item rounded-lg border border-border-hairline bg-parchment-base overflow-hidden\">\n<button class=\"faq-trigger w-full px-space-lg py-space-md text-left flex items-center justify-between gap-4 focus:outline-none\">\n<span class=\"font-title-md text-title-md text-navy-deep font-semibold\">Posso registrar boletim de ocorrência pela internet no Espírito Santo?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform duration-300\">expand_more</span>\n</button>\n<div class=\"faq-content px-space-lg pb-space-md hidden font-body-md text-body-md text-slate-charcoal\">\n<p>\n              Sim. A Polícia Civil do Estado do Espírito Santo disponibiliza a <strong>Delegacia Online</strong> para registro de extravio/perda de documentos, furtos simples, acidentes de trânsito sem vítimas e outros delitos especificados. No entanto, crimes que demandam perícia imediata (como flagrantes, lesões graves, arrombamentos evidentes) ou crimes contra a vida exigem atendimento presencial ou imediato via 190.\n            </p>\n</div>\n</div>\n<!-- Question 2 -->\n<div class=\"faq-item rounded-lg border border-border-hairline bg-parchment-base overflow-hidden\">\n<button class=\"faq-trigger w-full px-space-lg py-space-md text-left flex items-center justify-between gap-4 focus:outline-none\">\n<span class=\"font-title-md text-title-md text-navy-deep font-semibold\">Para qual delegacia uma pessoa presa em flagrante é levada?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform duration-300\">expand_more</span>\n</button>\n<div class=\"faq-content px-space-lg pb-space-md hidden font-body-md text-body-md text-slate-charcoal\">\n<p>\n              A pessoa presa é encaminhada para a <strong>Delegacia Regional</strong> responsável pela circunscrição onde ocorreu a abordagem. Por exemplo: prisões em Vitória vão para a 1ª Regional (Reta da Penha); em Vila Velha, para a 2ª Regional (Cobilândia); na Serra, para a 3ª Regional (Laranjeiras); e em Cariacica/Viana, para a 4ª Regional (Campo Grande).\n            </p>\n</div>\n</div>\n<!-- Question 3 -->\n<div class=\"faq-item rounded-lg border border-border-hairline bg-parchment-base overflow-hidden\">\n<button class=\"faq-trigger w-full px-space-lg py-space-md text-left flex items-center justify-between gap-4 focus:outline-none\">\n<span class=\"font-title-md text-title-md text-navy-deep font-semibold\">As delegacias funcionam à noite e nos fins de semana?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform duration-300\">expand_more</span>\n</button>\n<div class=\"faq-content px-space-lg pb-space-md hidden font-body-md text-body-md text-slate-charcoal\">\n<p>\n              Apenas as <strong>Delegacias Regionais de Plantão 24h</strong> operam sem interrupção. Os Distritos Policiais (DP) dos bairros atendem exclusivamente em dias úteis durante o horário comercial. Se você precisa registrar uma emergência ou localizar alguém fora do horário comercial, deve procurar a Delegacia Regional de referência da comarca.\n            </p>\n</div>\n</div>\n<!-- Question 4 -->\n<div class=\"faq-item rounded-lg border border-border-hairline bg-parchment-base overflow-hidden\">\n<button class=\"faq-trigger w-full px-space-lg py-space-md text-left flex items-center justify-between gap-4 focus:outline-none\">\n<span class=\"font-title-md text-title-md text-navy-deep font-semibold\">É obrigatório estar com advogado na delegacia?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform duration-300\">expand_more</span>\n</button>\n<div class=\"faq-content px-space-lg pb-space-md hidden font-body-md text-body-md text-slate-charcoal\">\n<p>\n              A presença de advogado não é um requisito formal para a lavratura do procedimento se a pessoa não manifestar o desejo de assistência, mas é um <strong>direito constitucional indispensável</strong>. O comparecimento desacompanhado de defesa técnica expõe o investigado ao risco de produzir provas desfavoráveis e de ter declarações mal interpretadas que formarão a espinha dorsal de um processo penal irreversível.\n            </p>\n</div>\n</div>\n<!-- Question 5 -->\n<div class=\"faq-item rounded-lg border border-border-hairline bg-parchment-base overflow-hidden\">\n<button class=\"faq-trigger w-full px-space-lg py-space-md text-left flex items-center justify-between gap-4 focus:outline-none\">\n<span class=\"font-title-md text-title-md text-navy-deep font-semibold\">Onde denunciar violência doméstica ou solicitar medida protetiva?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform duration-300\">expand_more</span>\n</button>\n<div class=\"faq-content px-space-lg pb-space-md hidden font-body-md text-body-md text-slate-charcoal\">\n<p>\n              Em horário de expediente, nas <strong>Delegacias Especializadas de Atendimento à Mulher (DEAM)</strong> presentes nos principais municípios. No período noturno, feriados ou finais de semana, a vítima deve se dirigir diretamente à Delegacia Regional de Plantão ou acionar a viatura da Polícia Militar através do número 190.\n            </p>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d805948",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Precisa de Acompanhamento Técnico em Delegacia ou Prisão em Flagrante?",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "5584f23",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "293b959",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Precisa de Acompanhamento Técnico em Delegacia ou Prisão em Flagrante?",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-navy-deep text-on-primary py-space-xxl relative overflow-hidden\">\n<div class=\"max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter relative z-10\">\n<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center\">\n<div class=\"lg:col-span-8 space-y-space-md\">\n<div class=\"inline-flex items-center gap-2 px-3 py-1 bg-surface-container-lowest/10 border border-gold-accent/30 rounded-lg text-gold-accent font-label-sm text-label-sm uppercase tracking-widest\">\n<span class=\"w-2 h-2 rounded-full bg-gold-accent animate-pulse\"></span>\n            Pronta Resposta em Todo o Estado do ES\n          </div>\n<h2 class=\"font-headline-lg text-headline-lg text-surface max-w-2xl leading-tight\">\n            Precisa de Acompanhamento Técnico em Delegacia ou Prisão em Flagrante?\n          </h2>\n<p class=\"font-body-lg text-body-lg text-surface-container-highest max-w-2xl leading-relaxed\">\n            Atuação presencial imediata em todas as Delegacias Regionais da Grande Vitória e municípios do interior capixaba. Garantia inegociável de prerrogativas, acompanhamento de oitivas e preparação técnica para a Audiência de Custódia.\n          </p>\n<div class=\"pt-2 flex items-center gap-space-md text-surface-variant font-label-sm text-label-sm\">\n<span class=\"flex items-center gap-1.5 text-surface\">\n<span class=\"material-symbols-outlined text-gold-accent text-[18px]\">verified</span> Pablo Ribeiro Advocacia\n            </span>\n<span class=\"text-border-hairline/40\">•</span>\n<span class=\"text-gold-accent font-semibold\">OAB/ES 30.388</span>\n<span class=\"text-border-hairline/40\">•</span>\n<span>Plantão Penal Ininterrupto</span>\n</div>\n</div>\n<div class=\"lg:col-span-4 flex flex-col gap-space-sm\">\n<a class=\"w-full py-4 px-6 rounded-lg bg-gold-accent hover:bg-secondary-fixed text-navy-deep font-title-lg text-title-lg font-bold flex items-center justify-center gap-2 transition-all shadow-lg\" href=\"tel:27996239086\">\n<span class=\"material-symbols-outlined text-[24px]\">call</span>\n            Ligar para (27) 99623-9086\n          </a>\n<a class=\"w-full py-4 px-6 rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 border border-gold-accent/40 text-surface font-title-lg text-title-lg font-semibold flex items-center justify-center gap-2 transition-all\" href=\"https://wa.me/5527996239086?text=Dr.%20Pablo%2C%20preciso%20de%20atendimento%20de%20urg%C3%AAncia%20em%20uma%20delegacia.\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-gold-accent text-[22px]\">chat</span>\n            Falar no WhatsApp com Advogado\n          </a>\n<p class=\"font-label-sm text-label-sm text-surface-variant text-center mt-2\">\n            Atendimento 24h para emergências penais e audiências de custódia.\n          </p>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d8e1484",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "⚙ Scripts da página (não remover)",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "4e2db3a",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "6db9011",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "⚙ Scripts da página (não remover)",
+        "html": "<script>\n  (function (fn) { document.readyState !== 'loading' ? fn() : document.addEventListener('DOMContentLoaded', fn); })(() => {\n    // FAQ Accordion Interaction\n    const triggers = document.querySelectorAll('.faq-trigger');\n    triggers.forEach(trigger => {\n      trigger.addEventListener('click', () => {\n        const content = trigger.nextElementSibling;\n        const icon = trigger.querySelector('.material-symbols-outlined');\n        const isOpen = !content.classList.contains('hidden');\n\n        // Close all\n        document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));\n        document.querySelectorAll('.faq-trigger .material-symbols-outlined').forEach(i => i.style.transform = 'rotate(0deg)');\n\n        if (!isOpen) {\n          content.classList.remove('hidden');\n          icon.style.transform = 'rotate(180deg)';\n        }\n      });\n    });\n\n    // Directory Filter Mechanics\n    const searchInput = document.getElementById('search-input');\n    const typeSelect = document.getElementById('filter-type');\n    const citySelect = document.getElementById('filter-city-select');\n    const toggle24h = document.getElementById('toggle-24h');\n    const cityPills = document.querySelectorAll('.city-pill');\n    const cards = document.querySelectorAll('.delegacia-card');\n\n    let is24hActive = false;\n    let selectedCity = 'all';\n\n    function applyFilters() {\n      const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';\n      const selectedType = typeSelect ? typeSelect.value : 'all';\n\n      cards.forEach(card => {\n        const textContent = card.innerText.toLowerCase();\n        const cardCity = card.getAttribute('data-city') || '';\n        const cardType = card.getAttribute('data-type') || '';\n        const card24h = card.getAttribute('data-24h') === 'true';\n\n        let matchesSearch = !searchTerm || textContent.includes(searchTerm);\n        let matchesCity = selectedCity === 'all' || cardCity.includes(selectedCity);\n        let matchesType = selectedType === 'all' || cardType === selectedType;\n        let matches24h = !is24hActive || card24h;\n\n        if (matchesSearch && matchesCity && matchesType && matches24h) {\n          card.style.display = 'flex';\n        } else {\n          card.style.display = 'none';\n        }\n      });\n    }\n\n    if (searchInput) searchInput.addEventListener('input', applyFilters);\n    if (typeSelect) typeSelect.addEventListener('change', applyFilters);\n    if (citySelect) {\n      citySelect.addEventListener('change', (e) => {\n        selectedCity = e.target.value;\n        // sync pills\n        cityPills.forEach(p => {\n          if (p.getAttribute('data-city') === selectedCity) {\n            p.classList.add('bg-navy-deep', 'text-on-primary');\n            p.classList.remove('bg-surface-container', 'text-slate-charcoal');\n          } else {\n            p.classList.remove('bg-navy-deep', 'text-on-primary');\n            p.classList.add('bg-surface-container', 'text-slate-charcoal');\n          }\n        });\n        applyFilters();\n      });\n    }\n\n    if (toggle24h) {\n      toggle24h.addEventListener('click', () => {\n        is24hActive = !is24hActive;\n        if (is24hActive) {\n          toggle24h.classList.add('bg-gold-accent', 'text-navy-deep', 'font-bold');\n          toggle24h.classList.remove('bg-secondary-container/20');\n        } else {\n          toggle24h.classList.remove('bg-gold-accent', 'text-navy-deep', 'font-bold');\n          toggle24h.classList.add('bg-secondary-container/20');\n        }\n        applyFilters();\n      });\n    }\n\n    cityPills.forEach(pill => {\n      pill.addEventListener('click', () => {\n        cityPills.forEach(p => {\n          p.classList.remove('bg-navy-deep', 'text-on-primary');\n          p.classList.add('bg-surface-container', 'text-slate-charcoal');\n        });\n        pill.classList.add('bg-navy-deep', 'text-on-primary');\n        pill.classList.remove('bg-surface-container', 'text-slate-charcoal');\n\n        selectedCity = pill.getAttribute('data-city');\n        if (citySelect) citySelect.value = selectedCity;\n        applyFilters();\n      });\n    });\n  });\n</script>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

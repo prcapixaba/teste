@@ -1,0 +1,671 @@
+{
+ "version": "0.4",
+ "title": "Pablo Ribeiro · Áreas de Atuação",
+ "type": "page",
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "21c0091",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "⚙ Estilos do kit (não remover)",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "72d5444",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "e204523",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "⚙ Estilos do kit (não remover)",
+        "html": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap\"><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap\"><style id=\"prk-css-02-areas-de-atuacao\">/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n.prk, .prk *,\n.prk ::before,\n.prk ::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n.prk ::before,\n.prk ::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\n.prk,\n.prk {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n  font-feature-settings: normal; /* 5 */\n  font-variation-settings: normal; /* 6 */\n  -webkit-tap-highlight-color: transparent; /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\n.prk {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\n.prk hr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\n.prk abbr:where([title]) {\n  text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\n.prk h1,\n.prk h2,\n.prk h3,\n.prk h4,\n.prk h5,\n.prk h6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\n.prk a {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\n.prk b,\n.prk strong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\n.prk code,\n.prk kbd,\n.prk samp,\n.prk pre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-feature-settings: normal; /* 2 */\n  font-variation-settings: normal; /* 3 */\n  font-size: 1em; /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\n.prk small {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\n.prk sub,\n.prk sup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\n.prk sub {\n  bottom: -0.25em;\n}\n\n.prk sup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\n.prk table {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\n.prk button,\n.prk input,\n.prk optgroup,\n.prk select,\n.prk textarea {\n  font-family: inherit; /* 1 */\n  font-feature-settings: inherit; /* 1 */\n  font-variation-settings: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  letter-spacing: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\n.prk button,\n.prk select {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\n.prk button,\n.prk input:where([type='button']),\n.prk input:where([type='reset']),\n.prk input:where([type='submit']) {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n.prk :-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n.prk :-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\n.prk progress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n.prk ::-webkit-inner-spin-button,\n.prk ::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n.prk [type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n.prk ::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n.prk ::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\n.prk summary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\n.prk blockquote,\n.prk dl,\n.prk dd,\n.prk h1,\n.prk h2,\n.prk h3,\n.prk h4,\n.prk h5,\n.prk h6,\n.prk hr,\n.prk figure,\n.prk p,\n.prk pre {\n  margin: 0;\n}\n\n.prk fieldset {\n  margin: 0;\n  padding: 0;\n}\n\n.prk legend {\n  padding: 0;\n}\n\n.prk ol,\n.prk ul,\n.prk menu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\n.prk dialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\n.prk textarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\n.prk input::placeholder,\n.prk textarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\n.prk button,\n.prk [role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n.prk :disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\n.prk img,\n.prk svg,\n.prk video,\n.prk canvas,\n.prk audio,\n.prk iframe,\n.prk embed,\n.prk object {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\n.prk img,\n.prk video {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n.prk [hidden]:where(:not([hidden=\"until-found\"])) {\n  display: none;\n}\n\n\n.prk{font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:15px;line-height:24px;color:#1a1c1b;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:left;letter-spacing:normal}\n.prk .material-symbols-outlined{font-family:'Material Symbols Outlined';font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';font-feature-settings:'liga';-webkit-font-smoothing:antialiased;font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24}\n.prk h1,.prk h2,.prk h3,.prk h4,.prk h5,.prk h6{text-transform:none;letter-spacing:inherit;color:inherit;font-family:inherit}\n.prk details>summary{list-style:none}.prk details>summary::-webkit-details-marker{display:none}\n.prk a:focus-visible,.prk button:focus-visible,.prk summary:focus-visible,.prk input:focus-visible,.prk select:focus-visible,.prk textarea:focus-visible{outline:2px solid #D4B16F;outline-offset:2px}\n/* Elementor: remove respiros que o tema/Elementor adicionam em volta das seções do kit */\n.elementor-section.prk-section>.elementor-container>.elementor-column>.elementor-widget-wrap{padding:0!important}\n.elementor-section.prk-section .elementor-widget-html{margin-bottom:0!important}\n.elementor-section.prk-section .elementor-widget-html>.elementor-widget-container{padding:0;margin:0}\n\n.prk .pointer-events-none {\n  pointer-events: none;\n}\n\n.prk .absolute {\n  position: absolute;\n}\n\n.prk .relative {\n  position: relative;\n}\n\n.prk .inset-0 {\n  inset: 0px;\n}\n\n.prk .-bottom-20 {\n  bottom: -5rem;\n}\n\n.prk .-right-20 {\n  right: -5rem;\n}\n\n.prk .bottom-0 {\n  bottom: 0px;\n}\n\n.prk .left-0 {\n  left: 0px;\n}\n\n.prk .top-0 {\n  top: 0px;\n}\n\n.prk .z-10 {\n  z-index: 10;\n}\n\n.prk .mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.prk .mb-1 {\n  margin-bottom: 0.25rem;\n}\n\n.prk .mb-10 {\n  margin-bottom: 2.5rem;\n}\n\n.prk .mb-12 {\n  margin-bottom: 3rem;\n}\n\n.prk .mb-2 {\n  margin-bottom: 0.5rem;\n}\n\n.prk .mb-3 {\n  margin-bottom: 0.75rem;\n}\n\n.prk .mb-4 {\n  margin-bottom: 1rem;\n}\n\n.prk .mb-6 {\n  margin-bottom: 1.5rem;\n}\n\n.prk .mb-8 {\n  margin-bottom: 2rem;\n}\n\n.prk .mt-1 {\n  margin-top: 0.25rem;\n}\n\n.prk .mt-2 {\n  margin-top: 0.5rem;\n}\n\n.prk .mt-3 {\n  margin-top: 0.75rem;\n}\n\n.prk .mt-4 {\n  margin-top: 1rem;\n}\n\n.prk .mt-5 {\n  margin-top: 1.25rem;\n}\n\n.prk .mt-6 {\n  margin-top: 1.5rem;\n}\n\n.prk .mt-8 {\n  margin-top: 2rem;\n}\n\n.prk .block {\n  display: block;\n}\n\n.prk .inline-block {\n  display: inline-block;\n}\n\n.prk .flex {\n  display: flex;\n}\n\n.prk .inline-flex {\n  display: inline-flex;\n}\n\n.prk .grid {\n  display: grid;\n}\n\n.prk .hidden {\n  display: none;\n}\n\n.prk .h-10 {\n  height: 2.5rem;\n}\n\n.prk .h-12 {\n  height: 3rem;\n}\n\n.prk .h-2 {\n  height: 0.5rem;\n}\n\n.prk .h-2\\.5 {\n  height: 0.625rem;\n}\n\n.prk .h-96 {\n  height: 24rem;\n}\n\n.prk .w-1 {\n  width: 0.25rem;\n}\n\n.prk .w-10 {\n  width: 2.5rem;\n}\n\n.prk .w-12 {\n  width: 3rem;\n}\n\n.prk .w-2 {\n  width: 0.5rem;\n}\n\n.prk .w-2\\.5 {\n  width: 0.625rem;\n}\n\n.prk .w-96 {\n  width: 24rem;\n}\n\n.prk .w-full {\n  width: 100%;\n}\n\n.prk .min-w-\\[180px\\] {\n  min-width: 180px;\n}\n\n.prk .max-w-2xl {\n  max-width: 42rem;\n}\n\n.prk .max-w-3xl {\n  max-width: 48rem;\n}\n\n.prk .max-w-\\[1280px\\] {\n  max-width: 1280px;\n}\n\n.prk .max-w-\\[880px\\] {\n  max-width: 880px;\n}\n\n.prk .max-w-md {\n  max-width: 28rem;\n}\n\n.prk .flex-1 {\n  flex: 1 1 0%;\n}\n\n.prk .shrink-0 {\n  flex-shrink: 0;\n}\n\n@keyframes pulse {\n\n  50% {\n    opacity: .5;\n  }\n}\n\n.prk .animate-pulse {\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n}\n\n.prk .cursor-pointer {\n  cursor: pointer;\n}\n\n.prk .select-none {\n  user-select: none;\n}\n\n.prk .list-none {\n  list-style-type: none;\n}\n\n.prk .grid-cols-1 {\n  grid-template-columns: repeat(1, minmax(0, 1fr));\n}\n\n.prk .grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\n\n.prk .flex-col {\n  flex-direction: column;\n}\n\n.prk .flex-wrap {\n  flex-wrap: wrap;\n}\n\n.prk .items-start {\n  align-items: flex-start;\n}\n\n.prk .items-center {\n  align-items: center;\n}\n\n.prk .justify-center {\n  justify-content: center;\n}\n\n.prk .justify-between {\n  justify-content: space-between;\n}\n\n.prk .gap-1 {\n  gap: 0.25rem;\n}\n\n.prk .gap-1\\.5 {\n  gap: 0.375rem;\n}\n\n.prk .gap-2 {\n  gap: 0.5rem;\n}\n\n.prk .gap-3 {\n  gap: 0.75rem;\n}\n\n.prk .gap-4 {\n  gap: 1rem;\n}\n\n.prk .gap-5 {\n  gap: 1.25rem;\n}\n\n.prk .gap-6 {\n  gap: 1.5rem;\n}\n\n.prk .gap-8 {\n  gap: 2rem;\n}\n\n.prk .gap-gutter {\n  gap: 1.5rem;\n}\n\n.prk :is(.space-y-2 > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.prk .self-start {\n  align-self: flex-start;\n}\n\n.prk .overflow-hidden {\n  overflow: hidden;\n}\n\n.prk .rounded {\n  border-radius: 0.125rem;\n}\n\n.prk .rounded-full {\n  border-radius: 0.75rem;\n}\n\n.prk .rounded-lg {\n  border-radius: 0.25rem;\n}\n\n.prk .border {\n  border-width: 1px;\n}\n\n.prk .border-x {\n  border-left-width: 1px;\n  border-right-width: 1px;\n}\n\n.prk .border-y {\n  border-top-width: 1px;\n  border-bottom-width: 1px;\n}\n\n.prk .border-b {\n  border-bottom-width: 1px;\n}\n\n.prk .border-t {\n  border-top-width: 1px;\n}\n\n.prk .border-t-2 {\n  border-top-width: 2px;\n}\n\n.prk .border-border-hairline {\n  --tw-border-opacity: 1;\n  border-color: rgb(229 227 220 / var(--tw-border-opacity, 1));\n}\n\n.prk .border-gold-muted\\/30 {\n  border-color: rgb(181 148 81 / 0.3);\n}\n\n.prk .border-navy-deep {\n  --tw-border-opacity: 1;\n  border-color: rgb(8 16 46 / var(--tw-border-opacity, 1));\n}\n\n.prk .border-transparent {\n  border-color: transparent;\n}\n\n.prk .border-white\\/30 {\n  border-color: rgb(255 255 255 / 0.3);\n}\n\n.prk .\\!border-t-gold-accent {\n  --tw-border-opacity: 1 !important;\n  border-top-color: rgb(212 177 111 / var(--tw-border-opacity, 1)) !important;\n}\n\n.prk .bg-background {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 249 246 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-gold-accent {\n  --tw-bg-opacity: 1;\n  background-color: rgb(212 177 111 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-navy-deep {\n  --tw-bg-opacity: 1;\n  background-color: rgb(8 16 46 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-navy-deep\\/5 {\n  background-color: rgb(8 16 46 / 0.05);\n}\n\n.prk .bg-parchment-base {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 250 247 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-primary-container {\n  --tw-bg-opacity: 1;\n  background-color: rgb(18 26 56 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-primary-container\\/40 {\n  background-color: rgb(18 26 56 / 0.4);\n}\n\n.prk .bg-surface-card {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container {\n  --tw-bg-opacity: 1;\n  background-color: rgb(238 238 235 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container-high {\n  --tw-bg-opacity: 1;\n  background-color: rgb(232 232 229 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container-high\\/60 {\n  background-color: rgb(232 232 229 / 0.6);\n}\n\n.prk .bg-surface-container-low {\n  --tw-bg-opacity: 1;\n  background-color: rgb(244 244 241 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container-lowest {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-transparent {\n  background-color: transparent;\n}\n\n.prk .bg-\\[radial-gradient\\(\\#08102E_1px\\2c transparent_1px\\)\\] {\n  background-image: radial-gradient(#08102E 1px,transparent 1px);\n}\n\n.prk .p-1\\.5 {\n  padding: 0.375rem;\n}\n\n.prk .p-4 {\n  padding: 1rem;\n}\n\n.prk .p-5 {\n  padding: 1.25rem;\n}\n\n.prk .p-6 {\n  padding: 1.5rem;\n}\n\n.prk .px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n\n.prk .px-2\\.5 {\n  padding-left: 0.625rem;\n  padding-right: 0.625rem;\n}\n\n.prk .px-3\\.5 {\n  padding-left: 0.875rem;\n  padding-right: 0.875rem;\n}\n\n.prk .px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.prk .px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.prk .px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n\n.prk .px-margin-mobile {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.prk .py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n\n.prk .py-2\\.5 {\n  padding-top: 0.625rem;\n  padding-bottom: 0.625rem;\n}\n\n.prk .py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n\n.prk .py-3\\.5 {\n  padding-top: 0.875rem;\n  padding-bottom: 0.875rem;\n}\n\n.prk .py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.prk .py-space-xl {\n  padding-top: 2.5rem;\n  padding-bottom: 2.5rem;\n}\n\n.prk .pb-6 {\n  padding-bottom: 1.5rem;\n}\n\n.prk .pt-2 {\n  padding-top: 0.5rem;\n}\n\n.prk .pt-4 {\n  padding-top: 1rem;\n}\n\n.prk .pt-6 {\n  padding-top: 1.5rem;\n}\n\n.prk .text-center {\n  text-align: center;\n}\n\n.prk .text-right {\n  text-align: right;\n}\n\n.prk .font-body-lg {\n  font-family: Inter;\n}\n\n.prk .font-body-md {\n  font-family: Inter;\n}\n\n.prk .font-body-sm {\n  font-family: Inter;\n}\n\n.prk .font-headline-lg {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-md {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-sm {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-xl {\n  font-family: Newsreader;\n}\n\n.prk .font-label-md {\n  font-family: Inter;\n}\n\n.prk .font-label-sm {\n  font-family: Inter;\n}\n\n.prk .font-title-lg {\n  font-family: Inter;\n}\n\n.prk .font-title-md {\n  font-family: Inter;\n}\n\n.prk .text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n\n.prk .text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n\n.prk .text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n\n.prk .text-body-lg {\n  font-size: 18px;\n  line-height: 28px;\n  font-weight: 400;\n}\n\n.prk .text-body-md {\n  font-size: 15px;\n  line-height: 24px;\n  font-weight: 400;\n}\n\n.prk .text-body-sm {\n  font-size: 13px;\n  line-height: 20px;\n  font-weight: 400;\n}\n\n.prk .text-headline-lg {\n  font-size: 36px;\n  line-height: 44px;\n  font-weight: 500;\n}\n\n.prk .text-headline-md {\n  font-size: 26px;\n  line-height: 34px;\n  font-weight: 600;\n}\n\n.prk .text-headline-sm {\n  font-size: 20px;\n  line-height: 28px;\n  font-weight: 600;\n}\n\n.prk .text-headline-xl {\n  font-size: 48px;\n  line-height: 56px;\n  font-weight: 500;\n}\n\n.prk .text-label-md {\n  font-size: 12px;\n  line-height: 16px;\n  letter-spacing: 0.08em;\n  font-weight: 600;\n}\n\n.prk .text-label-sm {\n  font-size: 11px;\n  line-height: 14px;\n  letter-spacing: 0.1em;\n  font-weight: 600;\n}\n\n.prk .text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n\n.prk .text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n\n.prk .text-title-lg {\n  font-size: 18px;\n  line-height: 26px;\n  font-weight: 600;\n}\n\n.prk .text-title-md {\n  font-size: 16px;\n  line-height: 24px;\n  font-weight: 600;\n}\n\n.prk .text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n\n.prk .text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n\n.prk .font-bold {\n  font-weight: 700;\n}\n\n.prk .font-medium {\n  font-weight: 500;\n}\n\n.prk .font-semibold {\n  font-weight: 600;\n}\n\n.prk .uppercase {\n  text-transform: uppercase;\n}\n\n.prk .italic {\n  font-style: italic;\n}\n\n.prk .leading-relaxed {\n  line-height: 1.625;\n}\n\n.prk .leading-snug {\n  line-height: 1.375;\n}\n\n.prk .tracking-tight {\n  letter-spacing: -0.025em;\n}\n\n.prk .tracking-wider {\n  letter-spacing: 0.05em;\n}\n\n.prk .tracking-widest {\n  letter-spacing: 0.1em;\n}\n\n.prk .text-gold-accent {\n  --tw-text-opacity: 1;\n  color: rgb(212 177 111 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-gold-muted {\n  --tw-text-opacity: 1;\n  color: rgb(181 148 81 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-navy-deep {\n  --tw-text-opacity: 1;\n  color: rgb(8 16 46 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-primary {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-primary\\/60 {\n  color: rgb(255 255 255 / 0.6);\n}\n\n.prk .text-on-primary\\/80 {\n  color: rgb(255 255 255 / 0.8);\n}\n\n.prk .text-on-surface-variant {\n  --tw-text-opacity: 1;\n  color: rgb(70 70 78 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-slate-charcoal {\n  --tw-text-opacity: 1;\n  color: rgb(47 53 66 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity, 1));\n}\n\n.prk .opacity-\\[0\\.03\\] {\n  opacity: 0.03;\n}\n\n.prk .shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .blur-3xl {\n  --tw-blur: blur(64px);\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.prk .transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-colors {\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-transform {\n  transition-property: transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .\\[background-size\\:24px_24px\\] {\n  background-size: 24px 24px;\n}\n\n.prk .open\\:border-gold-accent[open] {\n  --tw-border-opacity: 1;\n  border-color: rgb(212 177 111 / var(--tw-border-opacity, 1));\n}\n\n.prk .hover\\:border-gold-accent:hover {\n  --tw-border-opacity: 1;\n  border-color: rgb(212 177 111 / var(--tw-border-opacity, 1));\n}\n\n.prk .hover\\:bg-gold-muted:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(181 148 81 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-navy-deep:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(8 16 46 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-slate-charcoal:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(47 53 66 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-surface-container:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(238 238 235 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-white\\/10:hover {\n  background-color: rgb(255 255 255 / 0.1);\n}\n\n.prk .hover\\:text-gold-muted:hover {\n  --tw-text-opacity: 1;\n  color: rgb(181 148 81 / var(--tw-text-opacity, 1));\n}\n\n.prk .hover\\:text-navy-deep:hover {\n  --tw-text-opacity: 1;\n  color: rgb(8 16 46 / var(--tw-text-opacity, 1));\n}\n\n.prk .hover\\:text-white:hover {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity, 1));\n}\n\n.prk .hover\\:shadow-md:hover {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk :is(.group[open] .group-open\\:rotate-180) {\n  --tw-rotate: 180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.prk :is(.group:hover .group-hover\\:scale-105) {\n  --tw-scale-x: 1.05;\n  --tw-scale-y: 1.05;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.prk :is(.group:hover .group-hover\\:text-gold-muted) {\n  --tw-text-opacity: 1;\n  color: rgb(181 148 81 / var(--tw-text-opacity, 1));\n}\n\n@media (min-width: 640px) {\n\n  .prk .sm\\:w-auto {\n    width: auto;\n  }\n\n  .prk .sm\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .prk .sm\\:flex-row {\n    flex-direction: row;\n  }\n\n  .prk .sm\\:text-left {\n    text-align: left;\n  }\n}\n\n@media (min-width: 768px) {\n\n  .prk .md\\:inline {\n    display: inline;\n  }\n\n  .prk .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .prk .md\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .prk .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .prk .md\\:items-end {\n    align-items: flex-end;\n  }\n\n  .prk .md\\:items-center {\n    align-items: center;\n  }\n\n  .prk .md\\:p-8 {\n    padding: 2rem;\n  }\n}\n\n@media (min-width: 1024px) {\n\n  .prk .lg\\:col-span-4 {\n    grid-column: span 4 / span 4;\n  }\n\n  .prk .lg\\:col-span-8 {\n    grid-column: span 8 / span 8;\n  }\n\n  .prk .lg\\:mt-0 {\n    margin-top: 0px;\n  }\n\n  .prk .lg\\:w-auto {\n    width: auto;\n  }\n\n  .prk .lg\\:grid-cols-12 {\n    grid-template-columns: repeat(12, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:grid-cols-4 {\n    grid-template-columns: repeat(4, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:flex-row {\n    flex-direction: row;\n  }\n\n  .prk .lg\\:px-margin {\n    padding-left: 3rem;\n    padding-right: 3rem;\n  }\n\n  .prk .lg\\:py-space-xxl {\n    padding-top: 4rem;\n    padding-bottom: 4rem;\n  }\n\n  .prk .lg\\:text-left {\n    text-align: left;\n  }\n}\n</style>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b53966d",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Barra de urgência",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "9a1b49d",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "0c51841",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Barra de urgência",
+        "html": "<div class=\"prk\"><div class=\"w-full bg-navy-deep text-on-primary border-b border-gold-muted/30\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-3 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left\">\n<div class=\"flex items-center gap-2\">\n<span class=\"inline-flex h-2.5 w-2.5 rounded-full bg-gold-accent animate-pulse\"></span>\n<span class=\"font-label-md text-label-md uppercase tracking-wider text-gold-accent\">Plantão Urgente 24h</span>\n<span class=\"hidden md:inline text-on-primary/60 font-body-sm text-body-sm\">|</span>\n<p class=\"font-body-sm text-body-sm text-on-primary\">\n<strong class=\"font-semibold text-white\">Alguém foi preso agora?</strong> Flagrante, delegacia ou audiência de custódia na Grande Vitória.\n        </p>\n</div>\n<a class=\"inline-flex items-center gap-1.5 font-label-md text-label-md text-gold-accent hover:text-white uppercase tracking-wider transition-colors\" href=\"https://wa.me/5527996239086?text=Urgente%20-%20Plantao%20Criminal%20Flagrante\">\n        Acesse imediatamente o Plantão 24h\n        <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</a>\n</div>\n</div></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "74e6579",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Áreas de Atuação do Advogado Criminalista no Espírito Santo",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "23716fa",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "cd60007",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Áreas de Atuação do Advogado Criminalista no Espírito Santo",
+        "html": "<div class=\"prk\"><section class=\"relative w-full bg-parchment-base py-space-xl lg:py-space-xxl border-b border-border-hairline overflow-hidden\">\n<!-- Subtle architectural background styling -->\n<div class=\"absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#08102E_1px,transparent_1px)] [background-size:24px_24px]\"></div>\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin relative z-10\">\n<!-- Breadcrumb -->\n<nav class=\"flex items-center gap-2 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant mb-6\">\n<a class=\"hover:text-navy-deep transition-colors\" href=\"#\">Início</a>\n<span class=\"text-gold-muted\">›</span>\n<span class=\"text-navy-deep font-semibold\">Áreas de Atuação</span>\n</nav>\n<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start\">\n<div class=\"lg:col-span-8 flex flex-col gap-5\">\n<!-- Overline Badge -->\n<div class=\"inline-flex items-center gap-2 self-start bg-surface-container-high/60 px-3.5 py-1 rounded\">\n<span class=\"material-symbols-outlined text-gold-muted text-base\">gavel</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-slate-charcoal\">\n              DIREITO PENAL · PROCESSO PENAL · INVESTIGAÇÃO DEFENSIVA · INTEGRIDADE\n            </span>\n</div>\n<!-- Main Title with Newsreader font -->\n<h1 class=\"font-headline-xl text-headline-xl text-navy-deep tracking-tight\">\n            Áreas de Atuação do Advogado Criminalista no Espírito Santo\n          </h1>\n<!-- Lead Paragraph -->\n<p class=\"font-body-lg text-body-lg text-slate-charcoal leading-relaxed max-w-3xl\">\n            Atuação técnica, estratégica e combativa desde os primeiros atos da investigação até o plenário do Tribunal do Júri, recursos aos tribunais estaduais e superiores e a execução da pena. Estruturas dedicadas em Vila Velha e Vitória para atendimento combativo em toda a Grande Vitória e interior.\n          </p>\n<!-- CTAs -->\n<div class=\"flex flex-wrap items-center gap-4 pt-2\">\n<a class=\"inline-flex items-center justify-center gap-2 bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-md text-title-md px-6 py-3.5 rounded transition-all shadow-sm\" href=\"https://wa.me/5527996239086?text=Ol%C3%A1%2C%20gostaria%20de%20consultoria%20com%20Dr.%20Pablo%20Ribeiro\">\n<span class=\"material-symbols-outlined text-lg\">chat</span>\n              Falar com o Escritório\n            </a>\n<a class=\"inline-flex items-center justify-center gap-2 bg-transparent hover:bg-navy-deep hover:text-white text-navy-deep font-title-md text-title-md px-6 py-3.5 rounded border border-navy-deep transition-all\" href=\"tel:+5527996239086\">\n<span class=\"material-symbols-outlined text-lg text-gold-muted\">phone_in_talk</span>\n              Plantão Criminal 24h: (27) 99623-9086\n            </a>\n</div>\n</div>\n<!-- Sidebar Jurisprudence Quote / Accreditation -->\n<div class=\"lg:col-span-4 flex flex-col gap-4 mt-6 lg:mt-0\">\n<div class=\"bg-surface-card p-6 rounded shadow-sm border border-border-hairline relative\">\n<div class=\"w-1 absolute left-0 top-0 bottom-0 bg-gold-accent\"></div>\n<div class=\"flex items-center gap-3 mb-3\">\n<div class=\"w-10 h-10 rounded bg-navy-deep/5 flex items-center justify-center text-navy-deep\">\n<span class=\"material-symbols-outlined text-2xl\">verified_user</span>\n</div>\n<div>\n<h4 class=\"font-title-md text-title-md text-navy-deep\">Dr. Pablo Ribeiro</h4>\n<p class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider\">OAB/ES 30.388</p>\n</div>\n</div>\n<p class=\"font-headline-sm italic text-slate-charcoal text-base leading-snug\">\n              \"A advocacia criminal de alto nível não trabalha com improviso: cada minuto conta na preservação da liberdade e na higidez da cadeia de custódia da prova.\"\n            </p>\n<div class=\"mt-4 pt-4 border-t border-border-hairline flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm\">\n<span>UNIDADES VILA VELHA &amp; VITÓRIA</span>\n<span class=\"text-gold-muted font-bold\">24H / 7 DIAS</span>\n</div>\n</div>\n<!-- Fast stats / indicator -->\n<div class=\"grid grid-cols-2 gap-3\">\n<div class=\"bg-surface-container-low p-4 rounded text-center\">\n<span class=\"block font-headline-md text-headline-md text-navy-deep\">100%</span>\n<span class=\"font-label-sm text-label-sm uppercase text-slate-charcoal\">Foco Penal Especializado</span>\n</div>\n<div class=\"bg-surface-container-low p-4 rounded text-center\">\n<span class=\"block font-headline-md text-headline-md text-navy-deep\">Prov. 188</span>\n<span class=\"font-label-sm text-label-sm uppercase text-slate-charcoal\">Investigação Defensiva</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c8f424a",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Qual é a sua situação atual?",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "7ac2599",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "964bfa3",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Qual é a sua situação atual?",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-background py-space-xl lg:py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4\">\n<div>\n<span class=\"font-label-md text-label-md uppercase tracking-widest text-gold-muted\">Triagem e Atendimento Imediato</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mt-1\">Qual é a sua situação atual?</h2>\n<p class=\"font-body-md text-body-md text-on-surface-variant mt-2 max-w-2xl\">\n            Escolha o cenário que melhor reflete o momento da sua demanda para entender as medidas técnicas cabíveis de imediato.\n          </p>\n</div>\n<div class=\"shrink-0 flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm\">\n<span class=\"w-2 h-2 rounded-full bg-gold-accent\"></span>\n          Orientação com Sigilo Profissional Estrito\n        </div>\n</div>\n<!-- 8-Card Diagnostic Grid -->\n<div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter\">\n<!-- Scenario 1: Preso -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=URGENTE%20-%20Alguem%20foi%20preso\">\n<div>\n<div class=\"w-10 h-10 rounded bg-navy-deep text-gold-accent flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">lock_clock</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Alguém foi preso</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Flagrante delito, encaminhamento à delegacia, audiência de custódia e mandado de prisão preventiva em aberto.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-gold-muted mt-5\">\n            Prisões e Liberdade <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n<!-- Scenario 2: Intimação Policial -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=Recebi%20uma%20intimacao%20policial\">\n<div>\n<div class=\"w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">mail</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Recebi intimação policial</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Depoimento, interrogatório formal, busca e apreensão e acompanhamento técnico preliminar em inquérito.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5\">\n            Intimação Policial <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n<!-- Scenario 3: Medida Protetiva -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=Recebi%20uma%20medida%20protetiva\">\n<div>\n<div class=\"w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">shield</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Recebi medida protetiva</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Lei Maria da Penha, defesa contra medidas de urgência, audiência preliminar e pedidos judiciais de revogação.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5\">\n            Lei Maria da Penha <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n<!-- Scenario 4: Investigação Defensiva -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=Preciso%20reunir%20provas%20para%20minha%20defesa\">\n<div>\n<div class=\"w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">find_in_page</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Preciso reunir provas</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Investigação defensiva, entrevistas com testemunhas, perícia com assistente técnico, prova digital e câmeras.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5\">\n            Investigação Defensiva <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n<!-- Scenario 5: Processo Criminal em Andamento -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=Ja%20existe%20um%20processo%20criminal%20em%20andamento\">\n<div>\n<div class=\"w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">balance</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Já existe processo criminal</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Audiência de instrução e julgamento, resposta à acusação, alegações finais, habeas corpus e apelação ao TJES.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5\">\n            Defesa e Recursos <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n<!-- Scenario 6: Execução Penal -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=Meu%20familiar%20esta%20cumprindo%20pena\">\n<div>\n<div class=\"w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">timeline</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Familiar cumprindo pena</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Progressão de regime (fechado/semiaberto), remição por trabalho ou estudo, livramento condicional e falta grave.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5\">\n            Execução Penal <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n<!-- Scenario 7: Compliance e Prevenção Corporativa -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=Minha%20empresa%20precisa%20prevenir%20riscos%20penais\">\n<div>\n<div class=\"w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">corporate_fare</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Prevenção corporativa</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Compliance criminal, programas de integridade, apurações internas confidenciais e estruturação de canal ético.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5\">\n            Compliance Penal <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n<!-- Scenario 8: PAD / Processo Sancionador -->\n<a class=\"group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between\" href=\"https://wa.me/5527996239086?text=Recebi%20PAD%20PAR%20ou%20processo%20sancionador\">\n<div>\n<div class=\"w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform\">\n<span class=\"material-symbols-outlined text-2xl\">account_balance</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors\">Recebi PAD, PAR ou Sanção</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n              Processo Administrativo Disciplinar, processo de responsabilização, ações de improbidade e Tribunais de Contas.\n            </p>\n</div>\n<span class=\"inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5\">\n            Direito Sancionador <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</span>\n</a>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "670c1b0",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Os Três Grandes Núcleos de Atuação",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "52ef088",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "6606cad",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Os Três Grandes Núcleos de Atuação",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface-container-low py-space-xl lg:py-space-xxl border-y border-border-hairline\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<!-- Section Header -->\n<div class=\"text-center max-w-3xl mx-auto mb-12\">\n<span class=\"font-label-md text-label-md uppercase tracking-widest text-gold-muted\">Arquitetura de Serviços Especializados</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mt-1\">Os Três Grandes Núcleos de Atuação</h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal mt-2\">\n          Atuação dividida organicamente para responder com profundidade científica tanto à crise aguda individual quanto às contingências corporativas e probatórias contemporâneas.\n        </p>\n<!-- Interactive Tab Buttons -->\n<div class=\"flex flex-wrap items-center justify-center gap-2 mt-8 p-1.5 bg-surface-container rounded-lg max-w-2xl mx-auto\">\n<button class=\"flex-1 min-w-[180px] py-2.5 px-4 rounded text-center font-title-md text-title-md transition-all bg-navy-deep text-on-primary shadow-sm\" id=\"tab-btn-1\" onclick=\"switchGroupTab(1)\">\n            1. Defesa &amp; Processo Criminal\n          </button>\n<button class=\"flex-1 min-w-[180px] py-2.5 px-4 rounded text-center font-title-md text-title-md transition-all text-slate-charcoal hover:text-navy-deep\" id=\"tab-btn-2\" onclick=\"switchGroupTab(2)\">\n            2. Investigação &amp; Prova\n          </button>\n<button class=\"flex-1 min-w-[180px] py-2.5 px-4 rounded text-center font-title-md text-title-md transition-all text-slate-charcoal hover:text-navy-deep\" id=\"tab-btn-3\" onclick=\"switchGroupTab(3)\">\n            3. Empresas &amp; Sancionador\n          </button>\n</div>\n</div>\n<!-- TAB PANEL 1: DEFESA E PROCESSO CRIMINAL -->\n<div class=\"tab-panel flex flex-col gap-6\" id=\"tab-panel-1\">\n<div class=\"bg-surface-card p-6 md:p-8 rounded border border-border-hairline\">\n<div class=\"flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-border-hairline\">\n<div>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted\">Núcleo Principal</span>\n<h3 class=\"font-headline-md text-headline-md text-navy-deep\">Defesa Técnica e Processo Criminal</h3>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal max-w-md\">\n              Combate vigoroso de arbitrariedades, salvaguarda irrestrita das garantias constitucionais e acompanhamento contínuo em todas as instâncias capixabas e superiores (STJ e STF).\n            </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-6\">\n<!-- Item 1 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">meeting_room</span>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-bold\">URGÊNCIA</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Prisões, Liberdade e Habeas Corpus</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Atendimento em flagrante, custódia no CIAS/DML, pedidos de relaxamento de prisão ilegal, revogação de preventiva e impetração de Habeas Corpus perante o TJES, STJ e STF.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Habeas%20Corpus%20e%20Prisao\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 2 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">badge</span>\n<span class=\"font-label-sm text-label-sm text-slate-charcoal font-semibold\">FASE PRÉVIA</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Delegacia e Inquérito Policial</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Orientação para depoimentos, garantia do direito constitucional ao silêncio sem prejuízo à defesa, acompanhamento em mandados de busca e apreensão e cópia integral de autos sigilosos.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Delegacia%20e%20Inquerito\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 3 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">gavel</span>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-bold\">ALTA COMPLEXIDADE</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Tribunal do Júri</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Defesa em crimes dolosos contra a vida (homicídios tentados e consumados). Estratégia oratória, técnica e pericial para plenário perante o Conselho de Sentença.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Tribunal%20do%20Juri\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 4 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">policy</span>\n<span class=\"font-label-sm text-label-sm text-slate-charcoal font-semibold\">LEI 11.343/06</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Lei de Drogas</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Acusações de tráfico e associação. Discussão incisiva de nulidades de flagrante e invasão de domicílio sem mandado, desclassificação para uso próprio e aplicação do tráfico privilegiado.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Lei%20de%20Drogas\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 5 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">format_list_numbered</span>\n<span class=\"font-label-sm text-label-sm text-slate-charcoal font-semibold\">VARA DE EXECUÇÃO</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Execução Penal</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Cálculo minucioso de liquidação de pena, pedidos de progressão de regime, remição por trabalho e leitura, livramento condicional, transferência de presídio e anulação de faltas graves.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Execucao%20Penal\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 6 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">family_restroom</span>\n<span class=\"font-label-sm text-label-sm text-slate-charcoal font-semibold\">MEDIDAS URGENTES</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Lei Maria da Penha</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Defesa em medidas protetivas de urgência, audiências de justificação, mediação e contestação de medidas descabidas com apresentação célere de contraprovas idôneas.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Lei%20Maria%20da%20Penha\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 7 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">directions_car</span>\n<span class=\"font-label-sm text-label-sm text-slate-charcoal font-semibold\">CTB PENAL</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Crimes de Trânsito</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Defesa em crimes de embriaguez ao volante, homicídio culposo na direção, omissão de socorro, lesão corporal culposa e medidas cautelares de suspensão de CNH.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Crimes%20de%20Transito\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 8 -->\n<div class=\"p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3\">\n<span class=\"material-symbols-outlined text-navy-deep text-2xl\">visibility_off</span>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-bold\">SEGREDO DE JUSTIÇA</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Crimes Sexuais e Sigilo Estrito</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                  Atuação em investigações e processos com tramitação em segredo de justiça, assegurando resguardo absoluto à honra, perícias psicológicas e técnicas rigorosas.\n                </p>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086?text=Consulta%20Sigilosa%20Crimes%20Sexuais\">\n                Ver procedimento <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n<!-- Item 9: Outros Temas -->\n<div class=\"p-5 rounded bg-navy-deep text-on-primary flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-3 text-gold-accent\">\n<span class=\"material-symbols-outlined text-2xl\">readiness_score</span>\n<span class=\"font-label-sm text-label-sm uppercase font-bold\">Âmbito Amplo</span>\n</div>\n<h4 class=\"font-title-lg text-title-lg text-white mb-2\">Outras Demandas Penais</h4>\n<div class=\"flex flex-wrap gap-1.5 mt-2\">\n<span class=\"font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded\">Porte de Arma</span>\n<span class=\"font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded\">Organização Criminosa</span>\n<span class=\"font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded\">Lesão Corporal</span>\n<span class=\"font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded\">Revisão Criminal</span>\n<span class=\"font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded\">Reabilitação</span>\n</div>\n</div>\n<a class=\"mt-4 font-label-md text-label-md text-gold-accent hover:text-white inline-flex items-center gap-1 font-semibold\" href=\"https://wa.me/5527996239086\">\n                Consultar tema específico <span class=\"material-symbols-outlined text-xs\">arrow_forward</span>\n</a>\n</div>\n</div>\n</div>\n</div>\n<!-- TAB PANEL 2: INVESTIGAÇÃO DEFENSIVA, PROVA E TECNOLOGIA -->\n<div class=\"tab-panel hidden flex-col gap-6\" id=\"tab-panel-2\">\n<div class=\"bg-surface-card p-6 md:p-8 rounded border border-border-hairline\">\n<div class=\"flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-border-hairline\">\n<div>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted\">Vanguarda Probatória</span>\n<h3 class=\"font-headline-md text-headline-md text-navy-deep\">Investigação Defensiva e Prova Tecnológica</h3>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal max-w-md\">\n              A defesa não deve ser passiva perante o material colhido pelo Estado. Respaldados pelo Provimento 188/2018 do Conselho Federal da OAB, produzimos acervo probatório autônomo, técnico e inatacável.\n            </p>\n</div>\n<!-- 6 Pillars Bento Grid -->\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-6\">\n<div class=\"p-5 rounded bg-surface-container-low border border-border-hairline\">\n<span class=\"font-headline-sm text-headline-sm text-gold-muted block mb-1\">01</span>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Entrevistas Documentadas</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">\n                Colheita e formalização prévia de relatos de testemunhas não ouvidas ou ignoradas pelo inquérito policial, com registro ata notarial ou declaração juramentada.\n              </p>\n</div>\n<div class=\"p-5 rounded bg-surface-container-low border border-border-hairline\">\n<span class=\"font-headline-sm text-headline-sm text-gold-muted block mb-1\">02</span>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Verificação de Campo e Câmeras</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">\n                Mapeamento in loco da cena dos fatos, verificação de trajetos, pontos cegos, reconstituição de horários e resguardo urgente de gravações de CFTV antes de sua eliminação periódica.\n              </p>\n</div>\n<div class=\"p-5 rounded bg-surface-container-low border border-border-hairline\">\n<span class=\"font-headline-sm text-headline-sm text-gold-muted block mb-1\">03</span>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Prova Digital e Forense</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">\n                Extração e preservação com espelhamento hash de mensagens, conversas de WhatsApp, geolocalização e metadados, resguardando a autenticidade técnica exigida judicialmente.\n              </p>\n</div>\n<div class=\"p-5 rounded bg-surface-container-low border border-border-hairline\">\n<span class=\"font-headline-sm text-headline-sm text-gold-muted block mb-1\">04</span>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Perícia por Assistente Técnico</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">\n                Atuação em conjunto com peritos judiciais independentes para elaboração de pareceres técnicos divergentes, formulação de quesitos suplementares e impugnação a laudos oficiais falhos.\n              </p>\n</div>\n<div class=\"p-5 rounded bg-surface-container-low border border-border-hairline\">\n<span class=\"font-headline-sm text-headline-sm text-gold-muted block mb-1\">05</span>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Rigor na Cadeia de Custódia</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">\n                Aplicação cirúrgica dos artigos 158-A a 158-F do CPP. Identificação de contaminação de vestígios e descarte de provas ilícitas e ilegítimas geradas pelo aparato acusatório.\n              </p>\n</div>\n<div class=\"p-5 rounded bg-surface-container-low border border-border-hairline\">\n<span class=\"font-headline-sm text-headline-sm text-gold-muted block mb-1\">06</span>\n<h4 class=\"font-title-lg text-title-lg text-navy-deep mb-2\">Cronologia Minuciosa dos Fatos</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">\n                Construção de uma linha do tempo documental irrefutável confrontando a narrativa acusatória contra a realidade temporal dos acontecimentos materiais.\n              </p>\n</div>\n</div>\n<!-- Digital Crimes highlight box -->\n<div class=\"mt-6 p-6 rounded bg-navy-deep text-on-primary flex flex-col md:flex-row md:items-center justify-between gap-6\">\n<div>\n<span class=\"font-label-sm text-label-sm text-gold-accent uppercase tracking-widest font-semibold\">Crimes Digitais e Cibernéticos</span>\n<h4 class=\"font-headline-sm text-headline-sm text-white mt-1\">Fraudes Eletrônicas, Invasão de Dispositivos e Stalking</h4>\n<p class=\"font-body-sm text-body-sm text-on-primary/80 mt-1 max-w-2xl\">\n                Defesa especializada em inquéritos policiais de delegacias de crimes cibernéticos, com análise pericial de logs, endereços IP, invasão de dispositivo (art. 154-A do CP) e estelionato virtual.\n              </p>\n</div>\n<a class=\"shrink-0 bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-md text-title-md px-6 py-3 rounded transition-colors text-center\" href=\"https://wa.me/5527996239086?text=Consulta%20Crimes%20Digitais\">\n              Reunir Provas Agora\n            </a>\n</div>\n</div>\n</div>\n<!-- TAB PANEL 3: EMPRESAS E AGENTES PÚBLICOS -->\n<div class=\"tab-panel hidden flex-col gap-6\" id=\"tab-panel-3\">\n<div class=\"bg-surface-card p-6 md:p-8 rounded border border-border-hairline\">\n<div class=\"flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-border-hairline\">\n<div>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted\">Direito Penal Econômico &amp; Sancionador</span>\n<h3 class=\"font-headline-md text-headline-md text-navy-deep\">Empresas, Gestores e Agentes Públicos</h3>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal max-w-md\">\n              Assessoria jurídica integrada na prevenção e defesa contra investigações patrimoniais, crimes de colarinho branco e procedimentos perante órgãos de fiscalização do Estado.\n            </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 pt-6\">\n<!-- Card 1 -->\n<div class=\"p-6 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"w-12 h-12 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4\">\n<span class=\"material-symbols-outlined text-3xl\">attach_money</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Crimes Financeiros e Tributários</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n                  Defesa em investigações de Lavagem de Capitais (Lei 9.613/98), sonegação fiscal, crimes contra a ordem econômica, operações do Ministério Público Federal e Gaeco no ES.\n                </p>\n<div class=\"mt-4 pt-4 border-t border-border-hairline\">\n<span class=\"font-label-sm text-label-sm uppercase text-gold-muted block font-semibold\">Tópicos Centrais</span>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mt-1\">Busca e apreensão contábil, bloqueio de bens patrimoniais e defesas contra denúncias econômicas genéricas.</p>\n</div>\n</div>\n<a class=\"mt-6 font-title-md text-title-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1\" href=\"https://wa.me/5527996239086?text=Consulta%20Crimes%20Financeiros\">\n                Atuação em Crimes Econômicos <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</a>\n</div>\n<!-- Card 2 -->\n<div class=\"p-6 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"w-12 h-12 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4\">\n<span class=\"material-symbols-outlined text-3xl\">verified</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Compliance Penal e Integridade</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n                  Mitigação de responsabilidade de administradores e sócios através de auditorias de conformidade penal, implantação de canais de denúncia e condução de apurações internas seguras.\n                </p>\n<div class=\"mt-4 pt-4 border-t border-border-hairline\">\n<span class=\"font-label-sm text-label-sm uppercase text-gold-muted block font-semibold\">Fluxo de Proteção</span>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mt-1\">Prevenção · Investigação Interna · Mitigação de Danos Reputacionais e Penais.</p>\n</div>\n</div>\n<a class=\"mt-6 font-title-md text-title-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1\" href=\"https://wa.me/5527996239086?text=Consulta%20Compliance%20Penal\">\n                Programa de Integridade <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</a>\n</div>\n<!-- Card 3 -->\n<div class=\"p-6 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between\">\n<div>\n<div class=\"w-12 h-12 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4\">\n<span class=\"material-symbols-outlined text-3xl\">account_balance</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Direito Administrativo Sancionador</h4>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n                  Defesa técnica de servidores e gestores públicos em Processo Administrativo Disciplinar (PAD), Processo Administrativo de Responsabilização (PAR), Lei de Improbidade e TCE-ES.\n                </p>\n<div class=\"mt-4 pt-4 border-t border-border-hairline\">\n<span class=\"font-label-sm text-label-sm uppercase text-gold-muted block font-semibold\">Articulação Simultânea</span>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mt-1\">Harmonização estrita entre a tese defensiva administrativa e eventuais repercussões na esfera criminal.</p>\n</div>\n</div>\n<a class=\"mt-6 font-title-md text-title-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1\" href=\"https://wa.me/5527996239086?text=Consulta%20PAD%20e%20Direito%20Sancionador\">\n                Defesa em PAD e Sancionador <span class=\"material-symbols-outlined text-sm\">arrow_forward</span>\n</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9fb2432",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Como um caso criminal é analisado pelo escritório",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "3d7864c",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "2672ff4",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Como um caso criminal é analisado pelo escritório",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-background py-space-xl lg:py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4\">\n<div>\n<span class=\"font-label-md text-label-md uppercase tracking-widest text-gold-muted\">Método Pablo Ribeiro Advogado</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mt-1\">Como um caso criminal é analisado pelo escritório</h2>\n<p class=\"font-body-md text-body-md text-on-surface-variant mt-2 max-w-2xl\">\n            A precisão de um resultado penal não resulta da sorte, mas de uma metodologia estrita de decomposição fática e probatória em 6 etapas estruturadas.\n          </p>\n</div>\n<div class=\"text-right shrink-0\">\n<span class=\"font-headline-sm text-headline-sm text-navy-deep block\">Rigor &amp; Ciência</span>\n<span class=\"font-label-sm text-label-sm text-slate-charcoal uppercase\">Sem Improviso Técnico</span>\n</div>\n</div>\n<!-- 6-Stage Timeline Grid -->\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6\">\n<!-- Step 1 -->\n<div class=\"bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group\">\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm\">1</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold\">Diagnóstico</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Fase do Procedimento</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n            Identificação precisa do estágio processual: se investigação prévia, inquérito policial instaurado, processo crime com denúncia recebida, fase recursal perante o TJES/STJ ou execução penal.\n          </p>\n</div>\n<!-- Step 2 -->\n<div class=\"bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group\">\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm\">2</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold\">Fatos</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Reconstrução dos Fatos</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n            Montagem de uma cronologia temporal e espacial minuciosa e estritamente verificável a partir dos documentos, comunicações, registros de presença e testemunhos objetivos.\n          </p>\n</div>\n<!-- Step 3 -->\n<div class=\"bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group\">\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm\">3</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold\">Perícia</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Análise Técnico-Pericial</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n            Exame analítico de tudo o que foi juntado pela acusação: suficiência probatória, fragilidades periciais, ausência de elementos materiais indispensáveis e o que pode ser legitimamente contestado.\n          </p>\n</div>\n<!-- Step 4 -->\n<div class=\"bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group\">\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm\">4</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold\">Conformidade</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Legalidade dos Atos</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n            Escrutínio minucioso da atuação dos agentes estatais: legalidade da abordagem, mandados de busca sem justa causa, invasão ilegal de domicílio e quebra da cadeia de custódia (art. 158-A CPP).\n          </p>\n</div>\n<!-- Step 5 -->\n<div class=\"bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group\">\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm\">5</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold\">Doutrina</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Construção das Teses</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n            Desenvolvimento de teses principais e subsidiárias com ancoragem na mais recente jurisprudência dos Tribunais Superiores (STJ e STF) e na doutrina penal e processual penal de referência.\n          </p>\n</div>\n<!-- Step 6 -->\n<div class=\"bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group border-t-2 !border-t-gold-accent\">\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"w-10 h-10 rounded-full bg-navy-deep text-gold-accent flex items-center justify-center font-headline-sm text-headline-sm\">6</span>\n<span class=\"font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold\">Execução</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-2\">Definição da Estratégia</h3>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant leading-relaxed\">\n            Determinação da sequência exata das medidas judiciais a adotar: impetração de Habeas Corpus, apresentação de Resposta à Acusação, diligências investigativas autônomas ou sustentações orais.\n          </p>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "faad288",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Guia Penal Capixaba: Órgãos da Justiça Criminal no ES",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "b1140fb",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "c75b92e",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Guia Penal Capixaba: Órgãos da Justiça Criminal no ES",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface-container-low py-space-xl border-y border-border-hairline\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8\">\n<div>\n<span class=\"font-label-md text-label-md uppercase tracking-widest text-gold-muted\">Informação de Utilidade Pública</span>\n<h2 class=\"font-headline-md text-headline-md text-navy-deep mt-1\">Guia Penal Capixaba: Órgãos da Justiça Criminal no ES</h2>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant mt-1\">\n            Endereços, telefones e rotinas institucionais das comarcas e presídios do Estado do Espírito Santo.\n          </p>\n</div>\n<a class=\"inline-flex items-center gap-1.5 font-label-md text-label-md uppercase tracking-wider font-semibold text-navy-deep hover:text-gold-muted\" href=\"#\">\n          Acessar o Guia Completo <span class=\"material-symbols-outlined text-sm\">open_in_new</span>\n</a>\n</div>\n<div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4\">\n<div class=\"bg-surface-card p-5 rounded border border-border-hairline\">\n<div class=\"flex items-center gap-3 mb-2\">\n<span class=\"material-symbols-outlined text-gold-muted text-xl\">local_police</span>\n<h4 class=\"font-title-md text-title-md text-navy-deep\">Delegacias do ES</h4>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">Plantões da Polícia Civil (DPJ Vitória, Vila Velha, Serra e Cariacica) e DHPP.</p>\n<span class=\"font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold\">Consultar plantões →</span>\n</div>\n<div class=\"bg-surface-card p-5 rounded border border-border-hairline\">\n<div class=\"flex items-center gap-3 mb-2\">\n<span class=\"material-symbols-outlined text-gold-muted text-xl\">fence</span>\n<h4 class=\"font-title-md text-title-md text-navy-deep\">Presídios &amp; CDP</h4>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">Dias de visita, regras de custódia, localização de internos no SEJUS-ES e unidades de Xuri.</p>\n<span class=\"font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold\">Localizar preso →</span>\n</div>\n<div class=\"bg-surface-card p-5 rounded border border-border-hairline\">\n<div class=\"flex items-center gap-3 mb-2\">\n<span class=\"material-symbols-outlined text-gold-muted text-xl\">domain</span>\n<h4 class=\"font-title-md text-title-md text-navy-deep\">Varas Criminais</h4>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">Fóruns de Vitória, Vila Velha e região metropolitana onde tramitam os processos penais.</p>\n<span class=\"font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold\">Ver endereços →</span>\n</div>\n<div class=\"bg-surface-card p-5 rounded border border-border-hairline\">\n<div class=\"flex items-center gap-3 mb-2\">\n<span class=\"material-symbols-outlined text-gold-muted text-xl\">account_balance</span>\n<h4 class=\"font-title-md text-title-md text-navy-deep\">TJES Criminal</h4>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">Câmaras Criminais, distribuição de recursos, plantão judiciário de 2º Grau e sessões.</p>\n<span class=\"font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold\">Consultar TJES →</span>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2db5542",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Unidades Físicas no Espírito Santo",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "4c98c1d",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "b18151f",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Unidades Físicas no Espírito Santo",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-background py-space-xl lg:py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"text-center max-w-2xl mx-auto mb-12\">\n<span class=\"font-label-md text-label-md uppercase tracking-widest text-gold-muted\">Presença Regional Consolidada</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mt-1\">Unidades Físicas no Espírito Santo</h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal mt-2\">\n          Escritórios posicionados estrategicamente nos centros corporativos e judiciários de Vila Velha e Vitória para atendimento presencial e rápido deslocamento.\n        </p>\n</div>\n<div class=\"grid grid-cols-1 lg:grid-cols-2 gap-gutter\">\n<!-- Unidade Vila Velha -->\n<div class=\"bg-surface-card p-6 md:p-8 rounded border border-border-hairline shadow-sm flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"font-label-sm text-label-sm uppercase bg-surface-container-high px-2.5 py-1 rounded text-navy-deep font-semibold\">Unidade Praia da Costa</span>\n<span class=\"material-symbols-outlined text-gold-muted text-2xl\">location_city</span>\n</div>\n<h3 class=\"font-headline-md text-headline-md text-navy-deep mb-2\">Unidade Vila Velha</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal mb-4\">\n              Rua João Pessoa de Matos, 530 — Sala 205<br/>\n              Praia da Costa, Vila Velha — ES, CEP: 29100-010\n            </p>\n<div class=\"space-y-2 py-4 border-y border-border-hairline text-body-sm font-body-sm text-on-surface-variant\">\n<div class=\"flex items-center gap-2\">\n<span class=\"material-symbols-outlined text-base text-gold-muted\">phone</span>\n<strong>Telefone Direto / WhatsApp:</strong> (27) 99623-9086\n              </div>\n<div class=\"flex items-center gap-2\">\n<span class=\"material-symbols-outlined text-base text-gold-muted\">schedule</span>\n<strong>Horário:</strong> Segunda a Sábado, das 08:00 às 20:00 (Plantão 24h)\n              </div>\n</div>\n</div>\n<div class=\"flex items-center gap-3 mt-6 pt-2\">\n<a class=\"flex-1 text-center py-2.5 px-4 rounded bg-surface-container-low hover:bg-surface-container text-navy-deep font-title-md text-title-md transition-colors border border-border-hairline\" href=\"https://maps.google.com/?q=Rua+Joao+Pessoa+de+Matos+530+Praia+da+Costa+Vila+Velha\" target=\"_blank\">\n              Abrir no Maps\n            </a>\n<a class=\"flex-1 text-center py-2.5 px-4 rounded bg-navy-deep hover:bg-slate-charcoal text-white font-title-md text-title-md transition-colors\" href=\"https://wa.me/5527996239086?text=Agendamento%20Presencial%20Unidade%20Vila%20Velha\">\n              Agendar em Vila Velha\n            </a>\n</div>\n</div>\n<!-- Unidade Vitória -->\n<div class=\"bg-surface-card p-6 md:p-8 rounded border border-border-hairline shadow-sm flex flex-col justify-between\">\n<div>\n<div class=\"flex items-center justify-between mb-4\">\n<span class=\"font-label-sm text-label-sm uppercase bg-surface-container-high px-2.5 py-1 rounded text-navy-deep font-semibold\">Unidade Praia do Suá</span>\n<span class=\"material-symbols-outlined text-gold-muted text-2xl\">account_balance</span>\n</div>\n<h3 class=\"font-headline-md text-headline-md text-navy-deep mb-2\">Unidade Vitória</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal mb-4\">\n              Av. João Batista Parra, 633 — 14º andar<br/>\n              Praia do Suá, Vitória — ES, CEP: 29052-123\n            </p>\n<div class=\"space-y-2 py-4 border-y border-border-hairline text-body-sm font-body-sm text-on-surface-variant\">\n<div class=\"flex items-center gap-2\">\n<span class=\"material-symbols-outlined text-base text-gold-muted\">phone</span>\n<strong>Telefone Direto / WhatsApp:</strong> (27) 99623-9086\n              </div>\n<div class=\"flex items-center gap-2\">\n<span class=\"material-symbols-outlined text-base text-gold-muted\">domain</span>\n<strong>Proximidade:</strong> Ao lado do Tribunal de Justiça e Fórum de Vitória\n              </div>\n</div>\n</div>\n<div class=\"flex items-center gap-3 mt-6 pt-2\">\n<a class=\"flex-1 text-center py-2.5 px-4 rounded bg-surface-container-low hover:bg-surface-container text-navy-deep font-title-md text-title-md transition-colors border border-border-hairline\" href=\"https://maps.google.com/?q=Av+Joao+Batista+Parra+633+Praia+do+Sua+Vitoria\" target=\"_blank\">\n              Abrir no Maps\n            </a>\n<a class=\"flex-1 text-center py-2.5 px-4 rounded bg-navy-deep hover:bg-slate-charcoal text-white font-title-md text-title-md transition-colors\" href=\"https://wa.me/5527996239086?text=Agendamento%20Presencial%20Unidade%20Vitoria\">\n              Agendar em Vitória\n            </a>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e3975b0",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Perguntas Frequentes sobre as Áreas de Atuação",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "7f96afa",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "d9855b0",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Perguntas Frequentes sobre as Áreas de Atuação",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface-container-low py-space-xl lg:py-space-xxl border-t border-border-hairline\">\n<div class=\"max-w-[880px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"text-center mb-10\">\n<span class=\"font-label-md text-label-md uppercase tracking-widest text-gold-muted\">Tira-Dúvidas Jurídico</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mt-1\">Perguntas Frequentes sobre as Áreas de Atuação</h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal mt-2\">\n          Respostas fundamentadas para as dúvidas mais recorrentes de quem enfrenta uma investigação ou processo penal no Estado.\n        </p>\n</div>\n<!-- Accordion Container -->\n<div class=\"flex flex-col gap-4\">\n<!-- FAQ 1 -->\n<details class=\"group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer\">\n<summary class=\"flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none\">\n<span>Quando é o momento exato de procurar um advogado criminalista?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180\">expand_more</span>\n</summary>\n<div class=\"pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            Assim que houver intimação policial, mandado de busca e apreensão, prisão, denúncia ou qualquer indicativo preliminar de investigação. Quanto antes a defesa técnica atua no inquérito, maiores são as chances de evitar prisões cautelares desnecessárias, preservar provas digitais que se perdem no tempo e anular atos praticados em desacordo com as garantias constitucionais.\n          </div>\n</details>\n<!-- FAQ 2 -->\n<details class=\"group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer\">\n<summary class=\"flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none\">\n<span>O que é a Investigação Defensiva e qual o seu embasamento?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180\">expand_more</span>\n</summary>\n<div class=\"pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            É a atividade investigativa autônoma realizada pelo próprio advogado do acusado, regulamentada pelo Provimento nº 188/2018 do Conselho Federal da OAB. Permite que a defesa tome depoimentos documentados de testemunhas, contrate assistentes técnicos periciais, obtenha gravações de câmeras de segurança e produza relatórios probatórios lícitos, quebrando o monopólio probatório do Estado-Acusação.\n          </div>\n</details>\n<!-- FAQ 3 -->\n<details class=\"group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer\">\n<summary class=\"flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none\">\n<span>O advogado criminalista também atua durante o cumprimento da pena (Execução Penal)?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180\">expand_more</span>\n</summary>\n<div class=\"pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            Sim. A fase de cumprimento de pena tramita na Vara de Execução Penal (VEP) e possui dinâmica processual estrita. Nossa atuação envolve a realização e fiscalização dos cálculos de liquidação de pena, pedidos de progressão de regime (fechado para semiaberto e aberto), remição de pena pelo trabalho e estudo, pedidos de indulto/comutação, obtenção de livramento condicional e anulação de Processos Administrativos Disciplinares (PAD) por supostas faltas graves.\n          </div>\n</details>\n<!-- FAQ 4 -->\n<details class=\"group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer\">\n<summary class=\"flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none\">\n<span>O que é Compliance Penal e como ele protege empresas e diretores?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180\">expand_more</span>\n</summary>\n<div class=\"pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            É o conjunto preventivo de mecanismos, auditorias e diretrizes éticas que visam prevenir, identificar e sanar a prática de condutas ilícitas no âmbito corporativo. Ele protege diretamente os sócios, diretores e administradores de serem injustamente imputados como autores de crimes societários, tributários ou ambientais por mera posição de chefia (responsabilidade penal objetiva velada).\n          </div>\n</details>\n<!-- FAQ 5 -->\n<details class=\"group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer\">\n<summary class=\"flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none\">\n<span>Um mesmo fato pode gerar processo criminal e administrativo simultaneamente?</span>\n<span class=\"material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180\">expand_more</span>\n</summary>\n<div class=\"pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            Sim. A legislação brasileira consagra a independência das instâncias penal, administrativa (PAD/PAR) e cível (Improbidade). No entanto, decisões e provas produzidas em uma esfera podem ter forte reflexo na outra — especialmente quando a defesa criminal comprova a inexistência material do fato ou negativa categórica de autoria. Por isso, a condução das duas defesas deve ser sincronizada por uma assessoria especializada.\n          </div>\n</details>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "caa9a1a",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Precisa de orientação jurídica imediata com um criminalista?",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "c0141b0",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "bc3bffb",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Precisa de orientação jurídica imediata com um criminalista?",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-navy-deep py-space-xl text-on-primary relative overflow-hidden\">\n<div class=\"absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-primary-container/40 pointer-events-none blur-3xl\"></div>\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8\">\n<div class=\"max-w-2xl text-center lg:text-left\">\n<span class=\"font-label-md text-label-md text-gold-accent uppercase tracking-widest font-semibold block mb-2\">\n          Atendimento Urgente em Todo o Estado do Espírito Santo\n        </span>\n<h2 class=\"font-headline-lg text-headline-lg text-white font-medium\">\n          Precisa de orientação jurídica imediata com um criminalista?\n        </h2>\n<p class=\"font-body-md text-body-md text-on-primary/80 mt-2\">\n          Em situações de flagrante ou intimações surpresa, o silêncio é uma garantia, mas a inércia da defesa custa a liberdade. Ligue agora para a central do Dr. Pablo Ribeiro.\n        </p>\n</div>\n<div class=\"flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto\">\n<a class=\"w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-transparent hover:bg-white/10 text-white font-title-md text-title-md px-6 py-4 rounded border border-white/30 transition-all text-center\" href=\"tel:+5527996239086\">\n<span class=\"material-symbols-outlined text-gold-accent\">phone_in_talk</span>\n          Ligar: (27) 99623-9086\n        </a>\n<a class=\"w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-md text-title-md px-8 py-4 rounded transition-all text-center shadow-lg font-semibold\" href=\"https://wa.me/5527996239086?text=Ol%C3%A1%2C%20preciso%20de%20atendimento%20juridico%20criminal%20urgente.\">\n<span class=\"material-symbols-outlined\">send</span>\n          Plantão WhatsApp 24h\n        </a>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5532899",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "⚙ Scripts da página (não remover)",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "6522069",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "9d9d883",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "⚙ Scripts da página (não remover)",
+        "html": "<script>\n  function switchGroupTab(tabIndex) {\n    // Hide all tab panels\n    const panels = document.querySelectorAll('.tab-panel');\n    panels.forEach(panel => {\n      panel.classList.add('hidden');\n      panel.classList.remove('flex');\n    });\n\n    // Reset button states\n    for (let i = 1; i <= 3; i++) {\n      const btn = document.getElementById('tab-btn-' + i);\n      if (btn) {\n        btn.classList.remove('bg-navy-deep', 'text-on-primary', 'shadow-sm');\n        btn.classList.add('text-slate-charcoal');\n      }\n    }\n\n    // Activate selected panel\n    const selectedPanel = document.getElementById('tab-panel-' + tabIndex);\n    if (selectedPanel) {\n      selectedPanel.classList.remove('hidden');\n      selectedPanel.classList.add('flex');\n    }\n\n    // Activate selected button\n    const activeBtn = document.getElementById('tab-btn-' + tabIndex);\n    if (activeBtn) {\n      activeBtn.classList.add('bg-navy-deep', 'text-on-primary', 'shadow-sm');\n      activeBtn.classList.remove('text-slate-charcoal');\n    }\n  }\n</script>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

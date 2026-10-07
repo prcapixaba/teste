@@ -1,0 +1,731 @@
+{
+ "version": "0.4",
+ "title": "Pablo Ribeiro · Advogado Criminalista em Vila Velha (ES)",
+ "type": "page",
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "dd51218",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "⚙ Estilos do kit (não remover)",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "b93b357",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "5310959",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "⚙ Estilos do kit (não remover)",
+        "html": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap\"><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap\"><style id=\"prk-css-05-advogado-criminalista-vila-velha\">/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n.prk, .prk *,\n.prk ::before,\n.prk ::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n.prk ::before,\n.prk ::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\n.prk,\n.prk {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n  font-feature-settings: normal; /* 5 */\n  font-variation-settings: normal; /* 6 */\n  -webkit-tap-highlight-color: transparent; /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\n.prk {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\n.prk hr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\n.prk abbr:where([title]) {\n  text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\n.prk h1,\n.prk h2,\n.prk h3,\n.prk h4,\n.prk h5,\n.prk h6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\n.prk a {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\n.prk b,\n.prk strong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\n.prk code,\n.prk kbd,\n.prk samp,\n.prk pre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-feature-settings: normal; /* 2 */\n  font-variation-settings: normal; /* 3 */\n  font-size: 1em; /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\n.prk small {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\n.prk sub,\n.prk sup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\n.prk sub {\n  bottom: -0.25em;\n}\n\n.prk sup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\n.prk table {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\n.prk button,\n.prk input,\n.prk optgroup,\n.prk select,\n.prk textarea {\n  font-family: inherit; /* 1 */\n  font-feature-settings: inherit; /* 1 */\n  font-variation-settings: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  letter-spacing: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\n.prk button,\n.prk select {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\n.prk button,\n.prk input:where([type='button']),\n.prk input:where([type='reset']),\n.prk input:where([type='submit']) {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n.prk :-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n.prk :-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\n.prk progress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n.prk ::-webkit-inner-spin-button,\n.prk ::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n.prk [type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n.prk ::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n.prk ::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\n.prk summary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\n.prk blockquote,\n.prk dl,\n.prk dd,\n.prk h1,\n.prk h2,\n.prk h3,\n.prk h4,\n.prk h5,\n.prk h6,\n.prk hr,\n.prk figure,\n.prk p,\n.prk pre {\n  margin: 0;\n}\n\n.prk fieldset {\n  margin: 0;\n  padding: 0;\n}\n\n.prk legend {\n  padding: 0;\n}\n\n.prk ol,\n.prk ul,\n.prk menu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\n.prk dialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\n.prk textarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\n.prk input::placeholder,\n.prk textarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\n.prk button,\n.prk [role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n.prk :disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\n.prk img,\n.prk svg,\n.prk video,\n.prk canvas,\n.prk audio,\n.prk iframe,\n.prk embed,\n.prk object {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\n.prk img,\n.prk video {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n.prk [hidden]:where(:not([hidden=\"until-found\"])) {\n  display: none;\n}\n\n\n.prk{font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-size:15px;line-height:24px;color:#1a1c1b;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:left;letter-spacing:normal}\n.prk .material-symbols-outlined{font-family:'Material Symbols Outlined';font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';font-feature-settings:'liga';-webkit-font-smoothing:antialiased;font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24}\n.prk h1,.prk h2,.prk h3,.prk h4,.prk h5,.prk h6{text-transform:none;letter-spacing:inherit;color:inherit;font-family:inherit}\n.prk details>summary{list-style:none}.prk details>summary::-webkit-details-marker{display:none}\n.prk a:focus-visible,.prk button:focus-visible,.prk summary:focus-visible,.prk input:focus-visible,.prk select:focus-visible,.prk textarea:focus-visible{outline:2px solid #D4B16F;outline-offset:2px}\n/* Elementor: remove respiros que o tema/Elementor adicionam em volta das seções do kit */\n.elementor-section.prk-section>.elementor-container>.elementor-column>.elementor-widget-wrap{padding:0!important}\n.elementor-section.prk-section .elementor-widget-html{margin-bottom:0!important}\n.elementor-section.prk-section .elementor-widget-html>.elementor-widget-container{padding:0;margin:0}\n\n.prk .pointer-events-none {\n  pointer-events: none;\n}\n\n.prk .absolute {\n  position: absolute;\n}\n\n.prk .relative {\n  position: relative;\n}\n\n.prk .-bottom-10 {\n  bottom: -2.5rem;\n}\n\n.prk .-bottom-20 {\n  bottom: -5rem;\n}\n\n.prk .-left-20 {\n  left: -5rem;\n}\n\n.prk .-right-10 {\n  right: -2.5rem;\n}\n\n.prk .-right-20 {\n  right: -5rem;\n}\n\n.prk .-top-20 {\n  top: -5rem;\n}\n\n.prk .left-0 {\n  left: 0px;\n}\n\n.prk .right-0 {\n  right: 0px;\n}\n\n.prk .top-0 {\n  top: 0px;\n}\n\n.prk .z-10 {\n  z-index: 10;\n}\n\n.prk .mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.prk .mb-1 {\n  margin-bottom: 0.25rem;\n}\n\n.prk .mb-space-lg {\n  margin-bottom: 1.5rem;\n}\n\n.prk .mb-space-md {\n  margin-bottom: 1rem;\n}\n\n.prk .mb-space-sm {\n  margin-bottom: 0.5rem;\n}\n\n.prk .mb-space-xl {\n  margin-bottom: 2.5rem;\n}\n\n.prk .mb-space-xs {\n  margin-bottom: 0.25rem;\n}\n\n.prk .mt-0\\.5 {\n  margin-top: 0.125rem;\n}\n\n.prk .mt-space-lg {\n  margin-top: 1.5rem;\n}\n\n.prk .mt-space-md {\n  margin-top: 1rem;\n}\n\n.prk .mt-space-sm {\n  margin-top: 0.5rem;\n}\n\n.prk .block {\n  display: block;\n}\n\n.prk .inline-block {\n  display: inline-block;\n}\n\n.prk .flex {\n  display: flex;\n}\n\n.prk .inline-flex {\n  display: inline-flex;\n}\n\n.prk .grid {\n  display: grid;\n}\n\n.prk .hidden {\n  display: none;\n}\n\n.prk .h-1\\.5 {\n  height: 0.375rem;\n}\n\n.prk .h-10 {\n  height: 2.5rem;\n}\n\n.prk .h-12 {\n  height: 3rem;\n}\n\n.prk .h-14 {\n  height: 3.5rem;\n}\n\n.prk .h-2 {\n  height: 0.5rem;\n}\n\n.prk .h-4 {\n  height: 1rem;\n}\n\n.prk .h-44 {\n  height: 11rem;\n}\n\n.prk .h-56 {\n  height: 14rem;\n}\n\n.prk .h-80 {\n  height: 20rem;\n}\n\n.prk .w-10 {\n  width: 2.5rem;\n}\n\n.prk .w-12 {\n  width: 3rem;\n}\n\n.prk .w-14 {\n  width: 3.5rem;\n}\n\n.prk .w-2 {\n  width: 0.5rem;\n}\n\n.prk .w-44 {\n  width: 11rem;\n}\n\n.prk .w-80 {\n  width: 20rem;\n}\n\n.prk .w-full {\n  width: 100%;\n}\n\n.prk .w-px {\n  width: 1px;\n}\n\n.prk .max-w-2xl {\n  max-width: 42rem;\n}\n\n.prk .max-w-3xl {\n  max-width: 48rem;\n}\n\n.prk .max-w-4xl {\n  max-width: 56rem;\n}\n\n.prk .max-w-\\[1280px\\] {\n  max-width: 1280px;\n}\n\n.prk .max-w-sm {\n  max-width: 24rem;\n}\n\n.prk .flex-shrink-0 {\n  flex-shrink: 0;\n}\n\n@keyframes pulse {\n\n  50% {\n    opacity: .5;\n  }\n}\n\n.prk .animate-pulse {\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n}\n\n.prk .cursor-pointer {\n  cursor: pointer;\n}\n\n.prk .select-none {\n  user-select: none;\n}\n\n.prk .list-none {\n  list-style-type: none;\n}\n\n.prk .grid-cols-1 {\n  grid-template-columns: repeat(1, minmax(0, 1fr));\n}\n\n.prk .grid-cols-2 {\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n}\n\n.prk .flex-col {\n  flex-direction: column;\n}\n\n.prk .flex-wrap {\n  flex-wrap: wrap;\n}\n\n.prk .items-start {\n  align-items: flex-start;\n}\n\n.prk .items-center {\n  align-items: center;\n}\n\n.prk .justify-center {\n  justify-content: center;\n}\n\n.prk .justify-between {\n  justify-content: space-between;\n}\n\n.prk .gap-1 {\n  gap: 0.25rem;\n}\n\n.prk .gap-gutter {\n  gap: 1.5rem;\n}\n\n.prk .gap-space-lg {\n  gap: 1.5rem;\n}\n\n.prk .gap-space-md {\n  gap: 1rem;\n}\n\n.prk .gap-space-sm {\n  gap: 0.5rem;\n}\n\n.prk .gap-space-xs {\n  gap: 0.25rem;\n}\n\n.prk :is(.space-y-space-md > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n\n.prk :is(.space-y-space-sm > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));\n}\n\n.prk :is(.space-y-space-xs > :not([hidden]) ~ :not([hidden])) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n\n.prk .self-start {\n  align-self: flex-start;\n}\n\n.prk .overflow-hidden {\n  overflow: hidden;\n}\n\n.prk .whitespace-normal {\n  white-space: normal;\n}\n\n.prk .whitespace-nowrap {\n  white-space: nowrap;\n}\n\n.prk .rounded {\n  border-radius: 0.125rem;\n}\n\n.prk .rounded-2xl {\n  border-radius: 1rem;\n}\n\n.prk .rounded-full {\n  border-radius: 0.75rem;\n}\n\n.prk .rounded-lg {\n  border-radius: 0.25rem;\n}\n\n.prk .rounded-xl {\n  border-radius: 0.5rem;\n}\n\n.prk .rounded-bl {\n  border-bottom-left-radius: 0.125rem;\n}\n\n.prk .border {\n  border-width: 1px;\n}\n\n.prk .border-2 {\n  border-width: 2px;\n}\n\n.prk .border-b {\n  border-bottom-width: 1px;\n}\n\n.prk .border-l-2 {\n  border-left-width: 2px;\n}\n\n.prk .border-t {\n  border-top-width: 1px;\n}\n\n.prk .border-gold-accent {\n  --tw-border-opacity: 1;\n  border-color: rgb(212 177 111 / var(--tw-border-opacity, 1));\n}\n\n.prk .border-gold-accent\\/40 {\n  border-color: rgb(212 177 111 / 0.4);\n}\n\n.prk .bg-gold-accent {\n  --tw-bg-opacity: 1;\n  background-color: rgb(212 177 111 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-gold-accent\\/10 {\n  background-color: rgb(212 177 111 / 0.1);\n}\n\n.prk .bg-gold-accent\\/20 {\n  background-color: rgb(212 177 111 / 0.2);\n}\n\n.prk .bg-gold-accent\\/5 {\n  background-color: rgb(212 177 111 / 0.05);\n}\n\n.prk .bg-navy-deep {\n  --tw-bg-opacity: 1;\n  background-color: rgb(8 16 46 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-navy-deep\\/10 {\n  background-color: rgb(8 16 46 / 0.1);\n}\n\n.prk .bg-outline-variant {\n  --tw-bg-opacity: 1;\n  background-color: rgb(198 197 206 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-parchment-base {\n  --tw-bg-opacity: 1;\n  background-color: rgb(250 250 247 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-primary-container {\n  --tw-bg-opacity: 1;\n  background-color: rgb(18 26 56 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-secondary-container\\/40 {\n  background-color: rgb(254 216 146 / 0.4);\n}\n\n.prk .bg-surface {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 249 246 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-card {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-card\\/10 {\n  background-color: rgb(255 255 255 / 0.1);\n}\n\n.prk .bg-surface-container-high {\n  --tw-bg-opacity: 1;\n  background-color: rgb(232 232 229 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container-high\\/50 {\n  background-color: rgb(232 232 229 / 0.5);\n}\n\n.prk .bg-surface-container-highest\\/60 {\n  background-color: rgb(226 227 224 / 0.6);\n}\n\n.prk .bg-surface-container-low {\n  --tw-bg-opacity: 1;\n  background-color: rgb(244 244 241 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-container-lowest {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));\n}\n\n.prk .bg-surface-tint\\/10 {\n  background-color: rgb(85 93 127 / 0.1);\n}\n\n.prk .bg-cover {\n  background-size: cover;\n}\n\n.prk .bg-center {\n  background-position: center;\n}\n\n.prk .p-space-lg {\n  padding: 1.5rem;\n}\n\n.prk .p-space-md {\n  padding: 1rem;\n}\n\n.prk .p-space-xl {\n  padding: 2.5rem;\n}\n\n.prk .px-margin-mobile {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n\n.prk .px-space-lg {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n.prk .px-space-md {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n\n.prk .px-space-sm {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n\n.prk .px-space-xl {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}\n\n.prk .py-0\\.5 {\n  padding-top: 0.125rem;\n  padding-bottom: 0.125rem;\n}\n\n.prk .py-space-md {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.prk .py-space-sm {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n\n.prk .py-space-xs {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n\n.prk .py-space-xxl {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\n\n.prk .pb-space-sm {\n  padding-bottom: 0.5rem;\n}\n\n.prk .pb-space-xxl {\n  padding-bottom: 4rem;\n}\n\n.prk .pt-space-lg {\n  padding-top: 1.5rem;\n}\n\n.prk .pt-space-md {\n  padding-top: 1rem;\n}\n\n.prk .pt-space-sm {\n  padding-top: 0.5rem;\n}\n\n.prk .text-center {\n  text-align: center;\n}\n\n.prk .font-body-lg {\n  font-family: Inter;\n}\n\n.prk .font-body-md {\n  font-family: Inter;\n}\n\n.prk .font-body-sm {\n  font-family: Inter;\n}\n\n.prk .font-headline-lg {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-md {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-sm {\n  font-family: Newsreader;\n}\n\n.prk .font-headline-xl {\n  font-family: Newsreader;\n}\n\n.prk .font-label-md {\n  font-family: Inter;\n}\n\n.prk .font-label-sm {\n  font-family: Inter;\n}\n\n.prk .font-serif {\n  font-family: ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif;\n}\n\n.prk .font-title-lg {\n  font-family: Inter;\n}\n\n.prk .font-title-md {\n  font-family: Inter;\n}\n\n.prk .text-\\[12px\\] {\n  font-size: 12px;\n}\n\n.prk .text-\\[16px\\] {\n  font-size: 16px;\n}\n\n.prk .text-\\[18px\\] {\n  font-size: 18px;\n}\n\n.prk .text-\\[20px\\] {\n  font-size: 20px;\n}\n\n.prk .text-\\[22px\\] {\n  font-size: 22px;\n}\n\n.prk .text-\\[24px\\] {\n  font-size: 24px;\n}\n\n.prk .text-\\[28px\\] {\n  font-size: 28px;\n}\n\n.prk .text-body-lg {\n  font-size: 18px;\n  line-height: 28px;\n  font-weight: 400;\n}\n\n.prk .text-body-md {\n  font-size: 15px;\n  line-height: 24px;\n  font-weight: 400;\n}\n\n.prk .text-body-sm {\n  font-size: 13px;\n  line-height: 20px;\n  font-weight: 400;\n}\n\n.prk .text-headline-lg {\n  font-size: 36px;\n  line-height: 44px;\n  font-weight: 500;\n}\n\n.prk .text-headline-md {\n  font-size: 26px;\n  line-height: 34px;\n  font-weight: 600;\n}\n\n.prk .text-headline-sm {\n  font-size: 20px;\n  line-height: 28px;\n  font-weight: 600;\n}\n\n.prk .text-headline-xl {\n  font-size: 48px;\n  line-height: 56px;\n  font-weight: 500;\n}\n\n.prk .text-label-md {\n  font-size: 12px;\n  line-height: 16px;\n  letter-spacing: 0.08em;\n  font-weight: 600;\n}\n\n.prk .text-label-sm {\n  font-size: 11px;\n  line-height: 14px;\n  letter-spacing: 0.1em;\n  font-weight: 600;\n}\n\n.prk .text-title-lg {\n  font-size: 18px;\n  line-height: 26px;\n  font-weight: 600;\n}\n\n.prk .text-title-md {\n  font-size: 16px;\n  line-height: 24px;\n  font-weight: 600;\n}\n\n.prk .font-bold {\n  font-weight: 700;\n}\n\n.prk .font-medium {\n  font-weight: 500;\n}\n\n.prk .font-semibold {\n  font-weight: 600;\n}\n\n.prk .uppercase {\n  text-transform: uppercase;\n}\n\n.prk .italic {\n  font-style: italic;\n}\n\n.prk .leading-relaxed {\n  line-height: 1.625;\n}\n\n.prk .leading-tight {\n  line-height: 1.25;\n}\n\n.prk .tracking-tight {\n  letter-spacing: -0.025em;\n}\n\n.prk .tracking-wider {\n  letter-spacing: 0.05em;\n}\n\n.prk .tracking-widest {\n  letter-spacing: 0.1em;\n}\n\n.prk .text-gold-accent {\n  --tw-text-opacity: 1;\n  color: rgb(212 177 111 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-gold-muted {\n  --tw-text-opacity: 1;\n  color: rgb(181 148 81 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-navy-deep {\n  --tw-text-opacity: 1;\n  color: rgb(8 16 46 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-primary {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-surface {\n  --tw-text-opacity: 1;\n  color: rgb(26 28 27 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-surface-variant {\n  --tw-text-opacity: 1;\n  color: rgb(70 70 78 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-on-surface-variant\\/80 {\n  color: rgb(70 70 78 / 0.8);\n}\n\n.prk .text-outline {\n  --tw-text-opacity: 1;\n  color: rgb(118 118 126 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-outline-variant {\n  --tw-text-opacity: 1;\n  color: rgb(198 197 206 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-parchment-base\\/80 {\n  color: rgb(250 250 247 / 0.8);\n}\n\n.prk .text-secondary {\n  --tw-text-opacity: 1;\n  color: rgb(117 90 33 / var(--tw-text-opacity, 1));\n}\n\n.prk .text-slate-charcoal {\n  --tw-text-opacity: 1;\n  color: rgb(47 53 66 / var(--tw-text-opacity, 1));\n}\n\n.prk .shadow-inner {\n  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .shadow-xl {\n  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .blur-2xl {\n  --tw-blur: blur(40px);\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.prk .blur-3xl {\n  --tw-blur: blur(64px);\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}\n\n.prk .backdrop-blur-sm {\n  --tw-backdrop-blur: blur(4px);\n  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);\n}\n\n.prk .transition-all {\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-colors {\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-shadow {\n  transition-property: box-shadow;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .transition-transform {\n  transition-property: transform;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n\n.prk .open\\:shadow-md[open] {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk .hover\\:bg-secondary-container:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 216 146 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-slate-charcoal:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(47 53 66 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-surface-card\\/20:hover {\n  background-color: rgb(255 255 255 / 0.2);\n}\n\n.prk .hover\\:bg-surface-container-highest:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(226 227 224 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:bg-surface-container-low:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(244 244 241 / var(--tw-bg-opacity, 1));\n}\n\n.prk .hover\\:text-navy-deep:hover {\n  --tw-text-opacity: 1;\n  color: rgb(8 16 46 / var(--tw-text-opacity, 1));\n}\n\n.prk .hover\\:shadow-md:hover {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n\n.prk :is(.group[open] .group-open\\:rotate-180) {\n  --tw-rotate: 180deg;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.prk :is(.group:hover .group-hover\\:scale-110) {\n  --tw-scale-x: 1.1;\n  --tw-scale-y: 1.1;\n  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n}\n\n.prk :is(.group:hover .group-hover\\:bg-gold-accent) {\n  --tw-bg-opacity: 1;\n  background-color: rgb(212 177 111 / var(--tw-bg-opacity, 1));\n}\n\n.prk :is(.group:hover .group-hover\\:text-navy-deep) {\n  --tw-text-opacity: 1;\n  color: rgb(8 16 46 / var(--tw-text-opacity, 1));\n}\n\n@media (min-width: 640px) {\n\n  .prk .sm\\:block {\n    display: block;\n  }\n\n  .prk .sm\\:inline {\n    display: inline;\n  }\n\n  .prk .sm\\:flex-row {\n    flex-direction: row;\n  }\n\n  .prk .sm\\:items-center {\n    align-items: center;\n  }\n}\n\n@media (min-width: 768px) {\n\n  .prk .md\\:flex {\n    display: flex;\n  }\n\n  .prk .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .prk .md\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .prk .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .prk .md\\:items-end {\n    align-items: flex-end;\n  }\n\n  .prk .md\\:self-auto {\n    align-self: auto;\n  }\n}\n\n@media (min-width: 1024px) {\n\n  .prk .lg\\:col-span-5 {\n    grid-column: span 5 / span 5;\n  }\n\n  .prk .lg\\:col-span-7 {\n    grid-column: span 7 / span 7;\n  }\n\n  .prk .lg\\:grid-cols-12 {\n    grid-template-columns: repeat(12, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .prk .lg\\:p-space-xxl {\n    padding: 4rem;\n  }\n\n  .prk .lg\\:px-margin {\n    padding-left: 3rem;\n    padding-right: 3rem;\n  }\n\n  .prk .lg\\:text-\\[44px\\] {\n    font-size: 44px;\n  }\n\n  .prk .lg\\:text-\\[46px\\] {\n    font-size: 46px;\n  }\n}\n</style>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "abc4c6b",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Breadcrumb",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "ec7e331",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "81c95b4",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Breadcrumb",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-parchment-base\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin pt-space-md pb-space-sm flex items-center justify-between\">\n<nav aria-label=\"Navegação\" class=\"flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md\">\n<a class=\"hover:text-navy-deep transition-colors\" href=\"#\">Início</a>\n<span class=\"text-outline-variant font-body-sm\">›</span>\n<a class=\"hover:text-navy-deep transition-colors\" href=\"#\">Unidades</a>\n<span class=\"text-outline-variant font-body-sm\">›</span>\n<span class=\"text-navy-deep font-semibold\">Vila Velha (ES)</span>\n</nav>\n<div class=\"hidden md:flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-secondary\">\n<span class=\"w-2 h-2 rounded-full bg-gold-accent inline-block animate-pulse\"></span>\n        Plantão Ativo Comarca de Vila Velha\n      </div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bd1a670",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Advogado Criminalista em Vila Velha (ES)",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "feb2992",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "6cfef1b",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Advogado Criminalista em Vila Velha (ES)",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-parchment-base pb-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start pt-space-lg\">\n<!-- Main Column (Col 7) -->\n<div class=\"lg:col-span-7 flex flex-col\">\n<div class=\"inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full self-start mb-space-md\">\n<span class=\"material-symbols-outlined text-secondary text-[16px]\">location_on</span>\n<span class=\"font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold\">Escritório na Praia da Costa · Comarca de Vila Velha</span>\n</div>\n<h1 class=\"font-headline-xl text-headline-xl lg:text-[44px] text-navy-deep tracking-tight mb-space-md\">\n            Advogado Criminalista em Vila Velha (ES)\n          </h1>\n<p class=\"font-body-lg text-body-lg text-slate-charcoal mb-space-lg leading-relaxed\">\n            Defesa penal combativa, artesanal e intransigente desde as primeiras horas do flagrante até a execução penal. Atendimento presencial reservado na Praia da Costa e assistência ininterrupta em todas as delegacias e no Complexo Penitenciário de Xuri.\n          </p>\n<!-- CTAs -->\n<div class=\"flex flex-wrap items-center gap-space-md mb-space-lg\">\n<a class=\"inline-flex items-center justify-center gap-space-sm bg-navy-deep hover:bg-slate-charcoal text-on-primary font-title-md text-title-md px-space-xl py-space-md rounded-lg transition-all shadow-md group\" href=\"https://wa.me/5527996239086?text=Ol%C3%A1%2C%20vim%20pelo%20site%20%28Advogado%20criminalista%20em%20Vila%20Velha%20%28ES%29%29%20e%20gostaria%20de%20orienta%C3%A7%C3%A3o%20criminal.\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-gold-accent group-hover:scale-110 transition-transform text-[20px]\">chat</span>\n<span class=\"\">Falar no WhatsApp (27) 99623-9086</span>\n</a>\n<a class=\"inline-flex items-center justify-center gap-space-sm bg-surface-card hover:bg-surface-container-low text-navy-deep font-title-md text-title-md px-space-lg py-space-md rounded-lg transition-all shadow-sm\" href=\"tel:+5527996239086\">\n<span class=\"material-symbols-outlined text-navy-deep text-[20px]\">call</span>\n<span class=\"\">Ligar (27) 99623-9086</span>\n</a>\n</div>\n<!-- Alert Badge Link -->\n<div class=\"bg-secondary-container/40 p-space-md rounded-lg flex items-center justify-between gap-space-md\">\n<div class=\"flex items-center gap-space-sm\">\n<span class=\"material-symbols-outlined text-secondary font-bold text-[22px]\">notification_important</span>\n<p class=\"font-body-md text-body-md text-on-surface\">\n                Alguém foi detido ou intimado em flagrante agora em Vila Velha?\n              </p>\n</div>\n<a class=\"font-title-md text-title-md text-secondary hover:text-navy-deep font-semibold whitespace-nowrap flex items-center gap-space-xs transition-colors\" href=\"#\">\n              Plantão Criminal 24h <span class=\"material-symbols-outlined text-[18px]\">arrow_forward</span>\n</a>\n</div>\n</div>\n<!-- Credential Card Column (Col 5) -->\n<div class=\"lg:col-span-5 flex flex-col gap-space-md\">\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-lg relative overflow-hidden\">\n<!-- Decorative Accent Bar -->\n<div class=\"absolute top-0 left-0 right-0 h-1.5 bg-gold-accent\"></div>\n<div class=\"flex items-start justify-between mb-space-md\">\n<div class=\"flex items-center gap-space-md\">\n<div class=\"w-14 h-14 rounded-full bg-navy-deep text-gold-accent flex items-center justify-center font-headline-md text-headline-md shadow-sm\">\n                  PR\n                </div>\n<div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep\">Dr. Pablo Ribeiro</h3>\n<span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-wider block font-semibold\">OAB/ES 30.388</span>\n</div>\n</div>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-semibold\">Comarca Ativa</span>\n</div>\n<div class=\"space-y-space-sm mb-space-md\">\n<div class=\"flex items-center gap-space-sm text-slate-charcoal\">\n<span class=\"material-symbols-outlined text-gold-muted text-[18px]\">school</span>\n<span class=\"font-body-sm text-body-sm\">Pós-Graduação em Ciências Criminais (FDV)</span>\n</div>\n<div class=\"flex items-center gap-space-sm text-slate-charcoal\">\n<span class=\"material-symbols-outlined text-gold-muted text-[18px]\">balance</span>\n<span class=\"font-body-sm text-body-sm\">Especialização em Direito Penal Econômico (PUC Minas)</span>\n</div>\n<div class=\"flex items-center gap-space-sm text-slate-charcoal\">\n<span class=\"material-symbols-outlined text-gold-muted text-[18px]\">verified_user</span>\n<span class=\"font-body-sm text-body-sm\">Atuação Estratégica Exclusiva na Advocacia Criminal</span>\n</div>\n</div>\n<div class=\"bg-surface-container-low rounded-lg p-space-md grid grid-cols-2 gap-space-md text-center\">\n<div>\n<span class=\"font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block\">Sigilo</span>\n<span class=\"font-title-md text-title-md text-navy-deep font-bold\">100% Absoluto</span>\n</div>\n<div>\n<span class=\"font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block\">Deslocamento</span>\n<span class=\"font-title-md text-title-md text-navy-deep font-bold\">Toda Grande Vitória</span>\n</div>\n</div>\n<div class=\"mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm\">\n<span class=\"flex items-center gap-1\">\n<span class=\"material-symbols-outlined text-secondary text-[16px]\">business</span> Edifício Master • Sl 205\n              </span>\n<span class=\"text-gold-muted font-semibold\">Praia da Costa</span>\n</div>\n</div>\n<!-- Micro Citation Widget -->\n<div class=\"bg-parchment-base rounded-lg p-space-md flex items-center gap-space-md\">\n<span class=\"material-symbols-outlined text-gold-muted text-[28px]\">gavel</span>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal italic\">\n              \"A liberdade não admite postergação. A presença imediata da defesa técnica qualificada no nascedouro da acusação define os rumos de toda a persecução penal.\"\n            </p>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae9a9e1",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Como Funciona o Atendimento em Vila Velha",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "a2652a9",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "fae5319",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Como Funciona o Atendimento em Vila Velha",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface-container-lowest py-space-xxl shadow-sm\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"max-w-2xl mb-space-xl\">\n<span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-widest block font-semibold mb-space-xs\">Rito de Atendimento Local</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-space-sm\">Como Funciona o Atendimento em Vila Velha</h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n          Um protocolo técnico concebido para eliminar atritos, proteger a confidencialidade do cliente e agir com celeridade máxima perante autoridades policiais e judiciais capixabas.\n        </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-3 gap-gutter\">\n<!-- Pilar 1 -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative\">\n<div class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm mb-space-lg font-bold\">\n            01\n          </div>\n<div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-space-sm\">Primeiro Contato &amp; Triagem Imediata</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed mb-space-md\">\n              Contato direto por WhatsApp ou ligação. Diagnóstico preliminar e reservado da fase em que se encontra o caso (investigação, flagrante, denúncia ou execução), sem necessidade de envio precipitado de documentos sensíveis antes da orientação técnica formal.\n            </p>\n</div>\n<div class=\"flex items-center gap-space-xs text-gold-muted font-label-md text-label-md font-semibold pt-space-sm\">\n<span class=\"material-symbols-outlined text-[18px]\">lock</span>\n<span class=\"\">Sigilo resguardado pela Lei 8.906/94</span>\n</div>\n</div>\n<!-- Pilar 2 -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative\">\n<div class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm mb-space-lg font-bold\">\n            02\n          </div>\n<div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-space-sm\">Presença Física &amp; Diligências na Costa</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed mb-space-md\">\n              Sede na Praia da Costa (Edifício Master), com fácil acesso pela Terceira Ponte, Rodovia do Sol e principais vias de Vila Velha. Sala privativa acusticamente isolada para alinhamento tático com familiares e investigados, com hora marcada.\n            </p>\n</div>\n<div class=\"flex items-center gap-space-xs text-gold-muted font-label-md text-label-md font-semibold pt-space-sm\">\n<span class=\"material-symbols-outlined text-[18px]\">verified</span>\n<span class=\"\">Estacionamento e acesso simplificado</span>\n</div>\n</div>\n<!-- Pilar 3 -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative\">\n<div class=\"w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm mb-space-lg font-bold\">\n            03\n          </div>\n<div>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep mb-space-sm\">Atuação Híbrida &amp; Mobilidade Operacional</h3>\n<p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed mb-space-md\">\n              Para famílias residentes na Região Sul de Vila Velha (Terra Vermelha, Ponta da Fruta) ou parentes domiciliados fora do ES cujos familiares estão detidos no Complexo de Xuri, viabilizamos conferência remota segura e ida presencial imediata ao presídio.\n            </p>\n</div>\n<div class=\"flex items-center gap-space-xs text-gold-muted font-label-md text-label-md font-semibold pt-space-sm\">\n<span class=\"material-symbols-outlined text-[18px]\">car_rental</span>\n<span class=\"\">Prontidão para diligência externa</span>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "abfb17d",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Prisão, Custódia e a Centralidade do Complexo de Xuri",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "0dd8120",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "ed69c3b",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Prisão, Custódia e a Centralidade do Complexo de Xuri",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-parchment-base py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center\">\n<!-- Left Analysis Column -->\n<div class=\"lg:col-span-7 flex flex-col\">\n<span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-widest block font-semibold mb-space-xs\">Polo Prisional Estratégico do ES</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-space-md\">\n            Prisão, Custódia e a Centralidade do Complexo de Xuri\n          </h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed mb-space-md\">\n            Vila Velha não é apenas um dos maiores centros urbanos do Espírito Santo com seus <strong class=\"text-navy-deep font-semibold\">467.722 habitantes</strong>; é o coração da custódia prisional do estado. Localizado na Rodovia ES-388, o <strong>Complexo Penitenciário de Xuri</strong> centraliza os presídios provisórios e os regimes fechado e semiaberto de toda a Região Metropolitana (CDPVV, PEVV I, II, III, V, VI e PSVV).\n          </p>\n<p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed mb-space-lg\">\n            Frequentemente, famílias de Vitória, Serra, Cariacica e interior procuram nossa unidade de Vila Velha porque o seu ente querido foi transferido imediatamente para Xuri. A atuação combativa nessa fase exige conhecimento topográfico e procedimental rigoroso das rotinas carcerárias capixabas.\n          </p>\n<!-- Prerogativas Box -->\n<div class=\"bg-surface-card rounded-xl p-space-lg shadow-sm\">\n<h4 class=\"font-title-md text-title-md text-navy-deep mb-space-sm flex items-center gap-space-xs\">\n<span class=\"material-symbols-outlined text-secondary text-[20px]\">assignment_ind</span>\n              Atuação Defensiva Direta no Complexo de Xuri:\n            </h4>\n<ul class=\"space-y-space-xs font-body-sm text-body-sm text-slate-charcoal\">\n<li class=\"flex items-start gap-space-xs\">\n<span class=\"material-symbols-outlined text-gold-muted text-[16px] mt-0.5\">check_circle</span>\n<span class=\"\"><strong>Entrevista Reservada Imediata:</strong> Prerrogativa assegurada pelo art. 7º, III do Estatuto da Advocacia (EAOAB), independentemente de procuração prévia.</span>\n</li>\n<li class=\"flex items-start gap-space-xs\">\n<span class=\"material-symbols-outlined text-gold-muted text-[16px] mt-0.5\">check_circle</span>\n<span class=\"\"><strong>Garantia de Integridade e Saúde:</strong> Verificação imediata do estado físico, fornecimento de medicação e condições de cela no CDPVV.</span>\n</li>\n<li class=\"flex items-start gap-space-xs\">\n<span class=\"material-symbols-outlined text-gold-muted text-[16px] mt-0.5\">check_circle</span>\n<span class=\"\"><strong>Execução Penal Eficaz:</strong> Cálculo acurado de frações hediondas/comuns, pedidos de remição por trabalho/estudo, progressão para o semiaberto e saídas temporárias.</span>\n</li>\n</ul>\n</div>\n</div>\n<!-- Right Visual / Stat Panel -->\n<div class=\"lg:col-span-5 flex flex-col gap-space-md\">\n<div class=\"bg-navy-deep rounded-2xl p-space-xl text-on-primary shadow-xl relative overflow-hidden\">\n<div class=\"absolute -right-10 -bottom-10 w-44 h-44 rounded-full bg-gold-accent/10 blur-2xl pointer-events-none\"></div>\n<span class=\"font-label-sm text-label-sm text-gold-accent uppercase tracking-widest block font-semibold mb-space-sm\">Dados Oficiais da Comarca</span>\n<div class=\"grid grid-cols-2 gap-space-md mb-space-lg\">\n<div>\n<span class=\"font-headline-lg text-headline-lg text-on-primary block font-serif\">467.722</span>\n<span class=\"font-body-sm text-body-sm text-outline-variant\">Habitantes (IBGE Censo)</span>\n</div>\n<div>\n<span class=\"font-headline-lg text-headline-lg text-gold-accent block font-serif\">210 km²</span>\n<span class=\"font-body-sm text-body-sm text-outline-variant\">Área Territorial Coberta</span>\n</div>\n</div>\n<div class=\"bg-primary-container p-space-md rounded-lg mb-space-md\">\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block mb-1\">Ponto Crítico</span>\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n                Rodovia ES-388, km 15 · Complexo Penitenciário de Xuri. Diligências com viatura e deslocamento tático prioritário.\n              </p>\n</div>\n<a class=\"w-full inline-flex items-center justify-center gap-space-sm bg-gold-accent hover:bg-secondary-container text-navy-deep font-title-md text-title-md py-space-sm rounded-lg transition-colors font-semibold\" href=\"https://wa.me/5527996239086?text=Ol%C3%A1%2C%20preciso%20de%20assist%C3%AAncia%20urgente%20para%20visita%20e%20defesa%20no%20Xuri.\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[18px]\">verified</span>\n<span class=\"\">Requerer Atendimento Prisional no Xuri</span>\n</a>\n</div>\n<!-- Micro Map Visual -->\n<div class=\"bg-surface-card rounded-xl p-space-md shadow-sm flex items-center gap-space-md\">\n<div class=\"w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-navy-deep flex-shrink-0\">\n<span class=\"material-symbols-outlined text-[24px]\">pin_drop</span>\n</div>\n<div>\n<span class=\"font-title-md text-title-md text-navy-deep block font-semibold\">Juízo de Vila Velha · Fórum Annibal de Athayde</span>\n<span class=\"font-body-sm text-body-sm text-slate-charcoal\">Comarca autônoma com competência sobre todas as infrações locais.</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "407dca9",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Bairros e Regiões Cobertas em Vila Velha",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "eb8af2e",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "afc85d3",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Bairros e Regiões Cobertas em Vila Velha",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface-container-low py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"text-center max-w-2xl mx-auto mb-space-xl\">\n<span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-widest block font-semibold mb-space-xs\">Presença Municipal</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-space-sm\">Bairros e Regiões Cobertas em Vila Velha</h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n          A defesa técnica atende com rigor idêntico moradores de todos os bairros, condomínios e comunidades do município.\n        </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-3 gap-gutter\">\n<!-- Zona 1: Orla e Centro -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-md border-2 border-gold-accent relative overflow-hidden transition-all\"><div class=\"absolute top-0 right-0 bg-gold-accent text-navy-deep font-label-sm text-label-sm uppercase tracking-wider font-bold px-space-md py-0.5 rounded-bl\">Selecionado • Base Central</div><div class=\"flex items-center gap-space-sm mb-space-md\"><div class=\"w-10 h-10 rounded-full bg-gold-accent/20 flex items-center justify-center text-navy-deep\"><span class=\"material-symbols-outlined text-secondary text-[22px]\">beach_access</span></div><div><h3 class=\"font-title-lg text-title-lg text-navy-deep font-bold leading-tight\">Orla &amp; Centro Histórico</h3><span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider font-semibold block\">Raio Imediato da Sede</span></div></div><p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">Regiões adjacentes à sede no Edifício Master (Praia da Costa). Deslocamento presencial ultra-rápido para residências, condomínios ou pontos de abordagem.</p><div class=\"bg-surface-container-low p-space-md rounded-lg mb-space-md border border-hairline\"><div class=\"flex items-center justify-between mb-space-xs\"><span class=\"font-label-sm text-label-sm uppercase tracking-wider text-slate-charcoal font-semibold flex items-center gap-1\"><span class=\"material-symbols-outlined text-secondary text-[16px]\">near_me</span> Tempo Estimado:</span><span class=\"font-title-md text-title-md text-navy-deep font-bold\">3 a 7 minutos</span></div><div class=\"flex items-center justify-between text-body-sm text-slate-charcoal\"><span class=\"font-label-sm text-label-sm text-on-surface-variant\">Rota direta:</span><span class=\"font-body-sm text-body-sm font-medium text-navy-deep\">Av. Champagnat &amp; Gil Veloso</span></div></div><div class=\"flex flex-wrap gap-space-xs mb-space-md\"><span class=\"font-label-sm text-label-sm bg-navy-deep text-on-primary px-space-sm py-space-xs rounded font-medium shadow-xs\">Praia da Costa</span><span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Itapoã</span><span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Praia de Itaparica</span><span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Centro de Vila Velha</span><span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Praia das Gaivotas</span><span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Coqueiral de Itaparica</span></div><div class=\"pt-space-sm border-t border-hairline flex items-center justify-between\"><a class=\"font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-navy-deep font-bold inline-flex items-center gap-1 transition-colors\" href=\"https://wa.me/5527996239086?text=Ol%C3%A1%2C%20preciso%20de%20atendimento%20imediato%20na%20regi%C3%A3o%20da%20Orla%2FCentro%20de%20Vila%20Velha.\" rel=\"noopener noreferrer\" target=\"_blank\"><span class=\"material-symbols-outlined text-[16px]\">flash_on</span> Diligência Urgente nesta Região</a><span class=\"font-label-sm text-label-sm text-gold-muted font-semibold\">(27) 99623-9086</span></div></div>\n<!-- Zona 2: Região Comercial & Tradicional -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-shadow\">\n<div class=\"flex items-center gap-space-sm mb-space-md\">\n<span class=\"material-symbols-outlined text-secondary text-[24px]\">storefront</span>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep font-semibold\">Polo Comercial &amp; Vias Estruturais</h3>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n            Bairros comerciais e habitacionais tradicionais, próximos à 2ª Regional e com forte dinâmica de investigações policiais.\n          </p>\n<div class=\"flex flex-wrap gap-space-xs\">\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Glória</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Aribiri</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Cobilândia</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Ibes</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Paul</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Jaburuna</span>\n</div>\n</div>\n<!-- Zona 3: Região Sul & Expansão -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-shadow\">\n<div class=\"flex items-center gap-space-sm mb-space-md\">\n<span class=\"material-symbols-outlined text-secondary text-[24px]\">route</span>\n<h3 class=\"font-title-lg text-title-lg text-navy-deep font-semibold\">Região Sul &amp; Expansão</h3>\n</div>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n            Atendimento direcionado à Região 5 e ao eixo da Rodovia do Sol, incluindo diligências urgentes ou reuniões híbridas.\n          </p>\n<div class=\"flex flex-wrap gap-space-xs\">\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Grande Terra Vermelha</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Barra do Jucu</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Balneário Ponta da Fruta</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Santa Paula</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Riviera da Barra</span>\n<span class=\"font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Interlagos</span>\n</div>\n</div>\n</div>\n<div class=\"mt-space-lg text-center\">\n<p class=\"font-body-sm text-body-sm text-on-surface-variant\">\n          Não encontrou seu bairro listado? O escritório atende integralmente todos os bairros da Comarca de Vila Velha e municípios vizinhos.\n        </p>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d2aa074",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Defesa Criminal Especializada em Vila Velha",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "26b12ab",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "4491b12",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Defesa Criminal Especializada em Vila Velha",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md\">\n<div>\n<span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-widest block font-semibold mb-space-xs\">Especialidades Criminais</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep\">Defesa Criminal Especializada em Vila Velha</h2>\n</div>\n<a class=\"inline-flex items-center gap-space-xs font-title-md text-title-md text-secondary hover:text-navy-deep font-semibold transition-colors\" href=\"#\">\n<span class=\"\">Ver todas as áreas de atuação</span>\n<span class=\"material-symbols-outlined text-[18px]\">arrow_forward</span>\n</a>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter\">\n<!-- Card 1: Prisão em Flagrante / 2ª Delegacia Regional -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container-high text-navy-deep flex items-center justify-center mb-space-md group-hover:bg-gold-accent group-hover:text-navy-deep transition-colors\">\n<span class=\"material-symbols-outlined text-[24px]\">front_hand</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Prisão em Flagrante na 2ª Regional</h3>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n              Atuação imediata na Delegacia Regional de Vila Velha (Cobilândia / Jaburuna). Garantia indeclinável do direito ao silêncio, fiscalização de legalidade do APF e impedimento de autoincriminação forçada.\n            </p>\n</div>\n<a class=\"font-title-md text-title-md text-secondary group-hover:text-navy-deep inline-flex items-center gap-space-xs font-semibold\" href=\"#\">\n<span class=\"\">Protocolo de Flagrante</span>\n<span class=\"material-symbols-outlined text-[16px]\">chevron_right</span>\n</a>\n</div>\n<!-- Card 2: Audiência de Custódia -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container-high text-navy-deep flex items-center justify-center mb-space-md group-hover:bg-gold-accent group-hover:text-navy-deep transition-colors\">\n<span class=\"material-symbols-outlined text-[24px]\">gavel</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Audiência de Custódia &amp; Liberdade</h3>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n              Defesa técnica nas 24h seguintes à prisão. Pedidos de relaxamento por abuso de autoridade, concessão de liberdade provisória sem fiança ou fixação de medidas cautelares diversas do cárcere.\n            </p>\n</div>\n<a class=\"font-title-md text-title-md text-secondary group-hover:text-navy-deep inline-flex items-center gap-space-xs font-semibold\" href=\"#\">\n<span class=\"\">Como funciona a Custódia</span>\n<span class=\"material-symbols-outlined text-[16px]\">chevron_right</span>\n</a>\n</div>\n<!-- Card 3: Inquérito e Intimações DEAM / DHPP -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container-high text-navy-deep flex items-center justify-center mb-space-md group-hover:bg-gold-accent group-hover:text-navy-deep transition-colors\">\n<span class=\"material-symbols-outlined text-[24px]\">description</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Inquérito Policial &amp; Intimações</h3>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n              Acompanhamento defensivo prévio em oitivas nas delegacias de Vila Velha (DEAM Centro, DHPP e DPIC). Análise e extração de cópias integrais dos autos antes de qualquer manifestação do investigado.\n            </p>\n</div>\n<a class=\"font-title-md text-title-md text-secondary group-hover:text-navy-deep inline-flex items-center gap-space-xs font-semibold\" href=\"#\">\n<span class=\"\">Orientação para Depoimento</span>\n<span class=\"material-symbols-outlined text-[16px]\">chevron_right</span>\n</a>\n</div>\n<!-- Card 4: Tribunal do Júri Comarca de Vila Velha -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container-high text-navy-deep flex items-center justify-center mb-space-md group-hover:bg-gold-accent group-hover:text-navy-deep transition-colors\">\n<span class=\"material-symbols-outlined text-[24px]\">groups</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Tribunal do Júri em Vila Velha</h3>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n              Defesa intransigente em crimes dolosos contra a vida no Fórum de Vila Velha. Atuação técnica na 1ª fase (sumário da culpa) até a oratória e convencimento dos jurados no plenário solene.\n            </p>\n</div>\n<a class=\"font-title-md text-title-md text-secondary group-hover:text-navy-deep inline-flex items-center gap-space-xs font-semibold\" href=\"#\">\n<span class=\"\">Estratégia no Tribunal do Júri</span>\n<span class=\"material-symbols-outlined text-[16px]\">chevron_right</span>\n</a>\n</div>\n<!-- Card 5: Execução Penal no Xuri -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container-high text-navy-deep flex items-center justify-center mb-space-md group-hover:bg-gold-accent group-hover:text-navy-deep transition-colors\">\n<span class=\"material-symbols-outlined text-[24px]\">key</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Execução Penal &amp; Benefícios (Xuri)</h3>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n              Auditoria de guia de recolhimento, cálculo individualizado de pena na 8ª e 9ª Varas Criminais, progressão de regime, livramento condicional e pedidos urgentes de prisão domiciliar humanitária.\n            </p>\n</div>\n<a class=\"font-title-md text-title-md text-secondary group-hover:text-navy-deep inline-flex items-center gap-space-xs font-semibold\" href=\"#\">\n<span class=\"\">Direitos na Execução Penal</span>\n<span class=\"material-symbols-outlined text-[16px]\">chevron_right</span>\n</a>\n</div>\n<!-- Card 6: Lei de Drogas & Violação de Domicílio -->\n<div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group\">\n<div>\n<div class=\"w-12 h-12 rounded-lg bg-surface-container-high text-navy-deep flex items-center justify-center mb-space-md group-hover:bg-gold-accent group-hover:text-navy-deep transition-colors\">\n<span class=\"material-symbols-outlined text-[24px]\">door_front</span>\n</div>\n<h3 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Lei de Drogas &amp; Invasão de Domicílio</h3>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-md leading-relaxed\">\n              Impugnação técnica de buscas policiais ilegais sem fundadas razões em residências nas comunidades da cidade, teses de desclassificação para uso e aplicação do tráfico privilegiado (§ 4º, art. 33).\n            </p>\n</div>\n<a class=\"font-title-md text-title-md text-secondary group-hover:text-navy-deep inline-flex items-center gap-space-xs font-semibold\" href=\"#\">\n<span class=\"\">Jurisprudência do STJ e STF</span>\n<span class=\"material-symbols-outlined text-[16px]\">chevron_right</span>\n</a>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c6233b4",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Onde Tramitam os Processos em Vila Velha",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "a8852fe",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "a842c3e",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Onde Tramitam os Processos em Vila Velha",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-parchment-base py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"max-w-3xl mb-space-xl\">\n<span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-widest block font-semibold mb-space-xs\">Compreendendo o Fórum e os Órgãos</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-space-sm\">Onde Tramitam os Processos em Vila Velha</h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n          Conhecer com precisão a estrutura orgânica da Comarca de Vila Velha e da Comarca da Capital assegura respostas processuais rápidas, evitando despachos protelatórios e garantindo a liberdade com agilidade.\n        </p>\n</div>\n<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter\">\n<!-- Fórum -->\n<div class=\"bg-surface-card rounded-xl p-space-lg shadow-sm\">\n<div class=\"flex items-center gap-space-xs text-secondary mb-space-sm font-semibold\">\n<span class=\"material-symbols-outlined text-[20px]\">account_balance</span>\n<span class=\"font-label-sm text-label-sm uppercase\">1ª Instância Criminal</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Fórum Des. Annibal de Athayde Lima</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-sm\">\n            Localizado na Prainha (Centro de Vila Velha). Abriga as <strong>1ª a 7ª Varas Criminais</strong>, onde tramitam ações penais comuns, instruções de Júri e julgamentos ordinários.\n          </p>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-medium\">Praça Almirante Tamandaré, Prainha</span>\n</div>\n<!-- Execução Penal -->\n<div class=\"bg-surface-card rounded-xl p-space-lg shadow-sm\">\n<div class=\"flex items-center gap-space-xs text-secondary mb-space-sm font-semibold\">\n<span class=\"material-symbols-outlined text-[20px]\">folder_special</span>\n<span class=\"font-label-sm text-label-sm uppercase\">Execução das Penas</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">8ª e 9ª Varas Criminais (VEP)</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-sm\">\n            Varas competentes para fiscalizar o cumprimento das penas. A 8ª Vara cuida dos custodiados em <strong>regime fechado</strong> e a 9ª Vara dos apenados em <strong>regime semiaberto</strong>.\n          </p>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-medium\">Competência Executória da Região</span>\n</div>\n<!-- 2ª Delegacia Regional -->\n<div class=\"bg-surface-card rounded-xl p-space-lg shadow-sm\">\n<div class=\"flex items-center gap-space-xs text-secondary mb-space-sm font-semibold\">\n<span class=\"material-symbols-outlined text-[20px]\">local_police</span>\n<span class=\"font-label-sm text-label-sm uppercase\">Polícia Civil / Plantão 24h</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">2ª Delegacia Regional de Vila Velha</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-sm\">\n            Polo unificado de plantão permanente para onde são conduzidos os flagrantes de todo o município durante os finais de semana, feriados e períodos noturnos.\n          </p>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-medium\">Cobilândia / Jaburuna · Plantão Ininterrupto</span>\n</div>\n<!-- DEAM -->\n<div class=\"bg-surface-card rounded-xl p-space-lg shadow-sm\">\n<div class=\"flex items-center gap-space-xs text-secondary mb-space-sm font-semibold\">\n<span class=\"material-symbols-outlined text-[20px]\">security</span>\n<span class=\"font-label-sm text-label-sm uppercase\">Violência Doméstica</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">DEAM de Vila Velha</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-sm\">\n            Delegacia Especializada no Atendimento à Mulher, sediada na região central de Vila Velha. Processamento de medidas protetivas de urgência e inquéritos específicos.\n          </p>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-medium\">Prainha / Centro · Vila Velha</span>\n</div>\n<!-- Tribunal de Justiça (TJES) -->\n<div class=\"bg-surface-card rounded-xl p-space-lg shadow-sm\">\n<div class=\"flex items-center gap-space-xs text-secondary mb-space-sm font-semibold\">\n<span class=\"material-symbols-outlined text-[20px]\">assured_workload</span>\n<span class=\"font-label-sm text-label-sm uppercase\">2ª Instância Recursal</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Tribunal de Justiça do ES (TJES)</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-sm\">\n            Sediado no Enseada do Suá, a poucos minutos do nosso polo de Vila Velha via Terceira Ponte. Julgamento de Habeas Corpus com pedido liminar e Recursos de Apelação.\n          </p>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-medium\">Câmaras Criminais Reunidas</span>\n</div>\n<!-- Núcleo de Custódia -->\n<div class=\"bg-surface-card rounded-xl p-space-lg shadow-sm\">\n<div class=\"flex items-center gap-space-xs text-secondary mb-space-sm font-semibold\">\n<span class=\"material-symbols-outlined text-[20px]\">hourglass_top</span>\n<span class=\"font-label-sm text-label-sm uppercase\">Controle de Prisão em 24h</span>\n</div>\n<h4 class=\"font-headline-sm text-headline-sm text-navy-deep mb-space-xs\">Núcleo Regional de Custódia</h4>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-sm\">\n            Apresentação judicial obrigatória do cidadão preso em flagrante para análise da necessidade real da conversão em preventiva ou decretação de liberdade.\n          </p>\n<span class=\"font-label-sm text-label-sm text-gold-muted font-medium\">Garantia Constitucional</span>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f9fdd4a",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "O Que Nossos Clientes Dizem Sobre Nós",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "d416187",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "ef573e4",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "O Que Nossos Clientes Dizem Sobre Nós",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface-container-low py-space-xxl border-b border-hairline/60\"><div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\"><div class=\"flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md\"><div><span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-widest block font-semibold mb-space-xs\">Reputação e Confiança</span><h2 class=\"font-headline-lg text-headline-lg text-navy-deep font-serif mb-space-xs\">O Que Nossos Clientes Dizem Sobre Nós</h2><p class=\"font-body-md text-body-md text-slate-charcoal max-w-2xl\">Depoimentos espontâneos de clientes e familiares atendidos em situações críticas na Comarca de Vila Velha e no Tribunal de Justiça do Espírito Santo.</p></div><div class=\"relative flex flex-col sm:flex-row sm:items-center gap-space-sm bg-surface-card p-space-md rounded-xl shadow-md border-2 border-gold-accent self-start md:self-auto\"><div class=\"flex items-center gap-space-xs\"><div class=\"flex items-center text-gold-accent\"><span class=\"material-symbols-outlined text-[20px]\">star</span><span class=\"material-symbols-outlined text-[20px]\">star</span><span class=\"material-symbols-outlined text-[20px]\">star</span><span class=\"material-symbols-outlined text-[20px]\">star</span><span class=\"material-symbols-outlined text-[20px]\">star</span></div><span class=\"font-title-md text-title-md text-navy-deep font-bold\">5.0</span></div><div class=\"h-4 w-px bg-outline-variant hidden sm:block\"></div><a class=\"font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-navy-deep font-semibold inline-flex items-center gap-1 transition-colors\" href=\"https://www.google.com/maps/place/Pablo+Ribeiro+advogado+criminalista+em+vila+velha\" rel=\"noopener noreferrer\" target=\"_blank\"><span class=\"\">Perfil Verificado no Google</span><span class=\"material-symbols-outlined text-[16px]\">open_in_new</span></a><!-- Interactive Tooltip / Verification Badge Modal State --><div class=\"absolute -bottom-20 right-0 z-10 bg-navy-deep text-on-primary p-space-md rounded-lg shadow-xl border border-gold-accent/40 flex items-center gap-space-sm max-w-sm whitespace-normal animate-pulse\"><span class=\"material-symbols-outlined text-gold-accent text-[24px] flex-shrink-0\">verified</span><div><div class=\"font-label-sm text-label-sm text-gold-accent uppercase tracking-wider font-bold\">Avaliação Verificada pelo Google Maps · Comarca de Vila Velha</div><div class=\"font-body-sm text-body-sm text-parchment-base/80 text-[12px]\">Auditado e indexado ao perfil corporativo do Ed. Master, Praia da Costa.</div></div></div></div></div><div class=\"grid grid-cols-1 md:grid-cols-3 gap-gutter mb-space-xl\"><div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between border border-hairline\"><div class=\"mb-space-md\"><div class=\"flex items-center justify-between mb-space-sm\"><div class=\"flex items-center gap-space-sm\"><div class=\"w-10 h-10 rounded-full bg-navy-deep/10 text-navy-deep font-semibold flex items-center justify-center font-title-md text-title-md\">CE</div><div><h4 class=\"font-title-md text-title-md text-navy-deep font-semibold leading-tight\">Carlos Eduardo Mendes</h4><span class=\"font-label-sm text-label-sm text-on-surface-variant block\">Cliente verificado no Google</span></div></div><span class=\"font-label-sm text-label-sm text-outline\">Há 2 meses</span></div><div class=\"flex items-center text-gold-accent mb-space-sm\"><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span></div><p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed italic\">“Em um momento de desespero com a prisão em flagrante do meu irmão em Vila Velha, o Dr. Pablo foi extremamente rápido e transparente. Compareceu prontamente à delegacia e conduziu a audiência de custódia com maestria técnica. Conseguimos a liberdade provisória. Atendimento humano e impecável.”</p></div><div class=\"pt-space-sm border-t border-hairline\"><span class=\"inline-block font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Atendimento em Delegacia e Custódia</span></div></div><div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between border border-hairline\"><div class=\"mb-space-md\"><div class=\"flex items-center justify-between mb-space-sm\"><div class=\"flex items-center gap-space-sm\"><div class=\"w-10 h-10 rounded-full bg-navy-deep/10 text-navy-deep font-semibold flex items-center justify-center font-title-md text-title-md\">RS</div><div><h4 class=\"font-title-md text-title-md text-navy-deep font-semibold leading-tight\">Renata Silveira</h4><span class=\"font-label-sm text-label-sm text-on-surface-variant block\">Cliente verificada no Google</span></div></div><span class=\"font-label-sm text-label-sm text-outline\">Há 4 meses</span></div><div class=\"flex items-center text-gold-accent mb-space-sm\"><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span></div><p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed italic\">“Excelente profissional. Nos atendeu com total discrição e clareza no escritório da Praia da Costa para orientar um caso delicado de inquérito policial. Explicou cada passo sem promessas ilusórias e com profundo domínio da lei. Recomendo de olhos fechados.”</p></div><div class=\"pt-space-sm border-t border-hairline\"><span class=\"inline-block font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Defesa em Inquérito Policial</span></div></div><div class=\"bg-surface-card rounded-xl p-space-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between border border-hairline\"><div class=\"mb-space-md\"><div class=\"flex items-center justify-between mb-space-sm\"><div class=\"flex items-center gap-space-sm\"><div class=\"w-10 h-10 rounded-full bg-navy-deep/10 text-navy-deep font-semibold flex items-center justify-center font-title-md text-title-md\">MV</div><div><h4 class=\"font-title-md text-title-md text-navy-deep font-semibold leading-tight\">Marcos Vinicius F.</h4><span class=\"font-label-sm text-label-sm text-on-surface-variant block\">Cliente verificado no Google</span></div></div><span class=\"font-label-sm text-label-sm text-outline\">Há 6 meses</span></div><div class=\"flex items-center text-gold-accent mb-space-sm\"><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span><span class=\"material-symbols-outlined text-[18px]\">star</span></div><p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed italic\">“Acompanhou todo o processo de execução penal do meu familiar em Xuri. Sempre pontual nas visitas, mantendo a família informada e conseguindo a progressão de regime no tempo certo da lei. Profissional ético e muito combativo.”</p></div><div class=\"pt-space-sm border-t border-hairline\"><span class=\"inline-block font-label-sm text-label-sm bg-surface-container-high text-navy-deep px-space-sm py-space-xs rounded font-medium\">Execução Penal (Complexo de Xuri)</span></div></div></div><div class=\"max-w-3xl mx-auto text-center\"><p class=\"font-body-sm text-body-sm text-on-surface-variant/80 leading-relaxed bg-surface-container-high/50 p-space-md rounded-lg border border-hairline/80\">Conforme o Provimento 205/2021 da OAB, os depoimentos aqui reunidos são manifestações públicas, espontâneas e voluntárias registradas por usuários na plataforma Google, tendo caráter estritamente informativo sobre a prestação de serviços advocatícios, sem promessa ou garantia de resultados jurídicos.</p></div></div></section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "f36547b",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Escritório de Advocacia Criminal em Vila Velha",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "c5d44e8",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "fc33163",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Escritório de Advocacia Criminal em Vila Velha",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-surface-container-lowest py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"bg-surface-card rounded-2xl shadow-xl overflow-hidden grid grid-cols-1 lg:grid-cols-12\">\n<!-- Info Column (Col 7) -->\n<div class=\"lg:col-span-7 p-space-xl lg:p-space-xxl flex flex-col justify-between\">\n<div>\n<div class=\"inline-flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-widest font-semibold mb-space-sm\">\n<span class=\"material-symbols-outlined text-[16px]\">location_on</span>\n<span class=\"\">Sede Praia da Costa</span>\n</div>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-space-md\">\n              Escritório de Advocacia Criminal em Vila Velha\n            </h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal leading-relaxed mb-space-lg\">\n              Nosso escritório está estrategicamente instalado no coração da Praia da Costa, a meros 2 minutos da praia, 5 minutos da saída da Terceira Ponte e nas imediações do Shopping da Terra. Um ambiente sóbrio, reservado e projetado para acolher nossos constituintes com discrição absoluta.\n            </p>\n<div class=\"space-y-space-md mb-space-lg\">\n<div class=\"flex items-start gap-space-sm\">\n<span class=\"material-symbols-outlined text-gold-muted text-[22px] mt-0.5\">place</span>\n<div>\n<span class=\"font-title-md text-title-md text-navy-deep block font-semibold\">Endereço Presencial</span>\n<span class=\"font-body-sm text-body-sm text-slate-charcoal\">Rua João Pessoa de Matos, 530 – Sala 205, Edifício Master<br/>Praia da Costa, Vila Velha – ES, CEP 29100-010</span>\n</div>\n</div>\n<div class=\"flex items-start gap-space-sm\">\n<span class=\"material-symbols-outlined text-gold-muted text-[22px] mt-0.5\">schedule</span>\n<div>\n<span class=\"font-title-md text-title-md text-navy-deep block font-semibold\">Horário de Expediente</span>\n<span class=\"font-body-sm text-body-sm text-slate-charcoal\">Segunda a Sábado, das 08h às 20h (Atendimento presencial com agendamento prévio)</span>\n</div>\n</div>\n<div class=\"flex items-start gap-space-sm\">\n<span class=\"material-symbols-outlined text-gold-muted text-[22px] mt-0.5\">phone_in_talk</span>\n<div>\n<span class=\"font-title-md text-title-md text-navy-deep block font-semibold\">Plantão Emergencial 24 Horas</span>\n<span class=\"font-body-sm text-body-sm text-slate-charcoal\">(27) 99623-9086 · Atendimento permanente para prisões, flagrantes e mandados</span>\n</div>\n</div>\n</div>\n</div>\n<!-- Action Navigation Buttons -->\n<div class=\"flex flex-wrap items-center gap-space-sm pt-space-md\">\n<a class=\"inline-flex items-center gap-space-xs bg-navy-deep hover:bg-slate-charcoal text-on-primary font-title-md text-title-md px-space-lg py-space-sm rounded-lg transition-colors shadow-sm\" href=\"https://www.google.com/maps/place/Pablo+Ribeiro+advogado+criminalista+em+vila+velha/@-20.340204,-40.2891291,2528m/data=!3m1!1e3!4m6!3m5!1s0xb81722cff4d141:0x747e08dd9241cbb5!8m2!3d-20.3374029!4d-40.2868027!16s%2Fg%2F11lss5mdgy?entry=ttu\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-gold-accent text-[20px]\">map</span>\n<span class=\"\">Abrir no Google Maps</span>\n</a>\n<a class=\"inline-flex items-center gap-space-xs bg-surface-container-high hover:bg-surface-container-highest text-navy-deep font-title-md text-title-md px-space-lg py-space-sm rounded-lg transition-colors\" href=\"https://www.waze.com/en/live-map/directions/br/es/pablo-ribeiro-advogado-criminalista-em-vila-velha?utm_source=waze_website&amp;place=ChIJQdH0zyIXuAARtctBkt0IfnQ\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[20px]\">near_me</span>\n<span class=\"\">Traçar Rota no Waze</span>\n</a>\n</div>\n</div>\n<!-- Location Card & Secondary Office (Col 5) -->\n<div class=\"lg:col-span-5 bg-surface-container-low p-space-xl flex flex-col justify-between\">\n<div>\n<div class=\"w-full h-56 rounded-xl bg-cover bg-center shadow-inner mb-space-lg\" data-location=\"Praia da Costa, Vila Velha, Espírito Santo\" style=\"background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAbTArG4-9zdIAJJ4vpIz3FR2EwV48IPa5mca1gJGGkedjGsan6isL-cnEIBYN2q5r_hqqZEV96wDWroJOgAa7iA9bn4j-M21OPeCorvaKRFyFUCYGdNz3l0Ffi8YkwG7QUpYg159CyEwzjIu1VXSeKOwj8V3EPf1htA9Y8fRVOm5rfb-78ZPtDS3fzm5b8gIs75eFvPkKUvbdJ_uhYlYTZF-ODcWF-6gqoOt8dThU')\"></div>\n<div class=\"bg-surface-card p-space-md rounded-xl shadow-sm mb-space-md\">\n<span class=\"font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block font-semibold mb-1\">Acesso Fácil de Toda Grande Vitória</span>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal\">\n                • 5 minutos após a descida da Terceira Ponte (vinda de Vitória).<br/>\n                • Acesso direto pela Av. Champagnat e Rodovia do Sol.\n              </p>\n</div>\n</div>\n<!-- Secondary Unit Reference -->\n<div class=\"bg-surface-container-highest/60 p-space-md rounded-xl\">\n<span class=\"font-label-sm text-label-sm text-navy-deep font-semibold uppercase tracking-wider block mb-1\">Segunda Unidade no Espírito Santo:</span>\n<p class=\"font-body-sm text-body-sm text-slate-charcoal mb-space-sm\">\n<strong>Unidade Vitória:</strong> Av. João Batista Parra, 633, 14º andar, Praia do Suá (ao lado do TJES).\n            </p>\n<a class=\"font-title-md text-title-md text-secondary hover:text-navy-deep font-semibold inline-flex items-center gap-space-xs transition-colors\" href=\"#\">\n<span class=\"\">Conhecer a Unidade Vitória</span>\n<span class=\"material-symbols-outlined text-[16px]\">arrow_forward</span>\n</a>\n</div>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1719b04",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Perguntas Frequentes sobre Atuação em Vila Velha",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "6349c0b",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "5dcaa4f",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Perguntas Frequentes sobre Atuação em Vila Velha",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-parchment-base py-space-xxl\">\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin\">\n<div class=\"max-w-3xl mb-space-xl\">\n<span class=\"font-label-md text-label-md text-gold-muted uppercase tracking-widest block font-semibold mb-space-xs\">Esclarecimentos Jurídicos</span>\n<h2 class=\"font-headline-lg text-headline-lg text-navy-deep mb-space-sm\">Perguntas Frequentes sobre Atuação em Vila Velha</h2>\n<p class=\"font-body-md text-body-md text-slate-charcoal\">\n          Respostas práticas e transparentes sobre diligências policiais, audiências de custódia, presídio de Xuri e contratação de defesa penal técnica.\n        </p>\n</div>\n<div class=\"space-y-space-md max-w-4xl\" id=\"faq-accordion\">\n<!-- FAQ 1 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-sm transition-all open:shadow-md cursor-pointer\">\n<summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\">\n<span class=\"\">1. Como encontrar um criminalista próximo na Praia da Costa em Vila Velha?</span>\n<span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span>\n</summary>\n<div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            Nosso escritório está sediado na Rua João Pessoa de Matos, 530, Sala 205 (Edifício Master), na Praia da Costa. O agendamento prévio garante privacidade total em sala reservada. Em casos urgentes de flagrante ou mandado de busca, o acionamento pelo WhatsApp (27) 99623-9086 mobiliza a defesa sem perda de tempo.\n          </div>\n</details>\n<!-- FAQ 2 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-md transition-all open:shadow-md cursor-pointer border border-gold-accent/40\" open=\"\"><summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\"><span class=\"flex items-center gap-space-xs font-semibold\"><span class=\"w-2 h-2 rounded-full bg-gold-accent inline-block\"></span>2. Para qual delegacia uma pessoa presa em Vila Velha é encaminhada?</span><span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span></summary><div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed border-t border-hairline/80\"><p class=\"mb-space-sm\">Em regra, todas as ocorrências de flagrante registradas em Vila Velha (noturnas, finais de semana ou feriados) convergem para a <strong>2ª Delegacia Regional de Vila Velha</strong> (plantão unificado 24h situado em Cobilândia / Jaburuna). Ocorrências com especificidade temática são distribuídas à <strong>DEAM</strong> (Centro/Prainha – Lei Maria da Penha) ou à <strong>DHPP Vila Velha</strong> (Homicídios e Proteção à Pessoa).</p><div class=\"bg-surface-container-low p-space-md rounded-lg mt-space-sm border-l-2 border-gold-accent space-y-space-xs text-body-sm\"><div class=\"flex items-start gap-space-xs\"><span class=\"material-symbols-outlined text-gold-muted text-[18px] mt-0.5\">timer</span><div><strong class=\"text-navy-deep\">Prazo Constitucional de 24 Horas:</strong> Após lavratura do APF na Regional, o detido deve ser imediatamente encaminhado para a <em>Audiência de Custódia</em> no Núcleo Regional em até 24h, onde a defesa técnica postula o relaxamento ou a concessão de liberdade provisória.</div></div></div></div></details>\n<!-- FAQ 3 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-md transition-all open:shadow-md cursor-pointer border border-gold-accent/40\" open=\"\"><summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\"><span class=\"flex items-center gap-space-xs font-semibold\"><span class=\"w-2 h-2 rounded-full bg-gold-accent inline-block\"></span>3. Meu familiar foi levado para o Presídio de Xuri, como o advogado pode atuar?</span><span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span></summary><div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed border-t border-hairline/80\"><p class=\"mb-space-sm\">Pelo <strong>art. 7º, inciso III do Estatuto da Advocacia (Lei Federal 8.906/94)</strong>, o criminalista possui prerrogativa incondicionada de realizar <em>entrevista pessoal e reservada</em> com o apenado em parlatório privativo em qualquer unidade do Complexo Penitenciário de Xuri (seja no <strong>CDPVV</strong> ou nas Penitenciárias <strong>PEVV I, II, III, V e VI</strong>), mesmo sem procuração outorgada previamente pelos familiares.</p><div class=\"bg-surface-container-low p-space-md rounded-lg space-y-space-sm mt-space-sm border-l-2 border-gold-accent text-body-sm\"><div class=\"flex items-start gap-space-xs\"><span class=\"material-symbols-outlined text-gold-muted text-[18px] mt-0.5\">verified_user</span><div><strong class=\"text-navy-deep\">Análise Imediata do Prontuário Carcerário:</strong> Inspeção das condições físicas, integridade corporal e verificação de medicamentos de uso contínuo retidos na triagem prisional.</div></div><div class=\"flex items-start gap-space-xs\"><span class=\"material-symbols-outlined text-gold-muted text-[18px] mt-0.5\">calculate</span><div><strong class=\"text-navy-deep\">Cálculo de Remição &amp; Progressão de Regime:</strong> Auditoria completa dos dias remidos por estudo e trabalho carcerário, peticionando com celeridade perante a <strong>8ª Vara Criminal (Regime Fechado)</strong> ou <strong>9ª Vara Criminal (Regime Semiaberto)</strong> da Comarca de Vila Velha.</div></div></div></div></details>\n<!-- FAQ 4 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-sm transition-all open:shadow-md cursor-pointer\">\n<summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\">\n<span class=\"\">4. O advogado atende casos de outros municípios que estão tramitando no fórum de Vila Velha?</span>\n<span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span>\n</summary>\n<div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            Sim. Frequentemente atuamos em processos redistribuídos, precatórias ou causas com réus presos em Xuri respondendo a processos em Vitória, Cariacica, Serra, Guarapari ou no interior do Estado, atuando perante as Varas Criminais e Varas de Execuções Penais da comarca.\n          </div>\n</details>\n<!-- FAQ 5 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-sm transition-all open:shadow-md cursor-pointer\">\n<summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\">\n<span class=\"\">5. O que acontece na audiência de custódia de quem foi preso em Vila Velha?</span>\n<span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span>\n</summary>\n<div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            No prazo improrrogável de até 24 horas, a pessoa detida é apresentada ao juiz de custódia com a presença obrigatória de seu advogado de defesa e do Ministério Público. A finalidade exclusiva é verificar a legalidade da prisão, eventuais torturas ou abusos policiais, e decidir se o autuado responderá ao processo em liberdade provisória (com ou sem medidas cautelares) ou se terá a prisão convertida em preventiva.\n          </div>\n</details>\n<!-- FAQ 6 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-sm transition-all open:shadow-md cursor-pointer\">\n<summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\">\n<span class=\"\">6. Como funciona a consulta presencial no escritório da Praia da Costa?</span>\n<span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span>\n</summary>\n<div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            A consulta é agendada para garantir dedicação integral e sigilo. Durante a reunião, fazemos o raio-X dos elementos do inquérito ou da ação penal, avaliamos riscos e traçamos o plano de defesa. Para quem não puder se deslocar ou residir fora de Vila Velha, realizamos atendimento por videoconferência criptografada.\n          </div>\n</details>\n<!-- FAQ 7 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-sm transition-all open:shadow-md cursor-pointer\">\n<summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\">\n<span class=\"\">7. Como são definidos os honorários advocatícios (tabela da OAB/ES)?</span>\n<span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span>\n</summary>\n<div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            Os honorários são pactuados em contrato escrito de prestação de serviços advocatícios, observando a complexidade do caso, fase processual, urgência e a Tabela de Honorários da OAB/ES. Por expressa determinação do Código de Ética e Disciplina da OAB, valores não são expostos em plataformas abertas na internet.\n          </div>\n</details>\n<!-- FAQ 8 -->\n<details class=\"group bg-surface-card rounded-xl p-space-lg shadow-sm transition-all open:shadow-md cursor-pointer\">\n<summary class=\"flex items-center justify-between font-headline-sm text-headline-sm text-navy-deep list-none select-none\">\n<span class=\"\">8. Em casos urgentes de madrugada ou fins de semana, como acionar o plantão?</span>\n<span class=\"material-symbols-outlined text-secondary group-open:rotate-180 transition-transform text-[22px]\">expand_more</span>\n</summary>\n<div class=\"mt-space-md pt-space-sm text-slate-charcoal font-body-md text-body-md leading-relaxed\">\n            Basta ligar ou enviar mensagem para o número exclusivo do Plantão Criminal: <strong>(27) 99623-9086</strong>. O atendimento telefônico funciona 24 horas todos os dias da semana para flagrantes, mandados de busca e apreensão, cumprimento de prisão temporária/preventiva e custódias imediatas.\n          </div>\n</details>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "300d5ce",
+   "elType": "section",
+   "isInner": false,
+   "settings": {
+    "_title": "Precisa de Defesa Penal Especializada em Vila Velha?",
+    "layout": "full_width",
+    "stretch_section": "section-stretched",
+    "gap": "no",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "margin": {
+     "unit": "px",
+     "top": "0",
+     "right": 0,
+     "bottom": "0",
+     "left": 0,
+     "isLinked": true
+    },
+    "css_classes": "prk-section"
+   },
+   "elements": [
+    {
+     "id": "8c09ceb",
+     "elType": "column",
+     "isInner": false,
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null,
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "9b3b51b",
+       "elType": "widget",
+       "widgetType": "html",
+       "isInner": false,
+       "settings": {
+        "_title": "Precisa de Defesa Penal Especializada em Vila Velha?",
+        "html": "<div class=\"prk\"><section class=\"w-full bg-navy-deep py-space-xxl text-on-primary relative overflow-hidden\">\n<div class=\"absolute -left-20 -top-20 w-80 h-80 rounded-full bg-gold-accent/5 blur-3xl pointer-events-none\"></div>\n<div class=\"absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-surface-tint/10 blur-3xl pointer-events-none\"></div>\n<div class=\"max-w-[1280px] mx-auto px-margin-mobile lg:px-margin text-center relative z-10\">\n<div class=\"max-w-3xl mx-auto\">\n<span class=\"font-label-md text-label-md text-gold-accent uppercase tracking-widest block font-semibold mb-space-sm\">\n          Ação Imediata na Comarca de Vila Velha\n        </span>\n<h2 class=\"font-headline-xl text-headline-xl lg:text-[46px] text-on-primary mb-space-md font-serif\">\n          Precisa de Defesa Penal Especializada em Vila Velha?\n        </h2>\n<p class=\"font-body-lg text-body-lg text-parchment-base/80 mb-space-xl leading-relaxed\">\n          Cada hora sem a devida orientação técnica amplia a vulnerabilidade de quem está sob o crivo do Estado. Fale diretamente com a equipe do Dr. Pablo Ribeiro e assegure um posicionamento firme e resolutivo agora mesmo.\n        </p>\n<div class=\"flex flex-wrap items-center justify-center gap-space-md mb-space-lg\">\n<a class=\"inline-flex items-center justify-center gap-space-sm bg-gold-accent hover:bg-secondary-container text-navy-deep font-title-lg text-title-lg px-space-xl py-space-md rounded-lg transition-all font-semibold shadow-lg group\" href=\"https://wa.me/5527996239086?text=Ol%C3%A1%2C%20vim%20pelo%20site%20%28Advogado%20criminalista%20em%20Vila%20Velha%20%28ES%29%29%20e%20preciso%20de%20assist%C3%AAncia%20jur%C3%ADdica%20urgente.\" rel=\"noopener noreferrer\" target=\"_blank\">\n<span class=\"material-symbols-outlined text-[22px] group-hover:scale-110 transition-transform\">chat</span>\n<span class=\"\">Chamar no WhatsApp: (27) 99623-9086</span>\n</a>\n<a class=\"inline-flex items-center justify-center gap-space-sm bg-surface-card/10 hover:bg-surface-card/20 text-on-primary font-title-lg text-title-lg px-space-xl py-space-md rounded-lg transition-colors backdrop-blur-sm\" href=\"tel:+5527996239086\">\n<span class=\"material-symbols-outlined text-[22px]\">phone_in_talk</span>\n<span class=\"\">Ligar para o Plantão</span>\n</a>\n</div>\n<div class=\"flex items-center justify-center gap-space-lg text-outline-variant font-body-sm text-body-sm flex-wrap\">\n<span class=\"flex items-center gap-1\">\n<span class=\"material-symbols-outlined text-gold-accent text-[18px]\">lock</span>\n            Sigilo Absoluto e Discrição\n          </span>\n<span class=\"hidden sm:inline\">•</span>\n<span class=\"flex items-center gap-1\">\n<span class=\"material-symbols-outlined text-gold-accent text-[18px]\">verified</span>\n            OAB/ES 30.388\n          </span>\n<span class=\"hidden sm:inline\">•</span>\n<span class=\"flex items-center gap-1\">\n<span class=\"material-symbols-outlined text-gold-accent text-[18px]\">schedule</span>\n            Atendimento 24 Horas\n          </span>\n</div>\n</div>\n</div>\n</section></div>"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

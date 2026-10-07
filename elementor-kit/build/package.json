@@ -1,0 +1,10 @@
+{
+  "name": "pablo-ribeiro-elementor-kit-build",
+  "private": true,
+  "description": "Compila o CSS (Tailwind 3, escopado em .prk) dos templates Elementor",
+  "devDependencies": {
+    "postcss": "8.4.49",
+    "postcss-prefix-selector": "1.16.1",
+    "tailwindcss": "3.4.17"
+  }
+}

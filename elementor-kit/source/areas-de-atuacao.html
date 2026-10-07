@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-high": "#e8e8e5", "secondary": "#755a21", "on-tertiary-container": "#7e8493", "slate-charcoal": "#2F3542", "on-primary-fixed": "#121a38", "navy-deep": "#08102E", "on-tertiary": "#ffffff", "on-error": "#ffffff", "error-container": "#ffdad6", "on-secondary-fixed-variant": "#5b430a", "surface-dim": "#dadad7", "surface-variant": "#e2e3e0", "primary-fixed": "#dde1ff", "surface-container-highest": "#e2e3e0", "on-surface-variant": "#46464e", "on-tertiary-fixed": "#161c28", "secondary-container": "#fed892", "inverse-primary": "#bec5ec", "outline": "#76767e", "surface-container-low": "#f4f4f1", "gold-muted": "#B59451", "on-secondary-fixed": "#261900", "tertiary-fixed-dim": "#c1c6d7", "on-primary": "#ffffff", "on-background": "#1a1c1b", "on-secondary-container": "#785d23", "primary-fixed-dim": "#bec5ec", "surface-container-lowest": "#ffffff", "tertiary": "#000000", "inverse-surface": "#2f312f", "surface-card": "#FFFFFF", "surface-tint": "#555d7f", "on-primary-fixed-variant": "#3e4566", "primary": "#000000", "surface-bright": "#f9f9f6", "gold-accent": "#D4B16F", "outline-variant": "#c6c5ce", "background": "#f9f9f6", "on-tertiary-fixed-variant": "#414754", "parchment-base": "#FAFAF7", "surface": "#f9f9f6", "on-error-container": "#93000a", "on-primary-container": "#7b82a6", "on-surface": "#1a1c1b", "border-hairline": "#E5E3DC", "secondary-fixed-dim": "#e6c27e", "surface-container": "#eeeeeb", "tertiary-fixed": "#dde2f3", "primary-container": "#121a38", "on-secondary": "#ffffff", "error": "#ba1a1a", "tertiary-container": "#161c28", "inverse-on-surface": "#f1f1ee", "secondary-fixed": "#ffdea4" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-sm": "0.5rem", "space-md": "1rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-xxl": "4rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "margin": "3rem" }, "fontFamily": { "headline-sm": [ "Newsreader" ], "headline-md": [ "Newsreader" ], "headline-lg": [ "Newsreader" ], "body-md": [ "Inter" ], "body-lg": [ "Inter" ], "headline-xl-mobile": [ "Newsreader" ], "title-md": [ "Inter" ], "title-lg": [ "Inter" ], "label-sm": [ "Inter" ], "label-md": [ "Inter" ], "headline-xl": [ "Newsreader" ], "body-sm": [ "Inter" ], "headline-lg-mobile": [ "Newsreader" ] }, "fontSize": { "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "headline-md": [ "26px", { "lineHeight": "34px", "fontWeight": "600" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "fontWeight": "500" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-xl-mobile": [ "34px", { "lineHeight": "42px", "fontWeight": "500" } ], "title-md": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "title-lg": [ "18px", { "lineHeight": "26px", "fontWeight": "600" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "headline-xl": [ "48px", { "lineHeight": "56px", "fontWeight": "500" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(8,16,46,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Image from https://pabloribeiro.adv.br/wp-content/uploads/2026/09/pr-header-v2-monogram.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wtu_rF6ZE5Ia8uEjWXBO-RtJoKUUKzAsVHvZf07hyuGCwfNQjicsuK6jUUXorGKSD_bCtcXekQJEQzs15RBDFkjWq3Z0WT1UkALHEizPzWeszc47SttwR9t0SY7rr6lTjdis5jptLYp6WPfWVn8Sf0a2g9RLdPkPxbo1NtbHl6C7TNV784PiZYcz1pTzbfhHKDRV1Esy906pMDGiFo6vdclFeGljBG2YfKxe8oEwZo"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-navy-deep tracking-tight leading-none">Pablo Ribeiro Advogado</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted mt-space-xs">Criminalista • OAB/ES 30.388</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-navy-deep font-semibold border-b-2 border-gold-accent"><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="inicio" href="#">Início</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="areas-de-atuacao" href="#">Áreas de Atuação</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="plantao-criminal-24h" href="#">Plantão 24h</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="guia-penal-capixaba" href="#">Guia Penal Capixaba</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="unidades" href="#">Unidades</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="sobre" href="#">Sobre</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="contato" href="#">Contato</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center bg-navy-deep hover:bg-slate-charcoal text-on-primary font-title-md text-title-md px-space-lg py-space-sm rounded-lg transition-colors shadow-sm" data-path="plantao-criminal-24h" href="#">Plantão 24h</a><a class="inline-flex items-center justify-center bg-gold-accent hover:bg-secondary-container text-navy-deep font-title-md text-title-md px-space-md py-space-sm rounded-lg transition-colors" data-path="contato" href="#">WhatsApp</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- EMERGENCY TOP NOTIFICATION STRIP -->
+<div class="w-full bg-navy-deep text-on-primary border-b border-gold-muted/30">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-3 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+<div class="flex items-center gap-2">
+<span class="inline-flex h-2.5 w-2.5 rounded-full bg-gold-accent animate-pulse"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-gold-accent">Plantão Urgente 24h</span>
+<span class="hidden md:inline text-on-primary/60 font-body-sm text-body-sm">|</span>
+<p class="font-body-sm text-body-sm text-on-primary">
+<strong class="font-semibold text-white">Alguém foi preso agora?</strong> Flagrante, delegacia ou audiência de custódia na Grande Vitória.
+        </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-gold-accent hover:text-white uppercase tracking-wider transition-colors" href="https://wa.me/5527996239086?text=Urgente%20-%20Plantao%20Criminal%20Flagrante">
+        Acesse imediatamente o Plantão 24h
+        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- HERO SECTION -->
+<section class="relative w-full bg-parchment-base py-space-xl lg:py-space-xxl border-b border-border-hairline overflow-hidden">
+<!-- Subtle architectural background styling -->
+<div class="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#08102E_1px,transparent_1px)] [background-size:24px_24px]"></div>
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin relative z-10">
+<!-- Breadcrumb -->
+<nav class="flex items-center gap-2 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant mb-6">
+<a class="hover:text-navy-deep transition-colors" href="#">Início</a>
+<span class="text-gold-muted">›</span>
+<span class="text-navy-deep font-semibold">Áreas de Atuação</span>
+</nav>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-8 flex flex-col gap-5">
+<!-- Overline Badge -->
+<div class="inline-flex items-center gap-2 self-start bg-surface-container-high/60 px-3.5 py-1 rounded">
+<span class="material-symbols-outlined text-gold-muted text-base">gavel</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-slate-charcoal">
+              DIREITO PENAL · PROCESSO PENAL · INVESTIGAÇÃO DEFENSIVA · INTEGRIDADE
+            </span>
+</div>
+<!-- Main Title with Newsreader font -->
+<h1 class="font-headline-xl text-headline-xl text-navy-deep tracking-tight">
+            Áreas de Atuação do Advogado Criminalista no Espírito Santo
+          </h1>
+<!-- Lead Paragraph -->
+<p class="font-body-lg text-body-lg text-slate-charcoal leading-relaxed max-w-3xl">
+            Atuação técnica, estratégica e combativa desde os primeiros atos da investigação até o plenário do Tribunal do Júri, recursos aos tribunais estaduais e superiores e a execução da pena. Estruturas dedicadas em Vila Velha e Vitória para atendimento combativo em toda a Grande Vitória e interior.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center justify-center gap-2 bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-md text-title-md px-6 py-3.5 rounded transition-all shadow-sm" href="https://wa.me/5527996239086?text=Ol%C3%A1%2C%20gostaria%20de%20consultoria%20com%20Dr.%20Pablo%20Ribeiro">
+<span class="material-symbols-outlined text-lg">chat</span>
+              Falar com o Escritório
+            </a>
+<a class="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-navy-deep hover:text-white text-navy-deep font-title-md text-title-md px-6 py-3.5 rounded border border-navy-deep transition-all" href="tel:+5527996239086">
+<span class="material-symbols-outlined text-lg text-gold-muted">phone_in_talk</span>
+              Plantão Criminal 24h: (27) 99623-9086
+            </a>
+</div>
+</div>
+<!-- Sidebar Jurisprudence Quote / Accreditation -->
+<div class="lg:col-span-4 flex flex-col gap-4 mt-6 lg:mt-0">
+<div class="bg-surface-card p-6 rounded shadow-sm border border-border-hairline relative">
+<div class="w-1 absolute left-0 top-0 bottom-0 bg-gold-accent"></div>
+<div class="flex items-center gap-3 mb-3">
+<div class="w-10 h-10 rounded bg-navy-deep/5 flex items-center justify-center text-navy-deep">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-navy-deep">Dr. Pablo Ribeiro</h4>
+<p class="font-label-sm text-label-sm text-gold-muted uppercase tracking-wider">OAB/ES 30.388</p>
+</div>
+</div>
+<p class="font-headline-sm italic text-slate-charcoal text-base leading-snug">
+              "A advocacia criminal de alto nível não trabalha com improviso: cada minuto conta na preservação da liberdade e na higidez da cadeia de custódia da prova."
+            </p>
+<div class="mt-4 pt-4 border-t border-border-hairline flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>UNIDADES VILA VELHA &amp; VITÓRIA</span>
+<span class="text-gold-muted font-bold">24H / 7 DIAS</span>
+</div>
+</div>
+<!-- Fast stats / indicator -->
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-surface-container-low p-4 rounded text-center">
+<span class="block font-headline-md text-headline-md text-navy-deep">100%</span>
+<span class="font-label-sm text-label-sm uppercase text-slate-charcoal">Foco Penal Especializado</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded text-center">
+<span class="block font-headline-md text-headline-md text-navy-deep">Prov. 188</span>
+<span class="font-label-sm text-label-sm uppercase text-slate-charcoal">Investigação Defensiva</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- QUICK TRIAGE / DIAGNOSIS SECTION -->
+<section class="w-full bg-background py-space-xl lg:py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-gold-muted">Triagem e Atendimento Imediato</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep mt-1">Qual é a sua situação atual?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-2xl">
+            Escolha o cenário que melhor reflete o momento da sua demanda para entender as medidas técnicas cabíveis de imediato.
+          </p>
+</div>
+<div class="shrink-0 flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-gold-accent"></span>
+          Orientação com Sigilo Profissional Estrito
+        </div>
+</div>
+<!-- 8-Card Diagnostic Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Scenario 1: Preso -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=URGENTE%20-%20Alguem%20foi%20preso">
+<div>
+<div class="w-10 h-10 rounded bg-navy-deep text-gold-accent flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">lock_clock</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Alguém foi preso</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Flagrante delito, encaminhamento à delegacia, audiência de custódia e mandado de prisão preventiva em aberto.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-gold-muted mt-5">
+            Prisões e Liberdade <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+<!-- Scenario 2: Intimação Policial -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=Recebi%20uma%20intimacao%20policial">
+<div>
+<div class="w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">mail</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Recebi intimação policial</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Depoimento, interrogatório formal, busca e apreensão e acompanhamento técnico preliminar em inquérito.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5">
+            Intimação Policial <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+<!-- Scenario 3: Medida Protetiva -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=Recebi%20uma%20medida%20protetiva">
+<div>
+<div class="w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">shield</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Recebi medida protetiva</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Lei Maria da Penha, defesa contra medidas de urgência, audiência preliminar e pedidos judiciais de revogação.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5">
+            Lei Maria da Penha <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+<!-- Scenario 4: Investigação Defensiva -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=Preciso%20reunir%20provas%20para%20minha%20defesa">
+<div>
+<div class="w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">find_in_page</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Preciso reunir provas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Investigação defensiva, entrevistas com testemunhas, perícia com assistente técnico, prova digital e câmeras.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5">
+            Investigação Defensiva <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+<!-- Scenario 5: Processo Criminal em Andamento -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=Ja%20existe%20um%20processo%20criminal%20em%20andamento">
+<div>
+<div class="w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">balance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Já existe processo criminal</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Audiência de instrução e julgamento, resposta à acusação, alegações finais, habeas corpus e apelação ao TJES.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5">
+            Defesa e Recursos <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+<!-- Scenario 6: Execução Penal -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=Meu%20familiar%20esta%20cumprindo%20pena">
+<div>
+<div class="w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">timeline</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Familiar cumprindo pena</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Progressão de regime (fechado/semiaberto), remição por trabalho ou estudo, livramento condicional e falta grave.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5">
+            Execução Penal <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+<!-- Scenario 7: Compliance e Prevenção Corporativa -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=Minha%20empresa%20precisa%20prevenir%20riscos%20penais">
+<div>
+<div class="w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">corporate_fare</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Prevenção corporativa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Compliance criminal, programas de integridade, apurações internas confidenciais e estruturação de canal ético.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5">
+            Compliance Penal <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+<!-- Scenario 8: PAD / Processo Sancionador -->
+<a class="group bg-surface-card p-6 rounded border-t-2 border-transparent hover:border-gold-accent border-x border-b border-border-hairline shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="https://wa.me/5527996239086?text=Recebi%20PAD%20PAR%20ou%20processo%20sancionador">
+<div>
+<div class="w-10 h-10 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">account_balance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2 group-hover:text-gold-muted transition-colors">Recebi PAD, PAR ou Sanção</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Processo Administrativo Disciplinar, processo de responsabilização, ações de improbidade e Tribunais de Contas.
+            </p>
+</div>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase font-semibold text-navy-deep mt-5">
+            Direito Sancionador <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</span>
+</a>
+</div>
+</div>
+</section>
+<!-- CORE THREE SERVICE GROUPS (TABS / ARCHITECTURE) -->
+<section class="w-full bg-surface-container-low py-space-xl lg:py-space-xxl border-y border-border-hairline">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="text-center max-w-3xl mx-auto mb-12">
+<span class="font-label-md text-label-md uppercase tracking-widest text-gold-muted">Arquitetura de Serviços Especializados</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep mt-1">Os Três Grandes Núcleos de Atuação</h2>
+<p class="font-body-md text-body-md text-slate-charcoal mt-2">
+          Atuação dividida organicamente para responder com profundidade científica tanto à crise aguda individual quanto às contingências corporativas e probatórias contemporâneas.
+        </p>
+<!-- Interactive Tab Buttons -->
+<div class="flex flex-wrap items-center justify-center gap-2 mt-8 p-1.5 bg-surface-container rounded-lg max-w-2xl mx-auto">
+<button class="flex-1 min-w-[180px] py-2.5 px-4 rounded text-center font-title-md text-title-md transition-all bg-navy-deep text-on-primary shadow-sm" id="tab-btn-1" onclick="switchGroupTab(1)">
+            1. Defesa &amp; Processo Criminal
+          </button>
+<button class="flex-1 min-w-[180px] py-2.5 px-4 rounded text-center font-title-md text-title-md transition-all text-slate-charcoal hover:text-navy-deep" id="tab-btn-2" onclick="switchGroupTab(2)">
+            2. Investigação &amp; Prova
+          </button>
+<button class="flex-1 min-w-[180px] py-2.5 px-4 rounded text-center font-title-md text-title-md transition-all text-slate-charcoal hover:text-navy-deep" id="tab-btn-3" onclick="switchGroupTab(3)">
+            3. Empresas &amp; Sancionador
+          </button>
+</div>
+</div>
+<!-- TAB PANEL 1: DEFESA E PROCESSO CRIMINAL -->
+<div class="tab-panel flex flex-col gap-6" id="tab-panel-1">
+<div class="bg-surface-card p-6 md:p-8 rounded border border-border-hairline">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-border-hairline">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted">Núcleo Principal</span>
+<h3 class="font-headline-md text-headline-md text-navy-deep">Defesa Técnica e Processo Criminal</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-charcoal max-w-md">
+              Combate vigoroso de arbitrariedades, salvaguarda irrestrita das garantias constitucionais e acompanhamento contínuo em todas as instâncias capixabas e superiores (STJ e STF).
+            </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-6">
+<!-- Item 1 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">meeting_room</span>
+<span class="font-label-sm text-label-sm text-gold-muted font-bold">URGÊNCIA</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Prisões, Liberdade e Habeas Corpus</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Atendimento em flagrante, custódia no CIAS/DML, pedidos de relaxamento de prisão ilegal, revogação de preventiva e impetração de Habeas Corpus perante o TJES, STJ e STF.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Habeas%20Corpus%20e%20Prisao">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 2 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">badge</span>
+<span class="font-label-sm text-label-sm text-slate-charcoal font-semibold">FASE PRÉVIA</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Delegacia e Inquérito Policial</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Orientação para depoimentos, garantia do direito constitucional ao silêncio sem prejuízo à defesa, acompanhamento em mandados de busca e apreensão e cópia integral de autos sigilosos.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Delegacia%20e%20Inquerito">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 3 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">gavel</span>
+<span class="font-label-sm text-label-sm text-gold-muted font-bold">ALTA COMPLEXIDADE</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Tribunal do Júri</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Defesa em crimes dolosos contra a vida (homicídios tentados e consumados). Estratégia oratória, técnica e pericial para plenário perante o Conselho de Sentença.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Tribunal%20do%20Juri">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 4 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">policy</span>
+<span class="font-label-sm text-label-sm text-slate-charcoal font-semibold">LEI 11.343/06</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Lei de Drogas</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Acusações de tráfico e associação. Discussão incisiva de nulidades de flagrante e invasão de domicílio sem mandado, desclassificação para uso próprio e aplicação do tráfico privilegiado.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Lei%20de%20Drogas">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 5 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">format_list_numbered</span>
+<span class="font-label-sm text-label-sm text-slate-charcoal font-semibold">VARA DE EXECUÇÃO</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Execução Penal</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Cálculo minucioso de liquidação de pena, pedidos de progressão de regime, remição por trabalho e leitura, livramento condicional, transferência de presídio e anulação de faltas graves.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Execucao%20Penal">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 6 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">family_restroom</span>
+<span class="font-label-sm text-label-sm text-slate-charcoal font-semibold">MEDIDAS URGENTES</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Lei Maria da Penha</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Defesa em medidas protetivas de urgência, audiências de justificação, mediação e contestação de medidas descabidas com apresentação célere de contraprovas idôneas.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Lei%20Maria%20da%20Penha">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 7 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">directions_car</span>
+<span class="font-label-sm text-label-sm text-slate-charcoal font-semibold">CTB PENAL</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Crimes de Trânsito</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Defesa em crimes de embriaguez ao volante, homicídio culposo na direção, omissão de socorro, lesão corporal culposa e medidas cautelares de suspensão de CNH.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Crimes%20de%20Transito">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 8 -->
+<div class="p-5 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-navy-deep text-2xl">visibility_off</span>
+<span class="font-label-sm text-label-sm text-gold-muted font-bold">SEGREDO DE JUSTIÇA</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Crimes Sexuais e Sigilo Estrito</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Atuação em investigações e processos com tramitação em segredo de justiça, assegurando resguardo absoluto à honra, perícias psicológicas e técnicas rigorosas.
+                </p>
+</div>
+<a class="mt-4 font-label-md text-label-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086?text=Consulta%20Sigilosa%20Crimes%20Sexuais">
+                Ver procedimento <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+<!-- Item 9: Outros Temas -->
+<div class="p-5 rounded bg-navy-deep text-on-primary flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3 text-gold-accent">
+<span class="material-symbols-outlined text-2xl">readiness_score</span>
+<span class="font-label-sm text-label-sm uppercase font-bold">Âmbito Amplo</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-white mb-2">Outras Demandas Penais</h4>
+<div class="flex flex-wrap gap-1.5 mt-2">
+<span class="font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded">Porte de Arma</span>
+<span class="font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded">Organização Criminosa</span>
+<span class="font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded">Lesão Corporal</span>
+<span class="font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded">Revisão Criminal</span>
+<span class="font-label-sm text-label-sm bg-primary-container text-white px-2 py-1 rounded">Reabilitação</span>
+</div>
+</div>
+<a class="mt-4 font-label-md text-label-md text-gold-accent hover:text-white inline-flex items-center gap-1 font-semibold" href="https://wa.me/5527996239086">
+                Consultar tema específico <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- TAB PANEL 2: INVESTIGAÇÃO DEFENSIVA, PROVA E TECNOLOGIA -->
+<div class="tab-panel hidden flex-col gap-6" id="tab-panel-2">
+<div class="bg-surface-card p-6 md:p-8 rounded border border-border-hairline">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-border-hairline">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted">Vanguarda Probatória</span>
+<h3 class="font-headline-md text-headline-md text-navy-deep">Investigação Defensiva e Prova Tecnológica</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-charcoal max-w-md">
+              A defesa não deve ser passiva perante o material colhido pelo Estado. Respaldados pelo Provimento 188/2018 do Conselho Federal da OAB, produzimos acervo probatório autônomo, técnico e inatacável.
+            </p>
+</div>
+<!-- 6 Pillars Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-6">
+<div class="p-5 rounded bg-surface-container-low border border-border-hairline">
+<span class="font-headline-sm text-headline-sm text-gold-muted block mb-1">01</span>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Entrevistas Documentadas</h4>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+                Colheita e formalização prévia de relatos de testemunhas não ouvidas ou ignoradas pelo inquérito policial, com registro ata notarial ou declaração juramentada.
+              </p>
+</div>
+<div class="p-5 rounded bg-surface-container-low border border-border-hairline">
+<span class="font-headline-sm text-headline-sm text-gold-muted block mb-1">02</span>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Verificação de Campo e Câmeras</h4>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+                Mapeamento in loco da cena dos fatos, verificação de trajetos, pontos cegos, reconstituição de horários e resguardo urgente de gravações de CFTV antes de sua eliminação periódica.
+              </p>
+</div>
+<div class="p-5 rounded bg-surface-container-low border border-border-hairline">
+<span class="font-headline-sm text-headline-sm text-gold-muted block mb-1">03</span>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Prova Digital e Forense</h4>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+                Extração e preservação com espelhamento hash de mensagens, conversas de WhatsApp, geolocalização e metadados, resguardando a autenticidade técnica exigida judicialmente.
+              </p>
+</div>
+<div class="p-5 rounded bg-surface-container-low border border-border-hairline">
+<span class="font-headline-sm text-headline-sm text-gold-muted block mb-1">04</span>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Perícia por Assistente Técnico</h4>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+                Atuação em conjunto com peritos judiciais independentes para elaboração de pareceres técnicos divergentes, formulação de quesitos suplementares e impugnação a laudos oficiais falhos.
+              </p>
+</div>
+<div class="p-5 rounded bg-surface-container-low border border-border-hairline">
+<span class="font-headline-sm text-headline-sm text-gold-muted block mb-1">05</span>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Rigor na Cadeia de Custódia</h4>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+                Aplicação cirúrgica dos artigos 158-A a 158-F do CPP. Identificação de contaminação de vestígios e descarte de provas ilícitas e ilegítimas geradas pelo aparato acusatório.
+              </p>
+</div>
+<div class="p-5 rounded bg-surface-container-low border border-border-hairline">
+<span class="font-headline-sm text-headline-sm text-gold-muted block mb-1">06</span>
+<h4 class="font-title-lg text-title-lg text-navy-deep mb-2">Cronologia Minuciosa dos Fatos</h4>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+                Construção de uma linha do tempo documental irrefutável confrontando a narrativa acusatória contra a realidade temporal dos acontecimentos materiais.
+              </p>
+</div>
+</div>
+<!-- Digital Crimes highlight box -->
+<div class="mt-6 p-6 rounded bg-navy-deep text-on-primary flex flex-col md:flex-row md:items-center justify-between gap-6">
+<div>
+<span class="font-label-sm text-label-sm text-gold-accent uppercase tracking-widest font-semibold">Crimes Digitais e Cibernéticos</span>
+<h4 class="font-headline-sm text-headline-sm text-white mt-1">Fraudes Eletrônicas, Invasão de Dispositivos e Stalking</h4>
+<p class="font-body-sm text-body-sm text-on-primary/80 mt-1 max-w-2xl">
+                Defesa especializada em inquéritos policiais de delegacias de crimes cibernéticos, com análise pericial de logs, endereços IP, invasão de dispositivo (art. 154-A do CP) e estelionato virtual.
+              </p>
+</div>
+<a class="shrink-0 bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-md text-title-md px-6 py-3 rounded transition-colors text-center" href="https://wa.me/5527996239086?text=Consulta%20Crimes%20Digitais">
+              Reunir Provas Agora
+            </a>
+</div>
+</div>
+</div>
+<!-- TAB PANEL 3: EMPRESAS E AGENTES PÚBLICOS -->
+<div class="tab-panel hidden flex-col gap-6" id="tab-panel-3">
+<div class="bg-surface-card p-6 md:p-8 rounded border border-border-hairline">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-border-hairline">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted">Direito Penal Econômico &amp; Sancionador</span>
+<h3 class="font-headline-md text-headline-md text-navy-deep">Empresas, Gestores e Agentes Públicos</h3>
+</div>
+<p class="font-body-sm text-body-sm text-slate-charcoal max-w-md">
+              Assessoria jurídica integrada na prevenção e defesa contra investigações patrimoniais, crimes de colarinho branco e procedimentos perante órgãos de fiscalização do Estado.
+            </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6">
+<!-- Card 1 -->
+<div class="p-6 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-3xl">attach_money</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Crimes Financeiros e Tributários</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Defesa em investigações de Lavagem de Capitais (Lei 9.613/98), sonegação fiscal, crimes contra a ordem econômica, operações do Ministério Público Federal e Gaeco no ES.
+                </p>
+<div class="mt-4 pt-4 border-t border-border-hairline">
+<span class="font-label-sm text-label-sm uppercase text-gold-muted block font-semibold">Tópicos Centrais</span>
+<p class="font-body-sm text-body-sm text-slate-charcoal mt-1">Busca e apreensão contábil, bloqueio de bens patrimoniais e defesas contra denúncias econômicas genéricas.</p>
+</div>
+</div>
+<a class="mt-6 font-title-md text-title-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1" href="https://wa.me/5527996239086?text=Consulta%20Crimes%20Financeiros">
+                Atuação em Crimes Econômicos <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card 2 -->
+<div class="p-6 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-3xl">verified</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Compliance Penal e Integridade</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Mitigação de responsabilidade de administradores e sócios através de auditorias de conformidade penal, implantação de canais de denúncia e condução de apurações internas seguras.
+                </p>
+<div class="mt-4 pt-4 border-t border-border-hairline">
+<span class="font-label-sm text-label-sm uppercase text-gold-muted block font-semibold">Fluxo de Proteção</span>
+<p class="font-body-sm text-body-sm text-slate-charcoal mt-1">Prevenção · Investigação Interna · Mitigação de Danos Reputacionais e Penais.</p>
+</div>
+</div>
+<a class="mt-6 font-title-md text-title-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1" href="https://wa.me/5527996239086?text=Consulta%20Compliance%20Penal">
+                Programa de Integridade <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card 3 -->
+<div class="p-6 rounded bg-surface-container-lowest border border-border-hairline flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded bg-surface-container-high text-navy-deep flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-3xl">account_balance</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Direito Administrativo Sancionador</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                  Defesa técnica de servidores e gestores públicos em Processo Administrativo Disciplinar (PAD), Processo Administrativo de Responsabilização (PAR), Lei de Improbidade e TCE-ES.
+                </p>
+<div class="mt-4 pt-4 border-t border-border-hairline">
+<span class="font-label-sm text-label-sm uppercase text-gold-muted block font-semibold">Articulação Simultânea</span>
+<p class="font-body-sm text-body-sm text-slate-charcoal mt-1">Harmonização estrita entre a tese defensiva administrativa e eventuais repercussões na esfera criminal.</p>
+</div>
+</div>
+<a class="mt-6 font-title-md text-title-md text-navy-deep hover:text-gold-muted inline-flex items-center gap-1" href="https://wa.me/5527996239086?text=Consulta%20PAD%20e%20Direito%20Sancionador">
+                Defesa em PAD e Sancionador <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- METHODOLOGICAL SECTION: 6 STAGES OF CRIMINAL CASE ANALYSIS -->
+<section class="w-full bg-background py-space-xl lg:py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-gold-muted">Método Pablo Ribeiro Advogado</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep mt-1">Como um caso criminal é analisado pelo escritório</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-2xl">
+            A precisão de um resultado penal não resulta da sorte, mas de uma metodologia estrita de decomposição fática e probatória em 6 etapas estruturadas.
+          </p>
+</div>
+<div class="text-right shrink-0">
+<span class="font-headline-sm text-headline-sm text-navy-deep block">Rigor &amp; Ciência</span>
+<span class="font-label-sm text-label-sm text-slate-charcoal uppercase">Sem Improviso Técnico</span>
+</div>
+</div>
+<!-- 6-Stage Timeline Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Step 1 -->
+<div class="bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm">1</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">Diagnóstico</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Fase do Procedimento</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Identificação precisa do estágio processual: se investigação prévia, inquérito policial instaurado, processo crime com denúncia recebida, fase recursal perante o TJES/STJ ou execução penal.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm">2</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">Fatos</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Reconstrução dos Fatos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Montagem de uma cronologia temporal e espacial minuciosa e estritamente verificável a partir dos documentos, comunicações, registros de presença e testemunhos objetivos.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm">3</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">Perícia</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Análise Técnico-Pericial</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Exame analítico de tudo o que foi juntado pela acusação: suficiência probatória, fragilidades periciais, ausência de elementos materiais indispensáveis e o que pode ser legitimamente contestado.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm">4</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">Conformidade</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Legalidade dos Atos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Escrutínio minucioso da atuação dos agentes estatais: legalidade da abordagem, mandados de busca sem justa causa, invasão ilegal de domicílio e quebra da cadeia de custódia (art. 158-A CPP).
+          </p>
+</div>
+<!-- Step 5 -->
+<div class="bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group">
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-full bg-surface-container-high text-navy-deep flex items-center justify-center font-headline-sm text-headline-sm">5</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">Doutrina</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Construção das Teses</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Desenvolvimento de teses principais e subsidiárias com ancoragem na mais recente jurisprudência dos Tribunais Superiores (STJ e STF) e na doutrina penal e processual penal de referência.
+          </p>
+</div>
+<!-- Step 6 -->
+<div class="bg-surface-card p-6 rounded border border-border-hairline shadow-sm relative overflow-hidden group border-t-2 !border-t-gold-accent">
+<div class="flex items-center justify-between mb-4">
+<span class="w-10 h-10 rounded-full bg-navy-deep text-gold-accent flex items-center justify-center font-headline-sm text-headline-sm">6</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">Execução</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-2">Definição da Estratégia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Determinação da sequência exata das medidas judiciais a adotar: impetração de Habeas Corpus, apresentação de Resposta à Acusação, diligências investigativas autônomas ou sustentações orais.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- PUBLIC UTILITY & COURT SYSTEM NAVIGATION (GUIA PENAL CAPIXABA LINKAGE) -->
+<section class="w-full bg-surface-container-low py-space-xl border-y border-border-hairline">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-gold-muted">Informação de Utilidade Pública</span>
+<h2 class="font-headline-md text-headline-md text-navy-deep mt-1">Guia Penal Capixaba: Órgãos da Justiça Criminal no ES</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Endereços, telefones e rotinas institucionais das comarcas e presídios do Estado do Espírito Santo.
+          </p>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md uppercase tracking-wider font-semibold text-navy-deep hover:text-gold-muted" href="#">
+          Acessar o Guia Completo <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-surface-card p-5 rounded border border-border-hairline">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-gold-muted text-xl">local_police</span>
+<h4 class="font-title-md text-title-md text-navy-deep">Delegacias do ES</h4>
+</div>
+<p class="font-body-sm text-body-sm text-slate-charcoal">Plantões da Polícia Civil (DPJ Vitória, Vila Velha, Serra e Cariacica) e DHPP.</p>
+<span class="font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold">Consultar plantões →</span>
+</div>
+<div class="bg-surface-card p-5 rounded border border-border-hairline">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-gold-muted text-xl">fence</span>
+<h4 class="font-title-md text-title-md text-navy-deep">Presídios &amp; CDP</h4>
+</div>
+<p class="font-body-sm text-body-sm text-slate-charcoal">Dias de visita, regras de custódia, localização de internos no SEJUS-ES e unidades de Xuri.</p>
+<span class="font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold">Localizar preso →</span>
+</div>
+<div class="bg-surface-card p-5 rounded border border-border-hairline">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-gold-muted text-xl">domain</span>
+<h4 class="font-title-md text-title-md text-navy-deep">Varas Criminais</h4>
+</div>
+<p class="font-body-sm text-body-sm text-slate-charcoal">Fóruns de Vitória, Vila Velha e região metropolitana onde tramitam os processos penais.</p>
+<span class="font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold">Ver endereços →</span>
+</div>
+<div class="bg-surface-card p-5 rounded border border-border-hairline">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-gold-muted text-xl">account_balance</span>
+<h4 class="font-title-md text-title-md text-navy-deep">TJES Criminal</h4>
+</div>
+<p class="font-body-sm text-body-sm text-slate-charcoal">Câmaras Criminais, distribuição de recursos, plantão judiciário de 2º Grau e sessões.</p>
+<span class="font-label-sm text-label-sm text-gold-muted mt-3 inline-block font-semibold">Consultar TJES →</span>
+</div>
+</div>
+</div>
+</section>
+<!-- PHYSICAL OFFICES SECTION (VILA VELHA & VITÓRIA) -->
+<section class="w-full bg-background py-space-xl lg:py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-md text-label-md uppercase tracking-widest text-gold-muted">Presença Regional Consolidada</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep mt-1">Unidades Físicas no Espírito Santo</h2>
+<p class="font-body-md text-body-md text-slate-charcoal mt-2">
+          Escritórios posicionados estrategicamente nos centros corporativos e judiciários de Vila Velha e Vitória para atendimento presencial e rápido deslocamento.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+<!-- Unidade Vila Velha -->
+<div class="bg-surface-card p-6 md:p-8 rounded border border-border-hairline shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-sm text-label-sm uppercase bg-surface-container-high px-2.5 py-1 rounded text-navy-deep font-semibold">Unidade Praia da Costa</span>
+<span class="material-symbols-outlined text-gold-muted text-2xl">location_city</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-navy-deep mb-2">Unidade Vila Velha</h3>
+<p class="font-body-md text-body-md text-slate-charcoal mb-4">
+              Rua João Pessoa de Matos, 530 — Sala 205<br/>
+              Praia da Costa, Vila Velha — ES, CEP: 29100-010
+            </p>
+<div class="space-y-2 py-4 border-y border-border-hairline text-body-sm font-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base text-gold-muted">phone</span>
+<strong>Telefone Direto / WhatsApp:</strong> (27) 99623-9086
+              </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base text-gold-muted">schedule</span>
+<strong>Horário:</strong> Segunda a Sábado, das 08:00 às 20:00 (Plantão 24h)
+              </div>
+</div>
+</div>
+<div class="flex items-center gap-3 mt-6 pt-2">
+<a class="flex-1 text-center py-2.5 px-4 rounded bg-surface-container-low hover:bg-surface-container text-navy-deep font-title-md text-title-md transition-colors border border-border-hairline" href="https://maps.google.com/?q=Rua+Joao+Pessoa+de+Matos+530+Praia+da+Costa+Vila+Velha" target="_blank">
+              Abrir no Maps
+            </a>
+<a class="flex-1 text-center py-2.5 px-4 rounded bg-navy-deep hover:bg-slate-charcoal text-white font-title-md text-title-md transition-colors" href="https://wa.me/5527996239086?text=Agendamento%20Presencial%20Unidade%20Vila%20Velha">
+              Agendar em Vila Velha
+            </a>
+</div>
+</div>
+<!-- Unidade Vitória -->
+<div class="bg-surface-card p-6 md:p-8 rounded border border-border-hairline shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-sm text-label-sm uppercase bg-surface-container-high px-2.5 py-1 rounded text-navy-deep font-semibold">Unidade Praia do Suá</span>
+<span class="material-symbols-outlined text-gold-muted text-2xl">account_balance</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-navy-deep mb-2">Unidade Vitória</h3>
+<p class="font-body-md text-body-md text-slate-charcoal mb-4">
+              Av. João Batista Parra, 633 — 14º andar<br/>
+              Praia do Suá, Vitória — ES, CEP: 29052-123
+            </p>
+<div class="space-y-2 py-4 border-y border-border-hairline text-body-sm font-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base text-gold-muted">phone</span>
+<strong>Telefone Direto / WhatsApp:</strong> (27) 99623-9086
+              </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-base text-gold-muted">domain</span>
+<strong>Proximidade:</strong> Ao lado do Tribunal de Justiça e Fórum de Vitória
+              </div>
+</div>
+</div>
+<div class="flex items-center gap-3 mt-6 pt-2">
+<a class="flex-1 text-center py-2.5 px-4 rounded bg-surface-container-low hover:bg-surface-container text-navy-deep font-title-md text-title-md transition-colors border border-border-hairline" href="https://maps.google.com/?q=Av+Joao+Batista+Parra+633+Praia+do+Sua+Vitoria" target="_blank">
+              Abrir no Maps
+            </a>
+<a class="flex-1 text-center py-2.5 px-4 rounded bg-navy-deep hover:bg-slate-charcoal text-white font-title-md text-title-md transition-colors" href="https://wa.me/5527996239086?text=Agendamento%20Presencial%20Unidade%20Vitoria">
+              Agendar em Vitória
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ SECTION -->
+<section class="w-full bg-surface-container-low py-space-xl lg:py-space-xxl border-t border-border-hairline">
+<div class="max-w-[880px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center mb-10">
+<span class="font-label-md text-label-md uppercase tracking-widest text-gold-muted">Tira-Dúvidas Jurídico</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep mt-1">Perguntas Frequentes sobre as Áreas de Atuação</h2>
+<p class="font-body-md text-body-md text-slate-charcoal mt-2">
+          Respostas fundamentadas para as dúvidas mais recorrentes de quem enfrenta uma investigação ou processo penal no Estado.
+        </p>
+</div>
+<!-- Accordion Container -->
+<div class="flex flex-col gap-4">
+<!-- FAQ 1 -->
+<details class="group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer">
+<summary class="flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none">
+<span>Quando é o momento exato de procurar um advogado criminalista?</span>
+<span class="material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed">
+            Assim que houver intimação policial, mandado de busca e apreensão, prisão, denúncia ou qualquer indicativo preliminar de investigação. Quanto antes a defesa técnica atua no inquérito, maiores são as chances de evitar prisões cautelares desnecessárias, preservar provas digitais que se perdem no tempo e anular atos praticados em desacordo com as garantias constitucionais.
+          </div>
+</details>
+<!-- FAQ 2 -->
+<details class="group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer">
+<summary class="flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none">
+<span>O que é a Investigação Defensiva e qual o seu embasamento?</span>
+<span class="material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed">
+            É a atividade investigativa autônoma realizada pelo próprio advogado do acusado, regulamentada pelo Provimento nº 188/2018 do Conselho Federal da OAB. Permite que a defesa tome depoimentos documentados de testemunhas, contrate assistentes técnicos periciais, obtenha gravações de câmeras de segurança e produza relatórios probatórios lícitos, quebrando o monopólio probatório do Estado-Acusação.
+          </div>
+</details>
+<!-- FAQ 3 -->
+<details class="group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer">
+<summary class="flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none">
+<span>O advogado criminalista também atua durante o cumprimento da pena (Execução Penal)?</span>
+<span class="material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed">
+            Sim. A fase de cumprimento de pena tramita na Vara de Execução Penal (VEP) e possui dinâmica processual estrita. Nossa atuação envolve a realização e fiscalização dos cálculos de liquidação de pena, pedidos de progressão de regime (fechado para semiaberto e aberto), remição de pena pelo trabalho e estudo, pedidos de indulto/comutação, obtenção de livramento condicional e anulação de Processos Administrativos Disciplinares (PAD) por supostas faltas graves.
+          </div>
+</details>
+<!-- FAQ 4 -->
+<details class="group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer">
+<summary class="flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none">
+<span>O que é Compliance Penal e como ele protege empresas e diretores?</span>
+<span class="material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed">
+            É o conjunto preventivo de mecanismos, auditorias e diretrizes éticas que visam prevenir, identificar e sanar a prática de condutas ilícitas no âmbito corporativo. Ele protege diretamente os sócios, diretores e administradores de serem injustamente imputados como autores de crimes societários, tributários ou ambientais por mera posição de chefia (responsabilidade penal objetiva velada).
+          </div>
+</details>
+<!-- FAQ 5 -->
+<details class="group bg-surface-card rounded p-6 border border-border-hairline open:border-gold-accent transition-all cursor-pointer">
+<summary class="flex items-center justify-between font-title-lg text-title-lg text-navy-deep list-none select-none">
+<span>Um mesmo fato pode gerar processo criminal e administrativo simultaneamente?</span>
+<span class="material-symbols-outlined text-gold-muted transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-4 mt-4 border-t border-border-hairline text-slate-charcoal font-body-md text-body-md leading-relaxed">
+            Sim. A legislação brasileira consagra a independência das instâncias penal, administrativa (PAD/PAR) e cível (Improbidade). No entanto, decisões e provas produzidas em uma esfera podem ter forte reflexo na outra — especialmente quando a defesa criminal comprova a inexistência material do fato ou negativa categórica de autoria. Por isso, a condução das duas defesas deve ser sincronizada por uma assessoria especializada.
+          </div>
+</details>
+</div>
+</div>
+</section>
+<!-- FINAL EMERGENCY CONVERSION BANNER -->
+<section class="w-full bg-navy-deep py-space-xl text-on-primary relative overflow-hidden">
+<div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-primary-container/40 pointer-events-none blur-3xl"></div>
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+<div class="max-w-2xl text-center lg:text-left">
+<span class="font-label-md text-label-md text-gold-accent uppercase tracking-widest font-semibold block mb-2">
+          Atendimento Urgente em Todo o Estado do Espírito Santo
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-white font-medium">
+          Precisa de orientação jurídica imediata com um criminalista?
+        </h2>
+<p class="font-body-md text-body-md text-on-primary/80 mt-2">
+          Em situações de flagrante ou intimações surpresa, o silêncio é uma garantia, mas a inércia da defesa custa a liberdade. Ligue agora para a central do Dr. Pablo Ribeiro.
+        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-transparent hover:bg-white/10 text-white font-title-md text-title-md px-6 py-4 rounded border border-white/30 transition-all text-center" href="tel:+5527996239086">
+<span class="material-symbols-outlined text-gold-accent">phone_in_talk</span>
+          Ligar: (27) 99623-9086
+        </a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-md text-title-md px-8 py-4 rounded transition-all text-center shadow-lg font-semibold" href="https://wa.me/5527996239086?text=Ol%C3%A1%2C%20preciso%20de%20atendimento%20juridico%20criminal%20urgente.">
+<span class="material-symbols-outlined">send</span>
+          Plantão WhatsApp 24h
+        </a>
+</div>
+</div>
+</section>
+</div>
+<!-- Vanilla JS for Tab Switching Micro-interaction -->
+<script>
+  function switchGroupTab(tabIndex) {
+    // Hide all tab panels
+    const panels = document.querySelectorAll('.tab-panel');
+    panels.forEach(panel => {
+      panel.classList.add('hidden');
+      panel.classList.remove('flex');
+    });
+
+    // Reset button states
+    for (let i = 1; i <= 3; i++) {
+      const btn = document.getElementById('tab-btn-' + i);
+      if (btn) {
+        btn.classList.remove('bg-navy-deep', 'text-on-primary', 'shadow-sm');
+        btn.classList.add('text-slate-charcoal');
+      }
+    }
+
+    // Activate selected panel
+    const selectedPanel = document.getElementById('tab-panel-' + tabIndex);
+    if (selectedPanel) {
+      selectedPanel.classList.remove('hidden');
+      selectedPanel.classList.add('flex');
+    }
+
+    // Activate selected button
+    const activeBtn = document.getElementById('tab-btn-' + tabIndex);
+    if (activeBtn) {
+      activeBtn.classList.add('bg-navy-deep', 'text-on-primary', 'shadow-sm');
+      activeBtn.classList.remove('text-slate-charcoal');
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-low text-on-surface py-space-xxl shadow-[0_-1px_8px_rgba(8,16,46,0.03)]"><div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Image from https://pabloribeiro.adv.br/wp-content/uploads/2026/09/pr-header-v2-monogram.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wtu_rF6ZE5Ia8uEjWXBO-RtJoKUUKzAsVHvZf07hyuGCwfNQjicsuK6jUUXorGKSD_bCtcXekQJEQzs15RBDFkjWq3Z0WT1UkALHEizPzWeszc47SttwR9t0SY7rr6lTjdis5jptLYp6WPfWVn8Sf0a2g9RLdPkPxbo1NtbHl6C7TNV784PiZYcz1pTzbfhHKDRV1Esy906pMDGiFo6vdclFeGljBG2YfKxe8oEwZo"/><span class="font-headline-sm text-headline-sm text-navy-deep">Pablo Ribeiro</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Advocacia criminal de excelência técnica, postura resoluta e atendimento ininterrupto em todo o Estado do Espírito Santo.</p><div class="flex flex-col"><span class="font-label-md text-label-md text-gold-muted">INSCRIÇÃO PROFISSIONAL</span><span class="font-title-md text-title-md text-navy-deep">OAB/ES 30.388</span></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Unidade Vila Velha</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Ed. Affinity Prime Business</p><p class="font-body-sm text-body-sm text-on-surface-variant">Rua Henrique Moscoso, 833 • Sala 904</p><p class="font-body-sm text-body-sm text-on-surface-variant">Praia da Costa, Vila Velha • ES</p><p class="font-body-sm text-body-sm text-on-surface-variant">CEP: 29101-011</p><p class="font-label-md text-label-md text-gold-muted mt-space-xs">Atendimento presencial com agendamento</p></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Unidade Vitória</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Enseada do Suá Corporate</p><p class="font-body-sm text-body-sm text-on-surface-variant">Rua Procurador Antônio Benedicto Amancio Pereira, 280</p><p class="font-body-sm text-body-sm text-on-surface-variant">Enseada do Suá, Vitória • ES</p><p class="font-body-sm text-body-sm text-on-surface-variant">CEP: 29050-436</p><p class="font-label-md text-label-md text-gold-muted mt-space-xs">Próximo ao Tribunal de Justiça do ES</p></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Central Urgente 24 Horas</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Plantão Criminal para Flagrantes, Custódia e Mandados:</p><p class="font-title-lg text-title-lg text-navy-deep font-bold">(27) 99888-2424</p><p class="font-body-sm text-body-sm text-on-surface-variant">contato@pabloribeiro.adv.br</p><div class="flex flex-wrap gap-space-xs mt-space-sm"><span class="font-label-sm text-label-sm bg-surface-container-highest px-space-sm py-space-xs rounded text-navy-deep">Tribunal do Júri</span><span class="font-label-sm text-label-sm bg-surface-container-highest px-space-sm py-space-xs rounded text-navy-deep">Habeas Corpus</span><span class="font-label-sm text-label-sm bg-surface-container-highest px-space-sm py-space-xs rounded text-navy-deep">Crimes Financeiros</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md bg-surface-container-highest/40 p-space-md rounded-lg"><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">© 2024 Pablo Ribeiro Advogado Criminalista • OAB/ES 30.388. Todos os direitos reservados. Conforme Código de Ética e Disciplina da OAB.</p><div class="flex items-center gap-space-md text-on-surface-variant"><a class="font-body-sm text-body-sm hover:text-navy-deep transition-colors" data-path="sobre" href="#">Ética &amp; Sigilo</a><a class="font-body-sm text-body-sm hover:text-navy-deep transition-colors" data-path="contato" href="#">Plantão WhatsApp</a><a class="font-body-sm text-body-sm hover:text-navy-deep transition-colors" data-path="guia-penal-capixaba" href="#">Orientações Penais</a></div></div></div></footer></body></html>

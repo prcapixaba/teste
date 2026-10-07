@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-high": "#e8e8e5", "secondary": "#755a21", "on-tertiary-container": "#7e8493", "slate-charcoal": "#2F3542", "on-primary-fixed": "#121a38", "navy-deep": "#08102E", "on-tertiary": "#ffffff", "on-error": "#ffffff", "error-container": "#ffdad6", "on-secondary-fixed-variant": "#5b430a", "surface-dim": "#dadad7", "surface-variant": "#e2e3e0", "primary-fixed": "#dde1ff", "surface-container-highest": "#e2e3e0", "on-surface-variant": "#46464e", "on-tertiary-fixed": "#161c28", "secondary-container": "#fed892", "inverse-primary": "#bec5ec", "outline": "#76767e", "surface-container-low": "#f4f4f1", "gold-muted": "#B59451", "on-secondary-fixed": "#261900", "tertiary-fixed-dim": "#c1c6d7", "on-primary": "#ffffff", "on-background": "#1a1c1b", "on-secondary-container": "#785d23", "primary-fixed-dim": "#bec5ec", "surface-container-lowest": "#ffffff", "tertiary": "#000000", "inverse-surface": "#2f312f", "surface-card": "#FFFFFF", "surface-tint": "#555d7f", "on-primary-fixed-variant": "#3e4566", "primary": "#000000", "surface-bright": "#f9f9f6", "gold-accent": "#D4B16F", "outline-variant": "#c6c5ce", "background": "#f9f9f6", "on-tertiary-fixed-variant": "#414754", "parchment-base": "#FAFAF7", "surface": "#f9f9f6", "on-error-container": "#93000a", "on-primary-container": "#7b82a6", "on-surface": "#1a1c1b", "border-hairline": "#E5E3DC", "secondary-fixed-dim": "#e6c27e", "surface-container": "#eeeeeb", "tertiary-fixed": "#dde2f3", "primary-container": "#121a38", "on-secondary": "#ffffff", "error": "#ba1a1a", "tertiary-container": "#161c28", "inverse-on-surface": "#f1f1ee", "secondary-fixed": "#ffdea4" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-sm": "0.5rem", "space-md": "1rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-xxl": "4rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "margin": "3rem" }, "fontFamily": { "headline-sm": [ "Newsreader" ], "headline-md": [ "Newsreader" ], "headline-lg": [ "Newsreader" ], "body-md": [ "Inter" ], "body-lg": [ "Inter" ], "headline-xl-mobile": [ "Newsreader" ], "title-md": [ "Inter" ], "title-lg": [ "Inter" ], "label-sm": [ "Inter" ], "label-md": [ "Inter" ], "headline-xl": [ "Newsreader" ], "body-sm": [ "Inter" ], "headline-lg-mobile": [ "Newsreader" ] }, "fontSize": { "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "headline-md": [ "26px", { "lineHeight": "34px", "fontWeight": "600" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "fontWeight": "500" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-xl-mobile": [ "34px", { "lineHeight": "42px", "fontWeight": "500" } ], "title-md": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "title-lg": [ "18px", { "lineHeight": "26px", "fontWeight": "600" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "headline-xl": [ "48px", { "lineHeight": "56px", "fontWeight": "500" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(8,16,46,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Image from https://pabloribeiro.adv.br/wp-content/uploads/2026/09/pr-header-v2-monogram.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wtu_rF6ZE5Ia8uEjWXBO-RtJoKUUKzAsVHvZf07hyuGCwfNQjicsuK6jUUXorGKSD_bCtcXekQJEQzs15RBDFkjWq3Z0WT1UkALHEizPzWeszc47SttwR9t0SY7rr6lTjdis5jptLYp6WPfWVn8Sf0a2g9RLdPkPxbo1NtbHl6C7TNV784PiZYcz1pTzbfhHKDRV1Esy906pMDGiFo6vdclFeGljBG2YfKxe8oEwZo"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-navy-deep tracking-tight leading-none">Pablo Ribeiro Advogado</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted mt-space-xs">Criminalista • OAB/ES 30.388</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-navy-deep font-semibold border-b-2 border-gold-accent"><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="inicio" href="#">Início</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="areas-de-atuacao" href="#">Áreas de Atuação</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="plantao-criminal-24h" href="#">Plantão 24h</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="guia-penal-capixaba" href="#">Guia Penal Capixaba</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="unidades" href="#">Unidades</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="sobre" href="#">Sobre</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-navy-deep transition-colors py-space-xs" data-path="contato" href="#">Contato</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center bg-navy-deep hover:bg-slate-charcoal text-on-primary font-title-md text-title-md px-space-lg py-space-sm rounded-lg transition-colors shadow-sm" data-path="plantao-criminal-24h" href="#">Plantão 24h</a><a class="inline-flex items-center justify-center bg-gold-accent hover:bg-secondary-container text-navy-deep font-title-md text-title-md px-space-md py-space-sm rounded-lg transition-colors" data-path="contato" href="#">WhatsApp</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. HERO & URGENCY STATUS BANNER -->
+<section class="relative w-full bg-navy-deep text-on-primary py-space-xl lg:py-space-xxl overflow-hidden">
+<!-- Subtle Architectural Ambient Accent -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<svg class="w-full h-full" fill="none" viewbox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg">
+<path d="M-100 600L600 -100M400 700L1100 0M900 800L1600 100" stroke="#c5a880" stroke-dasharray="8 8" stroke-width="1"></path>
+</svg>
+</div>
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin relative z-10">
+<!-- Breadcrumbs -->
+<nav class="flex items-center gap-space-xs text-on-tertiary-container mb-space-md text-body-sm font-body-sm">
+<a class="hover:text-gold-accent transition-colors" href="#">Início</a>
+<span class="text-gold-muted/60">/</span>
+<a class="hover:text-gold-accent transition-colors" href="#">Áreas de Atuação</a>
+<span class="text-gold-muted/60">/</span>
+<span class="text-gold-accent font-medium">Advogado para Pedido de Liberdade</span>
+</nav>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Hero Copy -->
+<div class="lg:col-span-8 flex flex-col">
+<div class="inline-flex items-center gap-space-xs bg-primary-container/80 text-gold-accent px-space-md py-space-xs rounded-full w-max mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[16px]">gavel</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">DIREITO PENAL · LIBERDADE PROVISÓRIA · HABEAS CORPUS · AUDIÊNCIA DE CUSTÓDIA</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl lg:text-[52px] lg:leading-[60px] text-on-primary tracking-tight font-headline-lg mb-space-md">
+            Advogado Especialista em Pedido de Liberdade e Habeas Corpus no Espírito Santo
+          </h1>
+<p class="font-body-lg text-body-lg text-surface-container-high leading-relaxed max-w-3xl mb-space-xl">
+            Atuação resoluta e técnica desde os primeiros minutos do flagrante em delegacia até os Tribunais Superiores (TJES, STJ e STF). Garantia inegociável da legalidade e salvaguarda imediata das prerrogativas fundamentais.
+          </p>
+<!-- 24h Critical Alert Box -->
+<div class="bg-primary-container p-space-lg rounded-xl shadow-lg relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-gold-accent"></div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-md pl-space-xs">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-gold-accent text-3xl shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">emergency_home</span>
+<div>
+<h2 class="font-title-lg text-title-lg text-on-primary font-semibold">Alguém foi preso nas últimas horas?</h2>
+<p class="font-body-sm text-body-sm text-surface-variant mt-0.5">
+                    Cada minuto é decisivo antes da audiência de custódia (limite de 24h). Não preste declarações sem orientação técnica.
+                  </p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm shrink-0">
+<a class="inline-flex items-center justify-center gap-space-xs bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-md text-title-md px-space-lg py-space-sm rounded-lg transition-all shadow-md font-bold" href="tel:+5527996239086">
+<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+                  (27) 99623-9086
+                </a>
+<a class="inline-flex items-center justify-center gap-space-xs bg-surface-container-highest/20 hover:bg-surface-container-highest/30 text-on-primary font-title-md text-title-md px-space-md py-space-sm rounded-lg transition-colors" href="https://wa.me/5527996239086?text=Ol%C3%A1%2C%20vim%20pelo%20site%20%28Advogado%20para%20pedido%20de%20liberdade%29.%20%C3%89%20urgente%3A%20preciso%20falar%20com%20o%20plant%C3%A3o%20criminal.">
+<span class="material-symbols-outlined text-gold-accent text-[20px]">chat</span>
+                  Falar no WhatsApp
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Lateral Authority Card -->
+<div class="lg:col-span-4 w-full">
+<div class="bg-surface-card text-on-surface p-space-lg rounded-xl shadow-xl flex flex-col relative">
+<div class="absolute -top-3 right-6 bg-navy-deep text-gold-accent font-label-sm text-label-sm uppercase px-space-sm py-1 rounded shadow-sm">
+              Plantão Criminal ES
+            </div>
+<div class="flex items-center gap-space-md mb-space-md">
+<div class="w-16 h-16 rounded-full bg-surface-container-high overflow-hidden shrink-0 shadow-inner flex items-center justify-center text-navy-deep font-headline-md">
+<img class="w-full h-full object-cover" data-alt="Retrato profissional sóbrio em alta definição do Dr. Pablo Ribeiro, advogado criminalista, vestindo terno azul escuro e camisa branca com olhar resoluto e fundo corporativo refinado em tons quentes de madeira e livros jurídicos." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA21U5IQMprZPCG-SvDDkSRGPyKe80DhiJyY2Q4Vp_5u-Lo4kMmrVNXzB3kswV8OxUzmeUBf71B8gCAFrmD3C0t5ZHTkFh1Sz_ACBIXc1YQMGxs5ZIPZPr3MOROcUtTiLxm5J5dycR0KSmrVDTj3b1AaHSsCvz-8AD8nZWGEx_yTofi80Ec-byEp-61qqK_wLU8NvUU1eeIS3KPOmWGkJfr0sc9Z3ZbkgrK7voC_jk"/>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-navy-deep">Dr. Pablo Ribeiro</span>
+<span class="font-label-md text-label-md text-gold-muted font-bold">OAB/ES 30.388</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Especialista em Processo Penal</span>
+</div>
+</div>
+<div class="space-y-space-sm mb-space-md bg-parchment-base p-space-md rounded-lg">
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-gold-muted text-[18px] shrink-0 mt-0.5">location_on</span>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+<strong>Atuação presencial direta:</strong> Delegacias Regionais, DPs e Centros de Triagem (CDP) de Vitória, Vila Velha, Serra, Cariacica e interior do ES.
+                </p>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-gold-muted text-[18px] shrink-0 mt-0.5">verified_user</span>
+<p class="font-body-sm text-body-sm text-slate-charcoal">
+                  Atendimento privativo garantido pelo <strong>Art. 7º, III do Estatuto da Advocacia</strong> mesmo sem procuração inicial.
+                </p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs text-center pt-space-xs">
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-headline-md text-headline-md text-navy-deep block leading-tight font-bold">24h</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Plantão Ininterrupto</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded">
+<span class="font-headline-md text-headline-md text-navy-deep block leading-tight font-bold">TJES/STJ</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Instâncias Recursais</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. MATRIZ DE TRIAGEM DE SITUAÇÃO CRÍTICA (UX para Famílias sob Estresse) -->
+<section class="w-full bg-parchment-base py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="max-w-2xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted block mb-space-xs">TRIAGEM DE URGÊNCIA</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep tracking-tight">Qual é o momento do caso agora?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+            A estratégia processual muda substancialmente conforme o estágio da prisão. Selecione abaixo a situação que reflete a urgência da sua família:
+          </p>
+</div>
+<div class="hidden md:flex items-center gap-space-xs text-slate-charcoal font-label-md text-label-md">
+<span class="material-symbols-outlined text-gold-muted text-[18px]">verified</span>
+          Protocolos Alinhados ao Código de Processo Penal
+        </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-gold-muted font-bold">01</span>
+<span class="material-symbols-outlined text-navy-deep group-hover:text-gold-accent transition-colors text-2xl">local_police</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Prisão em Flagrante Agora</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              A pessoa acabou de ser conduzida à Delegacia (DPJ/Regional). A intervenção célere assegura a integridade física, garantia ao silêncio e prevenção de abusos em interrogatório.
+            </p>
+</div>
+<div class="pt-space-sm bg-surface-container-low p-space-sm rounded text-navy-deep flex items-center justify-between text-body-sm font-semibold">
+<span>Atuação em Delegacia</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-gold-muted font-bold">02</span>
+<span class="material-symbols-outlined text-navy-deep group-hover:text-gold-accent transition-colors text-2xl">balance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Audiência de Custódia Marcada</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Ocorre no prazo improrrogável de até 24h. Momento crucial onde o juiz decide se relaxa o flagrante, concede liberdade provisória com cautelares ou converte em preventiva.
+            </p>
+</div>
+<div class="pt-space-sm bg-surface-container-low p-space-sm rounded text-navy-deep flex items-center justify-between text-body-sm font-semibold">
+<span>Defesa Oral &amp; Documental</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-gold-muted font-bold">03</span>
+<span class="material-symbols-outlined text-navy-deep group-hover:text-gold-accent transition-colors text-2xl">lock_clock</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Prisão Preventiva Decretada</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              A prisão cautelar sem prazo fixo foi estabelecida. A defesa técnica peticiona com pedido incidental de revogação por ausência dos requisitos do art. 312 do CPP.
+            </p>
+</div>
+<div class="pt-space-sm bg-surface-container-low p-space-sm rounded text-navy-deep flex items-center justify-between text-body-sm font-semibold">
+<span>Revogação ou Tornozeleira</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-gold-muted font-bold">04</span>
+<span class="material-symbols-outlined text-navy-deep group-hover:text-gold-accent transition-colors text-2xl">report_problem</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Prisão Aparentemente Ilegal</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Invasão domiciliar sem mandado, excesso injustificado de prazo, ausência de nota de culpa ou agressão. Cabe Relaxamento Imediato (CF, art. 5º, LXV).
+            </p>
+</div>
+<div class="pt-space-sm bg-surface-container-low p-space-sm rounded text-navy-deep flex items-center justify-between text-body-sm font-semibold">
+<span>Relaxamento Imediato</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-gold-muted font-bold">05</span>
+<span class="material-symbols-outlined text-navy-deep group-hover:text-gold-accent transition-colors text-2xl">find_in_page</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Mandado de Prisão em Aberto</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Suspeita ou ciência de ordem judicial de prisão. Consulta técnica sigilosa no Banco Nacional de Mandados (BNMP), evitando prisões vexatórias e planejando apresentação.
+            </p>
+</div>
+<div class="pt-space-sm bg-surface-container-low p-space-sm rounded text-navy-deep flex items-center justify-between text-body-sm font-semibold">
+<span>Consulta BNMP &amp; Estratégia</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm text-gold-muted font-bold">06</span>
+<span class="material-symbols-outlined text-navy-deep group-hover:text-gold-accent transition-colors text-2xl">auto_stories</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Habeas Corpus de Urgência</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+              Negativa arbitrária de liberdade pelo juiz singular. Impetração de remédio constitucional com pedido de liminar perante o TJES, STJ ou Supremo Tribunal Federal.
+            </p>
+</div>
+<div class="pt-space-sm bg-surface-container-low p-space-sm rounded text-navy-deep flex items-center justify-between text-body-sm font-semibold">
+<span>Pedido Liminar em Tribunal</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. INFOGRÁFICO CRONOLÓGICO: DA PRISÃO À DECISÃO JUDICIAL -->
+<section class="w-full bg-surface-container-low py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted block mb-space-xs">RITO PROCESSUAL CAPIXABA</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep">Linha do Tempo: Do Flagrante à Decisão Judicial</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Compreenda os prazos improrrogáveis previstos no Código de Processo Penal e onde a atuação da defesa faz a diferença.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter relative">
+<!-- Step 1 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm relative flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="w-10 h-10 rounded-full bg-navy-deep text-gold-accent font-headline-sm text-headline-sm flex items-center justify-center font-bold">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-space-xs py-0.5 rounded">0 a 6 Horas</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-navy-deep mb-space-xs font-headline-sm">Prisão e Delegacia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Lavratura do Auto de Prisão em Flagrante (APF). Comunicação formal obrigatória à família, ao juiz e ao Ministério Público conforme o art. 306 do CPP.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase font-bold block">Foco da Defesa:</span>
+<span class="font-body-sm text-body-sm text-slate-charcoal">Evitar depoimento precipitado e zelar pelos direitos constitucionais.</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm relative flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="w-10 h-10 rounded-full bg-navy-deep text-gold-accent font-headline-sm text-headline-sm flex items-center justify-center font-bold">2</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-space-xs py-0.5 rounded">Plantão Policial</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-navy-deep mb-space-xs font-headline-sm">Fiança na Delegacia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Em crimes com pena privativa de liberdade máxima não superior a 4 anos, a autoridade policial pode arbitrar fiança imediata (art. 322 do CPP).
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase font-bold block">Foco da Defesa:</span>
+<span class="font-body-sm text-body-sm text-slate-charcoal">Pleitear valor compatível com a capacidade econômica ou dispensa.</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm relative flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="w-10 h-10 rounded-full bg-navy-deep text-gold-accent font-headline-sm text-headline-sm flex items-center justify-center font-bold">3</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-error-container text-error px-space-xs py-0.5 rounded font-bold">Até 24 Horas</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-navy-deep mb-space-xs font-headline-sm">Audiência de Custódia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Apresentação perante o Juiz de Direito. O magistrado decide: 1) Relaxamento de prisão ilegal; 2) Liberdade provisória; 3) Conversão em preventiva (art. 310 CPP).
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase font-bold block">Foco da Defesa:</span>
+<span class="font-body-sm text-body-sm text-slate-charcoal">Sustentação oral combativa e entrega de provas idôneas de vínculo.</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm relative flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="w-10 h-10 rounded-full bg-navy-deep text-gold-accent font-headline-sm text-headline-sm flex items-center justify-center font-bold">4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-space-xs py-0.5 rounded">Revisão Periódica</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-navy-deep mb-space-xs font-headline-sm">Pós-Custódia &amp; HC</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Se a prisão for mantida, cabe pedido de revogação incidental, impetração de Habeas Corpus perante o Tribunal ou reexame a cada 90 dias (art. 316, parágrafo único CPP).
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase font-bold block">Foco da Defesa:</span>
+<span class="font-body-sm text-body-sm text-slate-charcoal">Demonstração de ilegalidade ou suficiência de cautelares diversas.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. TABELA COMPARATIVA DE INSTRUMENTOS JURÍDICOS (UX de Alto Valor) -->
+<section class="w-full bg-surface-card py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted block mb-space-xs">DIAGNÓSTICO TÉCNICO</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep">Quadro de Instrumentos Processuais de Liberdade</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs max-w-2xl">
+          Nem todo pedido de liberdade é igual. A utilização do remédio técnico correto impede atrasos processuais prejudiciais à soltura.
+        </p>
+</div>
+<!-- Responsive Table Container -->
+<div class="overflow-x-auto rounded-xl shadow-sm bg-surface-container-low">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-navy-deep text-on-primary">
+<th class="py-space-md px-space-lg font-headline-sm text-[17px] font-medium w-1/4">Instrumento Jurídico</th>
+<th class="py-space-md px-space-lg font-headline-sm text-[17px] font-medium w-1/2">Quando Cabe na Prática (Fundamento)</th>
+<th class="py-space-md px-space-lg font-headline-sm text-[17px] font-medium w-1/4">Autoridade Decisora</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<!-- Row 1 -->
+<tr class="hover:bg-surface transition-colors">
+<td class="py-space-md px-space-lg">
+<span class="font-title-md text-title-md text-navy-deep font-bold block">Relaxamento de Prisão</span>
+<span class="font-label-sm text-label-sm text-error bg-error-container/40 px-2 py-0.5 rounded inline-block mt-1">Prisão Ilegal</span>
+</td>
+<td class="py-space-md px-space-lg font-body-sm text-body-sm text-slate-charcoal leading-relaxed">
+                Prisão realizada fora das hipóteses legais, violação de domicílio sem justa causa, excesso de prazo para apresentação ao juiz ou vício formal no APF.
+                <span class="block text-gold-muted font-label-sm mt-1 font-semibold">Art. 5º, inciso LXV da Constituição Federal</span>
+</td>
+<td class="py-space-md px-space-lg">
+<span class="font-body-sm text-body-sm font-semibold text-navy-deep">Juiz de Direito</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Vara Criminal / Custódia</span>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface transition-colors">
+<td class="py-space-md px-space-lg">
+<span class="font-title-md text-title-md text-navy-deep font-bold block">Liberdade Provisória</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container/40 px-2 py-0.5 rounded inline-block mt-1">Ausência de Periculum</span>
+</td>
+<td class="py-space-md px-space-lg font-body-sm text-body-sm text-slate-charcoal leading-relaxed">
+                A prisão foi legalmente executada, porém não existem motivos imperiosos para manutenção do cárcere cautelar. Pode ser com ou sem imposição de fiança.
+                <span class="block text-gold-muted font-label-sm mt-1 font-semibold">Art. 5º, inciso LXVI da CF e Art. 310, III do CPP</span>
+</td>
+<td class="py-space-md px-space-lg">
+<span class="font-body-sm text-body-sm font-semibold text-navy-deep">Juiz de Direito</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Com ou sem cautelares</span>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface transition-colors">
+<td class="py-space-md px-space-lg">
+<span class="font-title-md text-title-md text-navy-deep font-bold block">Fiança Criminal</span>
+<span class="font-label-sm text-label-sm text-on-tertiary-fixed-variant bg-surface-container-highest px-2 py-0.5 rounded inline-block mt-1">Garantia Financeira</span>
+</td>
+<td class="py-space-md px-space-lg font-body-sm text-body-sm text-slate-charcoal leading-relaxed">
+                Cabível em crimes cuja pena privativa máxima não ultrapasse 4 anos na esfera policial, ou em qualquer pena sob a apreciação criteriosa do juízo de garantias.
+                <span class="block text-gold-muted font-label-sm mt-1 font-semibold">Art. 322 e 325 do Código de Processo Penal</span>
+</td>
+<td class="py-space-md px-space-lg">
+<span class="font-body-sm text-body-sm font-semibold text-navy-deep">Delegado ou Juiz</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Conforme gravidade da pena</span>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface transition-colors">
+<td class="py-space-md px-space-lg">
+<span class="font-title-md text-title-md text-navy-deep font-bold block">Medidas Cautelares</span>
+<span class="font-label-sm text-label-sm text-navy-deep bg-primary-fixed px-2 py-0.5 rounded inline-block mt-1">Substituição Proporcional</span>
+</td>
+<td class="py-space-md px-space-lg font-body-sm text-body-sm text-slate-charcoal leading-relaxed">
+                Alternativas à prisão que resguardam o processo: monitoração eletrônica (tornozeleira), recolhimento domiciliar noturno, proibição de contato ou de ausentar-se da comarca.
+                <span class="block text-gold-muted font-label-sm mt-1 font-semibold">Art. 319 do Código de Processo Penal</span>
+</td>
+<td class="py-space-md px-space-lg">
+<span class="font-body-sm text-body-sm font-semibold text-navy-deep">Juiz da Causa</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Avaliação de proporcionalidade</span>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="hover:bg-surface transition-colors">
+<td class="py-space-md px-space-lg">
+<span class="font-title-md text-title-md text-navy-deep font-bold block">Revogação de Preventiva</span>
+<span class="font-label-sm text-label-sm text-slate-charcoal bg-surface-container px-2 py-0.5 rounded inline-block mt-1">Superveniência de Fatos</span>
+</td>
+<td class="py-space-md px-space-lg font-body-sm text-body-sm text-slate-charcoal leading-relaxed">
+                Demonstração técnica de que os fundamentos que motivaram o decreto prisional anterior cessaram ou não mais subsistem no transcurso do processo penal.
+                <span class="block text-gold-muted font-label-sm mt-1 font-semibold">Art. 316 do Código de Processo Penal</span>
+</td>
+<td class="py-space-md px-space-lg">
+<span class="font-body-sm text-body-sm font-semibold text-navy-deep">Juiz que decretou</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Reexame a cada 90 dias</span>
+</td>
+</tr>
+<!-- Row 6 -->
+<tr class="hover:bg-surface transition-colors">
+<td class="py-space-md px-space-lg">
+<span class="font-title-md text-title-md text-navy-deep font-bold block">Habeas Corpus</span>
+<span class="font-label-sm text-label-sm text-gold-muted bg-secondary-container px-2 py-0.5 rounded inline-block mt-1">Remédio Constitucional</span>
+</td>
+<td class="py-space-md px-space-lg font-body-sm text-body-sm text-slate-charcoal leading-relaxed">
+                Ação direta contra ato coator ilegal do próprio magistrado de primeira instância. Visa cassação da ordem arbitrária com pedido liminar urgente.
+                <span class="block text-gold-muted font-label-sm mt-1 font-semibold">Art. 5º, LXVIII da CF e Art. 647 do CPP</span>
+</td>
+<td class="py-space-md px-space-lg">
+<span class="font-body-sm text-body-sm font-semibold text-navy-deep">TJES, STJ ou STF</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Desembargador / Ministro Relator</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- 5. CHECKLIST: O QUE A FAMÍLIA DO PRESO DEVE FAZER IMEDIATAMENTE -->
+<section class="w-full bg-parchment-base py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-5">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted block mb-space-xs">PRIMEIRAS PROVIDÊNCIAS</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep mb-space-md">
+            O que a família deve fazer agora (e o que evitar)
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-lg">
+            Em momentos de alta vulnerabilidade emocional, ações precipitadas podem comprometer irremediavelmente a concessão da liberdade pelo juiz da custódia. Siga este protocolo prático:
+          </p>
+<div class="bg-surface-card p-space-md rounded-xl shadow-sm space-y-space-xs">
+<div class="flex items-center gap-space-xs text-navy-deep font-title-md text-title-md">
+<span class="material-symbols-outlined text-gold-muted">folder_zip</span>
+              Documentação que salva a audiência:
+            </div>
+<ul class="font-body-sm text-body-sm text-on-surface-variant space-y-1 list-disc list-inside">
+<li>Comprovante de residência no nome da pessoa ou de parente direto</li>
+<li>Carteira de Trabalho (CTPS) ou comprovante de atividade autônoma lícita</li>
+<li>Certidão de nascimento de filhos menores sob sua dependência</li>
+<li>Laudos, receitas ou atestados médicos de condição crônica de saúde</li>
+</ul>
+</div>
+</div>
+<div class="lg:col-span-7 space-y-space-sm">
+<!-- Step A -->
+<div class="bg-surface-card p-space-md rounded-lg shadow-sm flex items-start gap-space-md">
+<span class="material-symbols-outlined text-navy-deep text-2xl shrink-0 mt-1">pin_drop</span>
+<div>
+<h3 class="font-title-md text-title-md text-navy-deep font-semibold">1. Identifique a Delegacia ou Centro de Triagem</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Verifique se o familiar está no DPJ Regional de Vitória, Vila Velha, Cariacica, Serra ou se já foi remetido para o Centro de Triagem da SEJUS (Viana).
+              </p>
+</div>
+</div>
+<!-- Step B -->
+<div class="bg-surface-card p-space-md rounded-lg shadow-sm flex items-start gap-space-md">
+<span class="material-symbols-outlined text-navy-deep text-2xl shrink-0 mt-1">description</span>
+<div>
+<h3 class="font-title-md text-title-md text-navy-deep font-semibold">2. Reúna Documentos Pessoais e de Vínculo Social</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                O juiz decide com base em fatos documentados. Comprovar residência fixa e ocupação formal na custódia afasta a alegação de risco à aplicação da lei penal.
+              </p>
+</div>
+</div>
+<!-- Step C -->
+<div class="bg-surface-card p-space-md rounded-lg shadow-sm flex items-start gap-space-md">
+<span class="material-symbols-outlined text-error text-2xl shrink-0 mt-1">block</span>
+<div>
+<h3 class="font-title-md text-title-md text-navy-deep font-semibold">3. NÃO procure testemunhas ou supostas vítimas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Qualquer contato familiar direto com interlocutores da acusação pode ser interpretado pelo Ministério Público como coação no curso do processo, gerando decretação imediata de prisão preventiva.
+              </p>
+</div>
+</div>
+<!-- Step D -->
+<div class="bg-surface-card p-space-md rounded-lg shadow-sm flex items-start gap-space-md">
+<span class="material-symbols-outlined text-navy-deep text-2xl shrink-0 mt-1">record_voice_over</span>
+<div>
+<h3 class="font-title-md text-title-md text-navy-deep font-semibold">4. Não assine termos sem presença de advogado</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Instrua o custodiado a utilizar o direito constitucional de permanecer em silêncio. Confissões informais a policiais no calor do ato são extremamente prejudiciais.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. TRANSPARÊNCIA E RIGOR ÉTICO (Nota Institucional OAB) -->
+<section class="w-full bg-surface-container-high/40 py-space-xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="bg-surface-card p-space-lg lg:p-space-xl rounded-xl shadow-sm flex flex-col md:flex-row items-center gap-space-lg">
+<div class="w-16 h-16 rounded-full bg-navy-deep/10 text-navy-deep flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-3xl text-gold-muted">policy</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-gold-muted font-bold">NOTA INSTITUCIONAL DE TRANSPARÊNCIA</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">· Provimento 205/2021 CFOAB</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">
+            Compromisso Ético e Ausência de Promessas Ilusórias de Soltura
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            A decisão sobre concessão de liberdade provisória, relaxamento ou revogação de preventiva é ato de competência exclusiva do Poder Judiciário. A advocacia criminal de excelência não comercializa resultados infundados nem garante horários de saída: nossa atuação reside na máxima velocidade probatória, rigor técnico nas peças e defesa intransigente das garantias constitucionais perante magistrados e tribunais.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. UNIDADES FÍSICAS NO ESPÍRITO SANTO & LINKS ÚTEIS -->
+<section class="w-full bg-parchment-base py-space-xxl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted block mb-space-xs">INFRAESTRUTURA CAPIXABA</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep">Unidades Físicas &amp; Acesso Estratégico</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Escritórios estrategicamente posicionados na Grande Vitória para pronto deslocamento a fóruns, presídios e delegacias plantonistas.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter mb-space-xl">
+<!-- Unidade Vila Velha -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">UNIDADE VILA VELHA</span>
+<span class="material-symbols-outlined text-navy-deep text-2xl">apartment</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Praia da Costa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Rua Henrique Moscoso, 833 • Sala 904<br/>
+              Ed. Affinity Prime Business — Praia da Costa, Vila Velha • ES<br/>
+              CEP: 29101-011
+            </p>
+<div class="space-y-space-xs text-body-sm text-slate-charcoal mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-gold-muted text-[18px]">call</span>
+<span class="font-semibold">(27) 99623-9086</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-gold-muted text-[18px]">schedule</span>
+<span>Segunda a Sábado, das 08h às 20h (Plantão 24h)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm pt-space-sm border-t border-surface-container">
+<a class="text-body-sm font-semibold text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 transition-colors" href="https://maps.google.com" target="_blank">
+<span class="material-symbols-outlined text-[16px]">map</span> Google Maps
+            </a>
+<span class="text-surface-container-high">|</span>
+<a class="text-body-sm font-semibold text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 transition-colors" href="tel:+5527996239086">
+<span class="material-symbols-outlined text-[16px]">call</span> Ligar para Unidade
+            </a>
+</div>
+</div>
+<!-- Unidade Vitória -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted font-bold">UNIDADE VITÓRIA</span>
+<span class="material-symbols-outlined text-navy-deep text-2xl">corporate_fare</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Enseada do Suá</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Av. João Batista Parra, 633 • 14º andar<br/>
+              Enseada do Suá Corporate — Vitória • ES<br/>
+              CEP: 29052-123 (Em frente aos Tribunais)
+            </p>
+<div class="space-y-space-xs text-body-sm text-slate-charcoal mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-gold-muted text-[18px]">call</span>
+<span class="font-semibold">(27) 99623-9086</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-gold-muted text-[18px]">schedule</span>
+<span>Atendimento Presencial com Agendamento Prévio</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm pt-space-sm border-t border-surface-container">
+<a class="text-body-sm font-semibold text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 transition-colors" href="https://maps.google.com" target="_blank">
+<span class="material-symbols-outlined text-[16px]">map</span> Google Maps
+            </a>
+<span class="text-surface-container-high">|</span>
+<a class="text-body-sm font-semibold text-navy-deep hover:text-gold-muted inline-flex items-center gap-1 transition-colors" href="tel:+5527996239086">
+<span class="material-symbols-outlined text-[16px]">call</span> Ligar para Unidade
+            </a>
+</div>
+</div>
+</div>
+<!-- Quick Guidance Portals -->
+<div class="bg-surface-card p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<span class="material-symbols-outlined text-gold-muted text-3xl">travel_explore</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-navy-deep">Guia Penal Capixaba de Consulta Rápida</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Links diretos para localização institucional de detentos no Espírito Santo e jurisdições.</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<a class="inline-flex items-center gap-space-xs bg-surface-container text-navy-deep px-space-md py-space-xs rounded font-title-md text-title-md hover:bg-surface-container-high transition-colors text-sm" href="https://sejus.es.gov.br" target="_blank">
+<span class="material-symbols-outlined text-[18px]">open_in_new</span> Localizador SEJUS/ES
+            </a>
+<a class="inline-flex items-center gap-space-xs bg-surface-container text-navy-deep px-space-md py-space-xs rounded font-title-md text-title-md hover:bg-surface-container-high transition-colors text-sm" href="https://www.tjes.jus.br" target="_blank">
+<span class="material-symbols-outlined text-[18px]">gavel</span> Portal TJES
+            </a>
+<a class="inline-flex items-center gap-space-xs bg-navy-deep text-on-primary px-space-md py-space-xs rounded font-title-md text-title-md hover:bg-slate-charcoal transition-colors text-sm" href="#">
+              Ver Guia de Delegacias
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. FAQ ESPECIALIZADO EM PRISÕES E SOLTURA (Acordeons Interativos) -->
+<section class="w-full bg-surface-card py-space-xxl">
+<div class="max-w-[960px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-muted block mb-space-xs">DÚVIDAS FREQUENTES</span>
+<h2 class="font-headline-lg text-headline-lg text-navy-deep">Perguntas Frequentes sobre Prisão e Pedido de Liberdade</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Respostas objetivas e fundamentadas para os questionamentos mais comuns de familiares.
+        </p>
+</div>
+<div class="space-y-space-sm" id="faq-accordion">
+<!-- FAQ Item 1 -->
+<div class="bg-surface-container-low rounded-lg overflow-hidden transition-colors">
+<button class="w-full py-space-md px-space-lg flex items-center justify-between text-left font-headline-sm text-headline-sm text-navy-deep focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span>Um advogado consegue a soltura em quanto tempo?</span>
+<span class="material-symbols-outlined text-gold-muted transform transition-transform duration-200">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-md pt-0 font-body-sm text-body-sm text-on-surface-variant hidden leading-relaxed">
+            Não existe prazo pré-fixado ou garantido por lei para concessão de soltura. Após a prisão em flagrante, a audiência de custódia deve ocorrer obrigatoriamente em até 24 horas, oportunidade na qual o juiz profere a primeira decisão. Em casos de prisão preventiva decretada, o tempo de resposta depende do trâmite da petição no juízo singular ou do pedido liminar em sede de Habeas Corpus perante o Tribunal.
+          </div>
+</div>
+<!-- FAQ Item 2 -->
+<div class="bg-surface-container-low rounded-lg overflow-hidden transition-colors">
+<button class="w-full py-space-md px-space-lg flex items-center justify-between text-left font-headline-sm text-headline-sm text-navy-deep focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span>Qual a exata diferença entre Relaxamento de Prisão e Liberdade Provisória?</span>
+<span class="material-symbols-outlined text-gold-muted transform transition-transform duration-200">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-md pt-0 font-body-sm text-body-sm text-on-surface-variant hidden leading-relaxed">
+            O <strong>Relaxamento</strong> é a medida cabível contra prisões ilegais (com vícios procedimentais, tortura, agressões, invasão de domicílio sem mandado ou estouro de prazo). A <strong>Liberdade Provisória</strong> aplica-se quando o ato da prisão foi perfeito e legal, porém o custodiado preenche os requisitos para responder ao processo em liberdade (bons antecedentes, residência fixa, trabalho), com ou sem imposição de cautelares e fiança.
+          </div>
+</div>
+<!-- FAQ Item 3 -->
+<div class="bg-surface-container-low rounded-lg overflow-hidden transition-colors">
+<button class="w-full py-space-md px-space-lg flex items-center justify-between text-left font-headline-sm text-headline-sm text-navy-deep focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span>A família pode pagar a fiança diretamente na delegacia?</span>
+<span class="material-symbols-outlined text-gold-muted transform transition-transform duration-200">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-md pt-0 font-body-sm text-body-sm text-on-surface-variant hidden leading-relaxed">
+            Sim, exclusivamente quando a autoridade policial arbitrar a fiança (válido para crimes cuja soma da pena máxima cominada não supere 4 anos). O pagamento é efetuado via recolhimento de guia oficial da rede bancária conveniada da Secretaria de Segurança Pública. Para delitos com penas superiores, apenas o Magistrado competente na audiência de custódia possui atribuição legal para arbitrá-la.
+          </div>
+</div>
+<!-- FAQ Item 4 -->
+<div class="bg-surface-container-low rounded-lg overflow-hidden transition-colors">
+<button class="w-full py-space-md px-space-lg flex items-center justify-between text-left font-headline-sm text-headline-sm text-navy-deep focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span>O advogado precisa de procuração assinada para atender o preso na delegacia?</span>
+<span class="material-symbols-outlined text-gold-muted transform transition-transform duration-200">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-md pt-0 font-body-sm text-body-sm text-on-surface-variant hidden leading-relaxed">
+            Não. Conforme o Artigo 7º, inciso III da Lei Federal nº 8.906/94 (Estatuto da OAB), é direito assegurado do advogado comunicar-se pessoal e reservadamente com seus clientes, mesmo sem procuração, quando estes se acharem presos, detidos ou recolhidos em estabelecimentos civis ou militares. Para atuar nos autos e subscrever petições, o instrumento é posteriormente colhido.
+          </div>
+</div>
+<!-- FAQ Item 5 -->
+<div class="bg-surface-container-low rounded-lg overflow-hidden transition-colors">
+<button class="w-full py-space-md px-space-lg flex items-center justify-between text-left font-headline-sm text-headline-sm text-navy-deep focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span>Quem teve a prisão preventiva decretada pode sair antes da sentença final?</span>
+<span class="material-symbols-outlined text-gold-muted transform transition-transform duration-200">expand_more</span>
+</button>
+<div class="px-space-lg pb-space-md pt-0 font-body-sm text-body-sm text-on-surface-variant hidden leading-relaxed">
+            Sim. A prisão preventiva não é antecipação de pena e possui caráter eminentemente transitório. Havendo mudança no cenário fático ou excesso de prazo na instrução, a defesa pode a qualquer tempo requerer sua revogação com fundamento no art. 316 do CPP, além de ser obrigatória a revisão oficiosa de sua necessidade a cada 90 dias pelo magistrado.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. CTA FINAL DE CONTATO IMEDIATO E PLANTÃO 24H -->
+<section class="w-full bg-navy-deep text-on-primary py-space-xxl relative overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin relative z-10 text-center flex flex-col items-center">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-accent block mb-space-xs">CENTRAL DE DEFESA URGENTE 24 HORAS</span>
+<h2 class="font-headline-xl text-headline-xl text-on-primary max-w-3xl mb-space-md">
+        Proteja a Liberdade e as Prerrogativas de quem você ama
+      </h2>
+<p class="font-body-lg text-body-lg text-surface-container-high max-w-2xl mb-space-xl leading-relaxed">
+        Não aguarde o transcurso das 24 horas da audiência de custódia desassistido. Atendimento ágil e combativo em todo o Estado do Espírito Santo.
+      </p>
+<div class="flex flex-col sm:flex-row items-center gap-space-md w-full sm:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm bg-gold-accent hover:bg-gold-muted text-navy-deep font-title-lg text-title-lg px-space-xl py-space-md rounded-lg transition-all shadow-lg font-bold" href="tel:+5527996239086">
+<span class="material-symbols-outlined text-2xl">call</span>
+          Ligar Agora: (27) 99623-9086
+        </a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm bg-surface-container-highest/20 hover:bg-surface-container-highest/30 text-on-primary font-title-lg text-title-lg px-space-xl py-space-md rounded-lg transition-colors border border-surface-container-high/30" href="https://wa.me/5527996239086?text=Ol%C3%A1%2C%20vim%20pelo%20site%20%28Advogado%20para%20pedido%20de%20liberdade%29.%20%C3%89%20urgente%3A%20preciso%20falar%20com%20o%20plant%C3%A3o%20criminal.">
+<span class="material-symbols-outlined text-gold-accent text-2xl">chat</span>
+          WhatsApp de Urgência
+        </a>
+</div>
+<div class="mt-space-xl pt-space-md flex flex-wrap items-center justify-center gap-space-lg text-surface-variant font-label-md text-label-md">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-gold-muted">lock</span>
+          Sigilo Profissional Absoluto
+        </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-gold-muted">speed</span>
+          Deslocamento Imediato
+        </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-gold-muted">security</span>
+          OAB/ES 30.388
+        </span>
+</div>
+</div>
+</section>
+<!-- Inline Script for Accordion micro-interaction -->
+<script>
+    function toggleFaq(btn) {
+      const content = btn.nextElementSibling;
+      const icon = btn.querySelector('.material-symbols-outlined');
+      const isHidden = content.classList.contains('hidden');
+      
+      // Close all others
+      document.querySelectorAll('#faq-accordion > div').forEach(item => {
+        const c = item.querySelector('div');
+        const ic = item.querySelector('.material-symbols-outlined');
+        if (c && !c.classList.contains('hidden')) {
+          c.classList.add('hidden');
+          if (ic) ic.style.transform = 'rotate(0deg)';
+        }
+      });
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        content.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface py-space-xxl shadow-[0_-1px_8px_rgba(8,16,46,0.03)]"><div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Image from https://pabloribeiro.adv.br/wp-content/uploads/2026/09/pr-header-v2-monogram.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wtu_rF6ZE5Ia8uEjWXBO-RtJoKUUKzAsVHvZf07hyuGCwfNQjicsuK6jUUXorGKSD_bCtcXekQJEQzs15RBDFkjWq3Z0WT1UkALHEizPzWeszc47SttwR9t0SY7rr6lTjdis5jptLYp6WPfWVn8Sf0a2g9RLdPkPxbo1NtbHl6C7TNV784PiZYcz1pTzbfhHKDRV1Esy906pMDGiFo6vdclFeGljBG2YfKxe8oEwZo"/><span class="font-headline-sm text-headline-sm text-navy-deep">Pablo Ribeiro</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Advocacia criminal de excelência técnica, postura resoluta e atendimento ininterrupto em todo o Estado do Espírito Santo.</p><div class="flex flex-col"><span class="font-label-md text-label-md text-gold-muted">INSCRIÇÃO PROFISSIONAL</span><span class="font-title-md text-title-md text-navy-deep">OAB/ES 30.388</span></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Unidade Vila Velha</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Ed. Affinity Prime Business</p><p class="font-body-sm text-body-sm text-on-surface-variant">Rua Henrique Moscoso, 833 • Sala 904</p><p class="font-body-sm text-body-sm text-on-surface-variant">Praia da Costa, Vila Velha • ES</p><p class="font-body-sm text-body-sm text-on-surface-variant">CEP: 29101-011</p><p class="font-label-md text-label-md text-gold-muted mt-space-xs">Atendimento presencial com agendamento</p></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Unidade Vitória</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Enseada do Suá Corporate</p><p class="font-body-sm text-body-sm text-on-surface-variant">Rua Procurador Antônio Benedicto Amancio Pereira, 280</p><p class="font-body-sm text-body-sm text-on-surface-variant">Enseada do Suá, Vitória • ES</p><p class="font-body-sm text-body-sm text-on-surface-variant">CEP: 29050-436</p><p class="font-label-md text-label-md text-gold-muted mt-space-xs">Próximo ao Tribunal de Justiça do ES</p></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-navy-deep mb-space-xs">Central Urgente 24 Horas</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Plantão Criminal para Flagrantes, Custódia e Mandados:</p><p class="font-title-lg text-title-lg text-navy-deep font-bold">(27) 99888-2424</p><p class="font-body-sm text-body-sm text-on-surface-variant">contato@pabloribeiro.adv.br</p><div class="flex flex-wrap gap-space-xs mt-space-sm"><span class="font-label-sm text-label-sm bg-surface-container-highest px-space-sm py-space-xs rounded text-navy-deep">Tribunal do Júri</span><span class="font-label-sm text-label-sm bg-surface-container-highest px-space-sm py-space-xs rounded text-navy-deep">Habeas Corpus</span><span class="font-label-sm text-label-sm bg-surface-container-highest px-space-sm py-space-xs rounded text-navy-deep">Crimes Financeiros</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md bg-surface-container-highest/40 p-space-md rounded-lg"><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">© 2024 Pablo Ribeiro Advogado Criminalista • OAB/ES 30.388. Todos os direitos reservados. Conforme Código de Ética e Disciplina da OAB.</p><div class="flex items-center gap-space-md text-on-surface-variant"><a class="font-body-sm text-body-sm hover:text-navy-deep transition-colors" data-path="sobre" href="#">Ética &amp; Sigilo</a><a class="font-body-sm text-body-sm hover:text-navy-deep transition-colors" data-path="contato" href="#">Plantão WhatsApp</a><a class="font-body-sm text-body-sm hover:text-navy-deep transition-colors" data-path="guia-penal-capixaba" href="#">Orientações Penais</a></div></div></div></footer></body></html>
